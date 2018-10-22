@@ -1,0 +1,109 @@
+form {
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea {
+    background-color: $white;
+    font-size: 18px;
+    border: 1px solid $gray83;
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 0 0 15px;
+    outline: none;
+    @include border-radius(6px);
+}
+
+input[type="submit"], 
+button[name="submit"] {
+	@extend .button--orange;
+	-webkit-appearance: none;
+	border: none;
+	outline: none;
+}
+
+.input {
+    font-size: 15px !important;
+
+    &--textarea {
+        height: 100px;
+    }
+
+    &__table {
+        border: 1px solid $gray83;
+        border-width: 1px 0;
+        @include border-radius(0);
+    }
+    
+    &__checkbox {
+        
+        /*@include j-column(1/2, $cycle: 2, $gutter: 8);*/
+        text-align: left;
+        margin-top: 40px;
+        position: relative;
+        height: 40px;
+
+        input[type="checkbox"] {
+            display: none;
+        }
+
+        input[type="checkbox"] + label {
+            width: 100%;
+            height: 100%;
+            display: block;
+            font-size: 14px;
+            padding-right: 35px;
+            line-height: 41px;
+            
+            span {
+                display: inline-block;
+                height: 20px;
+                width: 26px;
+                background-color: #fff;
+                position: absolute;
+                right: 10px;
+                top: 9px;
+            }
+        }
+
+        &--small { 
+            input[type="checkbox"] + label {
+                span {
+                    height: 20px;
+                    width: 20px;
+                }
+            }
+        }
+
+        input[type="checkbox"]:checked + label {
+            span {
+                background: image-url("icon-tick.svg") no-repeat center center;
+                background-size: 18px;
+            }
+        }
+    }
+
+}
+
+.label__small {
+    margin-bottom: 20px;
+    display: block;
+    padding-left: 10px;
+    margin-top: -7px;
+    font-size: 10px;
+    font-weight: 600;
+
+    &--center {
+        text-align: center;
+    }
+}
+
+label.error {
+    @extend .label__small;
+    @extend .label__small--center;
+    color: $orange;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>PRIDE</title>
+
+	<link rel="stylesheet" type="text/css" href="../styles/app.css">
+</head>
+
+<body>
+	<div class="intro about-app">
+		<h1>About the App</h1>
+
+		<p>Tap below to watch a short video about<br>
+		The PRIDE Study.</p>
+
+		<img class="video" src="../images/intro-about-app-video.jpg">
+	</div>
+
+	<div class="gradient-bottom"></div>
+
+	<script src="../scripts/vendor/jquery/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript">
+		$('.about-app .video').on('click', function(){
+			url = "pride://playIntroVideo";
+			document.location.href = url;
+		});
+	</script>
+
+	<!--
+	<script src="../scripts/vendor/jquery/jquery-1.11.3.min.js"></script>
+	<script src="../scripts/vendor/greensock/TweenMax.min.js"></script>
+	<script src="../scripts/vendor/greensock/plugins/CSSPlugin.min.js"></script>
+	<script src="../scripts/vendor/greensock/easing/EasePack.min.js"></script>
+	
+
+	<script>
+
+	</script>
+	-->
+</body>
+
+</html>

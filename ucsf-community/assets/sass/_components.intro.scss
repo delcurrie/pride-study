@@ -1,0 +1,129 @@
+.intro {
+    text-align: center;
+    background: #fff;
+
+    .main {
+        display: block;
+        overflow: hidden;
+        height: auto;
+    }
+
+    &__img {
+        max-width: 100%;
+        margin: 20px auto;
+        margin-top: 0;
+
+        @include less-than($iphone-6) {            
+            max-width: 90%;
+        }
+    }
+
+    &__orange {
+        background-color: $orange;
+        color: $white;
+        margin-top: 0px;
+        overflow: hidden;
+
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+
+        p {
+            color: $white;
+            font-family: Helvetica, Arial, sans-serif;
+            margin: 22px 0 0;
+        }
+
+        h3 {
+            font-size: 18px;
+            
+            // Anything lower than iphone-6-plus
+            // make smaller font size
+            @include less-than($iphone-6-plus) {            
+                font-size: 16px;
+            }
+
+            // Anything lower than iphone-6
+            // make smaller font size
+            @include less-than($iphone-6) {            
+                font-size: 14px;
+            }
+        }
+
+        &__inner {
+            padding: 22px;
+        }
+
+        &__nav {
+            float: right;
+            left: -50%;
+            margin: 28px 0;
+            position: relative;
+        }
+
+        .button {
+            font-size: 14px;
+            padding: 20px 0px;
+            letter-spacing: 1.2px;
+        }
+    }
+}
+
+.welcome-slider {
+    
+    h2 {
+        margin-bottom: 0;
+        letter-spacing: 0.3px;
+        padding: 0 10px;    
+        font-size: 18px;
+
+        // Anything lower than iphone-6-plus
+        // make smaller font size
+        @include less-than($iphone-6-plus) {            
+            font-size: 16px;
+        }
+            
+        // Anything lower than iphone-6
+        // make smaller font size
+        @include less-than($iphone-6) {            
+            font-size: 13px;
+        }
+    }
+
+    &__dots {
+        list-style: outside none none;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        width: auto;
+        display: inline-block;
+        margin: 0 auto;
+        
+        li {
+            float: left;
+            list-style: outside none none;
+        }
+
+        &__link {
+            background-color: rgba(0, 0, 0, .3);
+            display: block;
+            float: left;
+            height: 7px;
+            width: 7px;
+            margin: 6px;
+            border-radius: 50%;
+
+            &:hover, &--active, &.sel {
+                background-color: rgba(0, 0, 0, .6);
+            }
+        }
+
+        &__container {
+            background-color: $orange;
+
+            h2 {
+                font-weight: bold;
+            }
+        }
+    }
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>PRIDE</title>
+    <style>
+        html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;box-sizing:border-box}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}body{font-family:Helvetica;background-color:#FFFFFF;color:#000000;line-height:1.2em;-webkit-tap-highlight-color:transparent}#eligibility{padding:10px 20px 0 20px}#eligibility .item{margin:0 0 20px 0;overflow:hidden}#eligibility .item .question{width:100%;text-align:center;font-size:16px;color:#646464;margin-bottom:6px;}#eligibility .item .answer{position:relative;width:50%;float:left;text-align:center;padding:50px 0 50px 0;color:#646464;font-size:30px;font-weight:bold;transform:translate(0, -15px);-webkit-transform:translate(0, -15px)}#eligibility .item .answer .selected{width:100%;height:100%;position:absolute;top:0;left:0;z-index:-1;background-position:center;background-repeat:no-repeat;opacity:0}#eligibility .item .answer .selected.yes{background-image:url("../images/eligibility-flag-yes.png");background-size:90px 80px;background-position:50% 56%}#eligibility .item .answer .selected.no{background-image:url("../images/eligibility-flag-no.png");background-size:90px 80px;background-position:50% 56%}
+        /*# sourceMappingURL=eligibility.css.map */
+
+        </style>
+<!--	<link rel="stylesheet" type="text/css" href="../styles/eligibility.css">-->
+</head>
+
+<body>
+	<div id="eligibility" class="container">
+		<div class="item">
+			<div class="question">Are you 18 years of age or older?</div>
+			<div class="answer yes">Yes</div>
+			<div class="answer no">No</div>
+		</div>
+		<div class="item">
+			<div class="question">Do you live in the United States of America?</div>
+			<div class="answer yes">Yes</div>
+			<div class="answer no">No</div>
+		</div>
+		<div class="item">
+			<div class="question">Are you comfortable reading and writing on your iPhone in English?</div>
+			<div class="answer yes">Yes</div>
+			<div class="answer no">No</div>
+		</div>
+		<div class="item">
+			<div class="question">Are you lesbian, gay, bisexual, transgender, queer, or another sexual or gender minority?</div>
+			<div class="answer yes">Yes</div>
+			<div class="answer no">No</div>
+		</div>
+	</div>
+
+	<script src="../scripts/vendor/jquery/jquery-1.11.3.min.js"></script>
+	<script src="../scripts/vendor/greensock/TweenMax.min.js"></script>
+	<script src="../scripts/vendor/greensock/plugins/CSSPlugin.min.js"></script>
+	<script src="../scripts/vendor/greensock/easing/EasePack.min.js"></script>
+	<script src="../scripts/vendor/fastclick.js"></script>
+	
+	<!-- <script src="../scripts/app.js"></script> -->
+
+	<script>
+		$(document).ready(function(){
+			// Remove click delay on mobile
+			FastClick.attach(document.body);
+
+			// Add background images for the selected button
+			$('.answer.yes').append('<div class="selected yes"></div>');
+			$('.answer.no').append('<div class="selected no"></div>');
+
+			$('.answer.yes').on('click', function(){
+				TweenMax.to($(this), 0.25, {css:{color:"#FFFFFF"}});
+				TweenMax.fromTo($(this).children('.selected'), 0.25, 
+					{opacity:0, scale:0.2, force3D:true}, 
+					{opacity:1, scale:1, ease:Back.easeOut});
+
+				TweenMax.to($(this).parent().children('.answer.no'), 0.25, {css:{color:"#646464"}});
+				TweenMax.to($(this).parent().children('.answer.no').children('.selected'), 0.25, {opacity:0, scale:0.8, force3D:true});
+
+				// Save answer as an attribute
+				$(this).parent().removeClass('no')
+				$(this).parent().addClass('answered yes')
+
+				checkEligibility();
+			});
+
+			$('.answer.no').on('click', function(){
+				TweenMax.to($(this), 0.25, {css:{color:"#999999"}});
+				TweenMax.fromTo($(this).children('.selected'), 0.25, 
+					{opacity:0, scale:0.2, force3D:true}, 
+					{opacity:1, scale:1, ease:Back.easeOut});
+
+				TweenMax.to($(this).parent().children('.answer.yes'), 0.25, {css:{color:"#646464"}});
+				TweenMax.to($(this).parent().children('.answer.yes').children('.selected'), 0.25, {opacity:0, scale:0.8, force3D:true});
+
+				// Save answer as an attribute
+				$(this).parent().removeClass('yes')
+				$(this).parent().addClass('answered no')
+
+				checkEligibility();
+			});
+		});
+
+		function checkEligibility(){
+			var url;
+			var countAnswered = $('#eligibility .answered').length;
+			var countYes = $('#eligibility .answered.yes').length;
+			var isComplete = false;
+			var isEligibile = false;
+			
+			// If all questions are answered
+			if(countAnswered == $('#eligibility .item').length){
+				isComplete = true;
+			}else{
+				isComplete = false;
+			}
+
+			// If answered YES to all questions
+			if(countYes == $('#eligibility .item').length){
+				isEligibile = true;
+			}else{
+				isEligibile = false;
+			}
+
+			url = "pride://updateEligibility?isComplete=" + isComplete + "&isEligible=" + isEligibile;
+			console.log(url);
+			document.location.href = url;
+		}
+	</script>
+</body>
+
+</html>

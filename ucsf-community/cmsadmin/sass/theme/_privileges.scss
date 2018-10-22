@@ -1,0 +1,16 @@
+.privileges {
+    position: relative;
+
+    &__blocker {
+        background-color: rgba(#ECF0F1, 0.6);
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+}
+
+.ban-btn-wrapper {
+    padding-left: 30px;
+}

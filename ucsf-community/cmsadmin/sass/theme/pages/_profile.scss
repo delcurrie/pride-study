@@ -1,0 +1,62 @@
+div.profile-actions {
+    padding-top: 25px;
+    text-align: right;
+}
+
+.btn-light {
+    background-color: #fff !important;
+    color: $greenishTeal;
+}
+
+div.flagged {
+    background-color: $tomato;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    height: 40px;
+    margin: 0px 0px 10px 0px;
+
+    .flagged-label {
+        font-weight: bold;
+        padding-top: 9px;
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .view-btn-wrapper {
+        button {
+            background-color: #fff;
+            height: 28px;
+            color: $tomato;
+            font-weight: bold;
+            padding: 5px 25px !important;
+            border-radius: 3px;
+        }
+    }
+}
+
+div.profile-stats {
+    h2 {
+        color: $greenishTeal;
+    }
+    h5 {
+        color: $coolGrey;
+    }
+}
+
+div.profile-table {
+    h5 {
+        color: $darkGreyBlueTwo;
+        letter-spacing: 1.6px;
+        margin-left: 10px;
+    }
+    td {
+        font-size: 13px;
+        &.blue-label {
+            color: $darkGreyBlueTwo;
+        }
+    }
+}
+
+#profile-comments-table, #profile-topics-table, #profile-upvotes-table, #profile-downvotes-table {
+    display: none;
+}

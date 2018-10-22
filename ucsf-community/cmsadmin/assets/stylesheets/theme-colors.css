@@ -1,0 +1,3523 @@
+@media (max-width: 767px) {
+  /* line 24, ../../sass/theme/_utilities.scss */
+  .text-center-xs {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 30, ../../sass/theme/_utilities.scss */
+  .img-responsive-sm {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 38, ../../sass/theme/_utilities.scss */
+  .no-mg-t-xs {
+    margin-top: 0 !important;
+  }
+}
+
+/* line 44, ../../sass/theme/_utilities.scss */
+.no-mg-t {
+  margin-top: 0 !important;
+}
+
+/* line 45, ../../sass/theme/_utilities.scss */
+.no-mg-b {
+  margin-bottom: 0 !important;
+}
+
+/* line 120, ../../sass/theme/_utilities.scss */
+.center-block {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 124, ../../sass/theme/_utilities.scss */
+#wrapper {
+  min-width: 1024px;
+}
+
+/* line 12, ../../sass/theme-colors.scss */
+.contrast-red header .navbar {
+  background-color: #9c142e;
+}
+/* line 15, ../../sass/theme-colors.scss */
+.contrast-red header .navbar .toggle-nav {
+  background-color: #9c142e;
+}
+/* line 18, ../../sass/theme-colors.scss */
+.contrast-red header .navbar .toggle-nav:active, .contrast-red header .navbar .toggle-nav.active, .contrast-red header .navbar .toggle-nav:hover {
+  background-color: #6f0e21;
+}
+/* line 24, ../../sass/theme-colors.scss */
+.contrast-red header .navbar .navbar-form button {
+  color: #9c142e;
+}
+/* line 27, ../../sass/theme-colors.scss */
+.contrast-red header .navbar .navbar-form button:hover {
+  color: #2b060d;
+}
+/* line 32, ../../sass/theme-colors.scss */
+.contrast-red header .navbar .navbar-form input {
+  border-color: #6f0e21;
+  color: #2b060d;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-red header .navbar .navbar-form input:-moz-placeholder {
+  color: #c91a3b;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-red header .navbar .navbar-form input:-ms-input-placeholder {
+  color: #c91a3b;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-red header .navbar .navbar-form input::-webkit-input-placeholder {
+  color: #c91a3b;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-red header .navbar .navbar-form input:hover:-moz-placeholder {
+  color: #e53154;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-red header .navbar .navbar-form input:hover:-ms-input-placeholder {
+  color: #e53154;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-red header .navbar .navbar-form input:hover::-webkit-input-placeholder {
+  color: #e53154;
+}
+/* line 41, ../../sass/theme-colors.scss */
+.contrast-red header .navbar .navbar-form input:focus {
+  border-color: #420813;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-red header .navbar .navbar-form input:focus:-moz-placeholder {
+  color: #e01d42;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-red header .navbar .navbar-form input:focus:-ms-input-placeholder {
+  color: #e01d42;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-red header .navbar .navbar-form input:focus::-webkit-input-placeholder {
+  color: #e01d42;
+}
+/* line 51, ../../sass/theme-colors.scss */
+.contrast-red header .navbar > .nav > li.light > a {
+  background: #730f22;
+}
+/* line 54, ../../sass/theme-colors.scss */
+.contrast-red header .navbar > .nav > li.light > a .label {
+  color: #730f22;
+}
+/* line 58, ../../sass/theme-colors.scss */
+.contrast-red header .navbar > .nav > li.light > a:hover, .contrast-red header .navbar > .nav > li.light > a:active, .contrast-red header .navbar > .nav > li.light > a:focus {
+  background-color: #570b1a;
+}
+/* line 65, ../../sass/theme-colors.scss */
+.contrast-red header .navbar > .nav > li.medium > a {
+  background: #570b1a;
+}
+/* line 68, ../../sass/theme-colors.scss */
+.contrast-red header .navbar > .nav > li.medium > a .label {
+  color: #570b1a;
+}
+/* line 73, ../../sass/theme-colors.scss */
+.contrast-red header .navbar > .nav > li.medium > a:hover > a, .contrast-red header .navbar > .nav > li.medium > a:active > a, .contrast-red header .navbar > .nav > li.medium > a:focus > a {
+  background-color: #4b0a16;
+}
+/* line 81, ../../sass/theme-colors.scss */
+.contrast-red header .navbar > .nav > li.dark > a {
+  background: #420914;
+}
+/* line 84, ../../sass/theme-colors.scss */
+.contrast-red header .navbar > .nav > li.dark > a .label {
+  color: #420914;
+}
+/* line 89, ../../sass/theme-colors.scss */
+.contrast-red header .navbar > .nav > li.dark > a:hover > a, .contrast-red header .navbar > .nav > li.dark > a:active > a, .contrast-red header .navbar > .nav > li.dark > a:focus > a {
+  background-color: #360710;
+}
+/* line 98, ../../sass/theme-colors.scss */
+.contrast-red header .navbar .widget .dropdown-menu > li.widget-footer a:hover {
+  background-color: #9c142e;
+}
+/* line 106, ../../sass/theme-colors.scss */
+.contrast-red header .navbar .nav li .label {
+  color: #9c142e;
+}
+/* line 113, ../../sass/theme-colors.scss */
+.contrast-red .nav .caret, .contrast-red .nav a:hover .caret {
+  border-top-color: #9c142e;
+  border-bottom-color: #9c142e;
+}
+/* line 118, ../../sass/theme-colors.scss */
+.contrast-red code {
+  background-color: #ebe0e5;
+  color: #a42840;
+}
+/* line 134, ../../sass/theme-colors.scss */
+.contrast-red #main-nav .navigation > .nav > li > a.in [class^="icon-"], .contrast-red #main-nav .navigation > .nav > li > a.in [class*=" icon-"] {
+  color: #9c142e;
+}
+/* line 143, ../../sass/theme-colors.scss */
+.contrast-red #main-nav .navigation > .nav > li:hover > a [class^="icon-"], .contrast-red #main-nav .navigation > .nav > li:hover > a [class*=" icon-"], .contrast-red #main-nav .navigation > .nav > li:focus > a [class^="icon-"], .contrast-red #main-nav .navigation > .nav > li:focus > a [class*=" icon-"], .contrast-red #main-nav .navigation > .nav > li.active > a [class^="icon-"], .contrast-red #main-nav .navigation > .nav > li.active > a [class*=" icon-"] {
+  color: #9c142e !important;
+}
+/* line 153, ../../sass/theme-colors.scss */
+.contrast-red #main-nav .navigation > .nav > li .nav > li.active > a [class^="icon-"], .contrast-red #main-nav .navigation > .nav > li .nav > li.active > a [class*=" icon-"] {
+  color: #9c142e;
+}
+/* line 161, ../../sass/theme-colors.scss */
+.contrast-red #main-nav .navigation > .nav > li .nav > li > a:hover [class^="icon-"], .contrast-red #main-nav .navigation > .nav > li .nav > li > a:hover [class*=" icon-"], .contrast-red #main-nav .navigation > .nav > li .nav > li > a:focus [class^="icon-"], .contrast-red #main-nav .navigation > .nav > li .nav > li > a:focus [class*=" icon-"] {
+  color: #9c142e;
+}
+/* line 175, ../../sass/theme-colors.scss */
+.contrast-red .box .box-header.contrast-background .actions .btn-link:hover {
+  color: #9c142e !important;
+}
+/* line 179, ../../sass/theme-colors.scss */
+.contrast-red.contrast-background, .contrast-red .contrast-background {
+  background: #9c142e !important;
+}
+/* line 180, ../../sass/theme-colors.scss */
+.contrast-red .text-contrast, .contrast-red .contrast {
+  color: #9c142e !important;
+}
+/* line 181, ../../sass/theme-colors.scss */
+.contrast-red .contrast-border {
+  border-color: #9c142e !important;
+}
+/* line 185, ../../sass/theme-colors.scss */
+.contrast-red .accordion.accordion-contrast .accordion-group {
+  border-color: #9c142e;
+  border-bottom-color: #e53154;
+}
+/* line 191, ../../sass/theme-colors.scss */
+.contrast-red .accordion.accordion-contrast .accordion-heading .accordion-toggle {
+  color: #fff;
+  background-color: #9c142e;
+}
+/* line 202, ../../sass/theme-colors.scss */
+.contrast-red .box-quick-link.contrast-background a:active .header {
+  background: #6f0e21;
+}
+/* line 208, ../../sass/theme-colors.scss */
+.contrast-red .box-quick-link.contrast-background:hover .header {
+  background: #851127;
+}
+/* line 217, ../../sass/theme-colors.scss */
+.contrast-red .box-statistic.contrast-background .title, .contrast-red .box-statistic.contrast-background small, .contrast-red .box-statistic.contrast-background [class*="icon-"] {
+  color: #9c142e !important;
+}
+/* line 226, ../../sass/theme-colors.scss */
+.contrast-red .breadcrumb li:first-child > a:hover {
+  color: #9c142e !important;
+}
+/* line 234, ../../sass/theme-colors.scss */
+.contrast-red h1 [class^="icon-"] {
+  color: #9c142e;
+}
+/* line 241, ../../sass/theme-colors.scss */
+.contrast-red .dropdown-menu > .active > a, .contrast-red .dropdown-menu > .active > a:hover, .contrast-red .dropdown-menu > .active > a:focus, .contrast-red .dropdown-menu > li > a:hover, .contrast-red .dropdown-menu > li > a:focus, .contrast-red .dropdown-submenu:hover > a, .contrast-red .dropdown-submenu:focus > a {
+  background-color: #9c142e !important;
+}
+/* line 253, ../../sass/theme-colors.scss */
+.contrast-red .box .box-header .actions .btn-link:hover {
+  color: #9c142e;
+}
+/* line 269, ../../sass/theme-colors.scss */
+.contrast-red .fuelux .wizard ul li.active {
+  background-color: #9c142e;
+}
+/* line 281, ../../sass/theme-colors.scss */
+.contrast-red .fc-event .fc-event-inner {
+  border-color: #9c142e;
+  background-color: #9c142e;
+}
+/* line 286, ../../sass/theme-colors.scss */
+.contrast-red .contrast-caret {
+  border-top-color: #9c142e !important;
+  border-bottom-color: #9c142e !important;
+}
+/* line 288, ../../sass/theme-colors.scss */
+.contrast-red .select2-results .select2-highlighted {
+  background: #9c142e;
+}
+/* line 293, ../../sass/theme-colors.scss */
+.contrast-red .daterangepicker .ranges li.active, .contrast-red .daterangepicker .ranges li:hover {
+  background: #9c142e;
+}
+/* line 297, ../../sass/theme-colors.scss */
+.contrast-red .daterangepicker td.active, .contrast-red .daterangepicker td.active:hover {
+  background: #9c142e;
+}
+/* line 302, ../../sass/theme-colors.scss */
+.contrast-red .datepicker td span.active:hover, .contrast-red .datepicker td span.active:hover:hover, .contrast-red .datepicker td span.active.disabled:hover, .contrast-red .datepicker td span.active.disabled:hover:hover, .contrast-red .datepicker td span.active:active, .contrast-red .datepicker td span.active:hover:active, .contrast-red .datepicker td span.active.disabled:active, .contrast-red .datepicker td span.active.disabled:hover:active, .contrast-red .datepicker td span.active.active, .contrast-red .datepicker td span.active:hover.active, .contrast-red .datepicker td span.active.disabled.active, .contrast-red .datepicker td span.active.disabled:hover.active, .contrast-red .datepicker td span.active.disabled, .contrast-red .datepicker td span.active:hover.disabled, .contrast-red .datepicker td span.active.disabled.disabled, .contrast-red .datepicker td span.active.disabled:hover.disabled, .contrast-red .datepicker td span.active[disabled], .contrast-red .datepicker td span.active:hover[disabled], .contrast-red .datepicker td span.active.disabled[disabled], .contrast-red .datepicker td span.active.disabled:hover[disabled], .contrast-red .datepicker td.active:hover, .contrast-red .datepicker td.active:hover:hover, .contrast-red .datepicker td.active.disabled:hover, .contrast-red .datepicker td.active.disabled:hover:hover, .contrast-red .datepicker td.active:active, .contrast-red .datepicker td.active:hover:active, .contrast-red .datepicker td.active.disabled:active, .contrast-red .datepicker td.active.disabled:hover:active, .contrast-red .datepicker td.active.active, .contrast-red .datepicker td.active:hover.active, .contrast-red .datepicker td.active.disabled.active, .contrast-red .datepicker td.active.disabled:hover.active, .contrast-red .datepicker td.active.disabled, .contrast-red .datepicker td.active:hover.disabled, .contrast-red .datepicker td.active.disabled.disabled, .contrast-red .datepicker td.active.disabled:hover.disabled, .contrast-red .datepicker td.active[disabled], .contrast-red .datepicker td.active:hover[disabled], .contrast-red .datepicker td.active.disabled[disabled], .contrast-red .datepicker td.active.disabled:hover[disabled] {
+  background: #9c142e;
+}
+/* line 306, ../../sass/theme-colors.scss */
+.contrast-red .dropdown-menu > .active > a, .contrast-red .dropdown-menu > .active > a:hover, .contrast-red .dropdown-menu > .active > a:focus {
+  background: #9c142e;
+}
+/* line 310, ../../sass/theme-colors.scss */
+.contrast-red .dd-handle:hover {
+  color: #9c142e;
+}
+/* line 314, ../../sass/theme-colors.scss */
+.contrast-red .dd-placeholder {
+  border-color: #9c142e;
+}
+
+/* line 12, ../../sass/theme-colors.scss */
+.contrast-orange header .navbar {
+  background-color: #f3901d;
+}
+/* line 15, ../../sass/theme-colors.scss */
+.contrast-orange header .navbar .toggle-nav {
+  background-color: #f3901d;
+}
+/* line 18, ../../sass/theme-colors.scss */
+.contrast-orange header .navbar .toggle-nav:active, .contrast-orange header .navbar .toggle-nav.active, .contrast-orange header .navbar .toggle-nav:hover {
+  background-color: #d2760b;
+}
+/* line 24, ../../sass/theme-colors.scss */
+.contrast-orange header .navbar .navbar-form button {
+  color: #f3901d;
+}
+/* line 27, ../../sass/theme-colors.scss */
+.contrast-orange header .navbar .navbar-form button:hover {
+  color: #894d07;
+}
+/* line 32, ../../sass/theme-colors.scss */
+.contrast-orange header .navbar .navbar-form input {
+  border-color: #d2760b;
+  color: #894d07;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-orange header .navbar .navbar-form input:-moz-placeholder {
+  color: #f6a84d;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-orange header .navbar .navbar-form input:-ms-input-placeholder {
+  color: #f6a84d;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-orange header .navbar .navbar-form input::-webkit-input-placeholder {
+  color: #f6a84d;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-orange header .navbar .navbar-form input:hover:-moz-placeholder {
+  color: #f8c07e;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-orange header .navbar .navbar-form input:hover:-ms-input-placeholder {
+  color: #f8c07e;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-orange header .navbar .navbar-form input:hover::-webkit-input-placeholder {
+  color: #f8c07e;
+}
+/* line 41, ../../sass/theme-colors.scss */
+.contrast-orange header .navbar .navbar-form input:focus {
+  border-color: #a15b09;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-orange header .navbar .navbar-form input:focus:-moz-placeholder {
+  color: #f7b466;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-orange header .navbar .navbar-form input:focus:-ms-input-placeholder {
+  color: #f7b466;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-orange header .navbar .navbar-form input:focus::-webkit-input-placeholder {
+  color: #f7b466;
+}
+/* line 51, ../../sass/theme-colors.scss */
+.contrast-orange header .navbar > .nav > li.light > a {
+  background: #d7790b;
+}
+/* line 54, ../../sass/theme-colors.scss */
+.contrast-orange header .navbar > .nav > li.light > a .label {
+  color: #d7790b;
+}
+/* line 58, ../../sass/theme-colors.scss */
+.contrast-orange header .navbar > .nav > li.light > a:hover, .contrast-orange header .navbar > .nav > li.light > a:active, .contrast-orange header .navbar > .nav > li.light > a:focus {
+  background-color: #b8680a;
+}
+/* line 65, ../../sass/theme-colors.scss */
+.contrast-orange header .navbar > .nav > li.medium > a {
+  background: #b8680a;
+}
+/* line 68, ../../sass/theme-colors.scss */
+.contrast-orange header .navbar > .nav > li.medium > a .label {
+  color: #b8680a;
+}
+/* line 73, ../../sass/theme-colors.scss */
+.contrast-orange header .navbar > .nav > li.medium > a:hover > a, .contrast-orange header .navbar > .nav > li.medium > a:active > a, .contrast-orange header .navbar > .nav > li.medium > a:focus > a {
+  background-color: #ab6009;
+}
+/* line 81, ../../sass/theme-colors.scss */
+.contrast-orange header .navbar > .nav > li.dark > a {
+  background: #a25b09;
+}
+/* line 84, ../../sass/theme-colors.scss */
+.contrast-orange header .navbar > .nav > li.dark > a .label {
+  color: #a25b09;
+}
+/* line 89, ../../sass/theme-colors.scss */
+.contrast-orange header .navbar > .nav > li.dark > a:hover > a, .contrast-orange header .navbar > .nav > li.dark > a:active > a, .contrast-orange header .navbar > .nav > li.dark > a:focus > a {
+  background-color: #955408;
+}
+/* line 98, ../../sass/theme-colors.scss */
+.contrast-orange header .navbar .widget .dropdown-menu > li.widget-footer a:hover {
+  background-color: #f3901d;
+}
+/* line 106, ../../sass/theme-colors.scss */
+.contrast-orange header .navbar .nav li .label {
+  color: #f3901d;
+}
+/* line 113, ../../sass/theme-colors.scss */
+.contrast-orange .nav .caret, .contrast-orange .nav a:hover .caret {
+  border-top-color: #f3901d;
+  border-bottom-color: #f3901d;
+}
+/* line 118, ../../sass/theme-colors.scss */
+.contrast-orange code {
+  background-color: #f4ede3;
+  color: #f39931;
+}
+/* line 134, ../../sass/theme-colors.scss */
+.contrast-orange #main-nav .navigation > .nav > li > a.in [class^="icon-"], .contrast-orange #main-nav .navigation > .nav > li > a.in [class*=" icon-"] {
+  color: #f3901d;
+}
+/* line 143, ../../sass/theme-colors.scss */
+.contrast-orange #main-nav .navigation > .nav > li:hover > a [class^="icon-"], .contrast-orange #main-nav .navigation > .nav > li:hover > a [class*=" icon-"], .contrast-orange #main-nav .navigation > .nav > li:focus > a [class^="icon-"], .contrast-orange #main-nav .navigation > .nav > li:focus > a [class*=" icon-"], .contrast-orange #main-nav .navigation > .nav > li.active > a [class^="icon-"], .contrast-orange #main-nav .navigation > .nav > li.active > a [class*=" icon-"] {
+  color: #f3901d !important;
+}
+/* line 153, ../../sass/theme-colors.scss */
+.contrast-orange #main-nav .navigation > .nav > li .nav > li.active > a [class^="icon-"], .contrast-orange #main-nav .navigation > .nav > li .nav > li.active > a [class*=" icon-"] {
+  color: #f3901d;
+}
+/* line 161, ../../sass/theme-colors.scss */
+.contrast-orange #main-nav .navigation > .nav > li .nav > li > a:hover [class^="icon-"], .contrast-orange #main-nav .navigation > .nav > li .nav > li > a:hover [class*=" icon-"], .contrast-orange #main-nav .navigation > .nav > li .nav > li > a:focus [class^="icon-"], .contrast-orange #main-nav .navigation > .nav > li .nav > li > a:focus [class*=" icon-"] {
+  color: #f3901d;
+}
+/* line 175, ../../sass/theme-colors.scss */
+.contrast-orange .box .box-header.contrast-background .actions .btn-link:hover {
+  color: #f3901d !important;
+}
+/* line 179, ../../sass/theme-colors.scss */
+.contrast-orange.contrast-background, .contrast-orange .contrast-background {
+  background: #f3901d !important;
+}
+/* line 180, ../../sass/theme-colors.scss */
+.contrast-orange .text-contrast, .contrast-orange .contrast {
+  color: #f3901d !important;
+}
+/* line 181, ../../sass/theme-colors.scss */
+.contrast-orange .contrast-border {
+  border-color: #f3901d !important;
+}
+/* line 185, ../../sass/theme-colors.scss */
+.contrast-orange .accordion.accordion-contrast .accordion-group {
+  border-color: #f3901d;
+  border-bottom-color: #f8c07e;
+}
+/* line 191, ../../sass/theme-colors.scss */
+.contrast-orange .accordion.accordion-contrast .accordion-heading .accordion-toggle {
+  color: #fff;
+  background-color: #f3901d;
+}
+/* line 202, ../../sass/theme-colors.scss */
+.contrast-orange .box-quick-link.contrast-background a:active .header {
+  background: #d2760b;
+}
+/* line 208, ../../sass/theme-colors.scss */
+.contrast-orange .box-quick-link.contrast-background:hover .header {
+  background: #ea840c;
+}
+/* line 217, ../../sass/theme-colors.scss */
+.contrast-orange .box-statistic.contrast-background .title, .contrast-orange .box-statistic.contrast-background small, .contrast-orange .box-statistic.contrast-background [class*="icon-"] {
+  color: #f3901d !important;
+}
+/* line 226, ../../sass/theme-colors.scss */
+.contrast-orange .breadcrumb li:first-child > a:hover {
+  color: #f3901d !important;
+}
+/* line 234, ../../sass/theme-colors.scss */
+.contrast-orange h1 [class^="icon-"] {
+  color: #f3901d;
+}
+/* line 241, ../../sass/theme-colors.scss */
+.contrast-orange .dropdown-menu > .active > a, .contrast-orange .dropdown-menu > .active > a:hover, .contrast-orange .dropdown-menu > .active > a:focus, .contrast-orange .dropdown-menu > li > a:hover, .contrast-orange .dropdown-menu > li > a:focus, .contrast-orange .dropdown-submenu:hover > a, .contrast-orange .dropdown-submenu:focus > a {
+  background-color: #f3901d !important;
+}
+/* line 253, ../../sass/theme-colors.scss */
+.contrast-orange .box .box-header .actions .btn-link:hover {
+  color: #f3901d;
+}
+/* line 269, ../../sass/theme-colors.scss */
+.contrast-orange .fuelux .wizard ul li.active {
+  background-color: #f3901d;
+}
+/* line 281, ../../sass/theme-colors.scss */
+.contrast-orange .fc-event .fc-event-inner {
+  border-color: #f3901d;
+  background-color: #f3901d;
+}
+/* line 286, ../../sass/theme-colors.scss */
+.contrast-orange .contrast-caret {
+  border-top-color: #f3901d !important;
+  border-bottom-color: #f3901d !important;
+}
+/* line 288, ../../sass/theme-colors.scss */
+.contrast-orange .select2-results .select2-highlighted {
+  background: #f3901d;
+}
+/* line 293, ../../sass/theme-colors.scss */
+.contrast-orange .daterangepicker .ranges li.active, .contrast-orange .daterangepicker .ranges li:hover {
+  background: #f3901d;
+}
+/* line 297, ../../sass/theme-colors.scss */
+.contrast-orange .daterangepicker td.active, .contrast-orange .daterangepicker td.active:hover {
+  background: #f3901d;
+}
+/* line 302, ../../sass/theme-colors.scss */
+.contrast-orange .datepicker td span.active:hover, .contrast-orange .datepicker td span.active:hover:hover, .contrast-orange .datepicker td span.active.disabled:hover, .contrast-orange .datepicker td span.active.disabled:hover:hover, .contrast-orange .datepicker td span.active:active, .contrast-orange .datepicker td span.active:hover:active, .contrast-orange .datepicker td span.active.disabled:active, .contrast-orange .datepicker td span.active.disabled:hover:active, .contrast-orange .datepicker td span.active.active, .contrast-orange .datepicker td span.active:hover.active, .contrast-orange .datepicker td span.active.disabled.active, .contrast-orange .datepicker td span.active.disabled:hover.active, .contrast-orange .datepicker td span.active.disabled, .contrast-orange .datepicker td span.active:hover.disabled, .contrast-orange .datepicker td span.active.disabled.disabled, .contrast-orange .datepicker td span.active.disabled:hover.disabled, .contrast-orange .datepicker td span.active[disabled], .contrast-orange .datepicker td span.active:hover[disabled], .contrast-orange .datepicker td span.active.disabled[disabled], .contrast-orange .datepicker td span.active.disabled:hover[disabled], .contrast-orange .datepicker td.active:hover, .contrast-orange .datepicker td.active:hover:hover, .contrast-orange .datepicker td.active.disabled:hover, .contrast-orange .datepicker td.active.disabled:hover:hover, .contrast-orange .datepicker td.active:active, .contrast-orange .datepicker td.active:hover:active, .contrast-orange .datepicker td.active.disabled:active, .contrast-orange .datepicker td.active.disabled:hover:active, .contrast-orange .datepicker td.active.active, .contrast-orange .datepicker td.active:hover.active, .contrast-orange .datepicker td.active.disabled.active, .contrast-orange .datepicker td.active.disabled:hover.active, .contrast-orange .datepicker td.active.disabled, .contrast-orange .datepicker td.active:hover.disabled, .contrast-orange .datepicker td.active.disabled.disabled, .contrast-orange .datepicker td.active.disabled:hover.disabled, .contrast-orange .datepicker td.active[disabled], .contrast-orange .datepicker td.active:hover[disabled], .contrast-orange .datepicker td.active.disabled[disabled], .contrast-orange .datepicker td.active.disabled:hover[disabled] {
+  background: #f3901d;
+}
+/* line 306, ../../sass/theme-colors.scss */
+.contrast-orange .dropdown-menu > .active > a, .contrast-orange .dropdown-menu > .active > a:hover, .contrast-orange .dropdown-menu > .active > a:focus {
+  background: #f3901d;
+}
+/* line 310, ../../sass/theme-colors.scss */
+.contrast-orange .dd-handle:hover {
+  color: #f3901d;
+}
+/* line 314, ../../sass/theme-colors.scss */
+.contrast-orange .dd-placeholder {
+  border-color: #f3901d;
+}
+
+/* line 12, ../../sass/theme-colors.scss */
+.contrast-blue header .navbar {
+  background-color: #00acec;
+}
+/* line 15, ../../sass/theme-colors.scss */
+.contrast-blue header .navbar .toggle-nav {
+  background-color: #00acec;
+}
+/* line 18, ../../sass/theme-colors.scss */
+.contrast-blue header .navbar .toggle-nav:active, .contrast-blue header .navbar .toggle-nav.active, .contrast-blue header .navbar .toggle-nav:hover {
+  background-color: #0087b9;
+}
+/* line 24, ../../sass/theme-colors.scss */
+.contrast-blue header .navbar .navbar-form button {
+  color: #00acec;
+}
+/* line 27, ../../sass/theme-colors.scss */
+.contrast-blue header .navbar .navbar-form button:hover {
+  color: #004f6d;
+}
+/* line 32, ../../sass/theme-colors.scss */
+.contrast-blue header .navbar .navbar-form input {
+  border-color: #0087b9;
+  color: #004f6d;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-blue header .navbar .navbar-form input:-moz-placeholder {
+  color: #20c3ff;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-blue header .navbar .navbar-form input:-ms-input-placeholder {
+  color: #20c3ff;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-blue header .navbar .navbar-form input::-webkit-input-placeholder {
+  color: #20c3ff;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-blue header .navbar .navbar-form input:hover:-moz-placeholder {
+  color: #53d0ff;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-blue header .navbar .navbar-form input:hover:-ms-input-placeholder {
+  color: #53d0ff;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-blue header .navbar .navbar-form input:hover::-webkit-input-placeholder {
+  color: #53d0ff;
+}
+/* line 41, ../../sass/theme-colors.scss */
+.contrast-blue header .navbar .navbar-form input:focus {
+  border-color: #006286;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-blue header .navbar .navbar-form input:focus:-moz-placeholder {
+  color: #3ac9ff;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-blue header .navbar .navbar-form input:focus:-ms-input-placeholder {
+  color: #3ac9ff;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-blue header .navbar .navbar-form input:focus::-webkit-input-placeholder {
+  color: #3ac9ff;
+}
+/* line 51, ../../sass/theme-colors.scss */
+.contrast-blue header .navbar > .nav > li.light > a {
+  background: #008bbe;
+}
+/* line 54, ../../sass/theme-colors.scss */
+.contrast-blue header .navbar > .nav > li.light > a .label {
+  color: #008bbe;
+}
+/* line 58, ../../sass/theme-colors.scss */
+.contrast-blue header .navbar > .nav > li.light > a:hover, .contrast-blue header .navbar > .nav > li.light > a:active, .contrast-blue header .navbar > .nav > li.light > a:focus {
+  background-color: #00739e;
+}
+/* line 65, ../../sass/theme-colors.scss */
+.contrast-blue header .navbar > .nav > li.medium > a {
+  background: #00739e;
+}
+/* line 68, ../../sass/theme-colors.scss */
+.contrast-blue header .navbar > .nav > li.medium > a .label {
+  color: #00739e;
+}
+/* line 73, ../../sass/theme-colors.scss */
+.contrast-blue header .navbar > .nav > li.medium > a:hover > a, .contrast-blue header .navbar > .nav > li.medium > a:active > a, .contrast-blue header .navbar > .nav > li.medium > a:focus > a {
+  background-color: #006990;
+}
+/* line 81, ../../sass/theme-colors.scss */
+.contrast-blue header .navbar > .nav > li.dark > a {
+  background: #006287;
+}
+/* line 84, ../../sass/theme-colors.scss */
+.contrast-blue header .navbar > .nav > li.dark > a .label {
+  color: #006287;
+}
+/* line 89, ../../sass/theme-colors.scss */
+.contrast-blue header .navbar > .nav > li.dark > a:hover > a, .contrast-blue header .navbar > .nav > li.dark > a:active > a, .contrast-blue header .navbar > .nav > li.dark > a:focus > a {
+  background-color: #005879;
+}
+/* line 98, ../../sass/theme-colors.scss */
+.contrast-blue header .navbar .widget .dropdown-menu > li.widget-footer a:hover {
+  background-color: #00acec;
+}
+/* line 106, ../../sass/theme-colors.scss */
+.contrast-blue header .navbar .nav li .label {
+  color: #00acec;
+}
+/* line 113, ../../sass/theme-colors.scss */
+.contrast-blue .nav .caret, .contrast-blue .nav a:hover .caret {
+  border-top-color: #00acec;
+  border-bottom-color: #00acec;
+}
+/* line 118, ../../sass/theme-colors.scss */
+.contrast-blue code {
+  background-color: #dcf0f8;
+  color: #16b3ed;
+}
+/* line 134, ../../sass/theme-colors.scss */
+.contrast-blue #main-nav .navigation > .nav > li > a.in [class^="icon-"], .contrast-blue #main-nav .navigation > .nav > li > a.in [class*=" icon-"] {
+  color: #00acec;
+}
+/* line 143, ../../sass/theme-colors.scss */
+.contrast-blue #main-nav .navigation > .nav > li:hover > a [class^="icon-"], .contrast-blue #main-nav .navigation > .nav > li:hover > a [class*=" icon-"], .contrast-blue #main-nav .navigation > .nav > li:focus > a [class^="icon-"], .contrast-blue #main-nav .navigation > .nav > li:focus > a [class*=" icon-"], .contrast-blue #main-nav .navigation > .nav > li.active > a [class^="icon-"], .contrast-blue #main-nav .navigation > .nav > li.active > a [class*=" icon-"] {
+  color: #00acec !important;
+}
+/* line 153, ../../sass/theme-colors.scss */
+.contrast-blue #main-nav .navigation > .nav > li .nav > li.active > a [class^="icon-"], .contrast-blue #main-nav .navigation > .nav > li .nav > li.active > a [class*=" icon-"] {
+  color: #00acec;
+}
+/* line 161, ../../sass/theme-colors.scss */
+.contrast-blue #main-nav .navigation > .nav > li .nav > li > a:hover [class^="icon-"], .contrast-blue #main-nav .navigation > .nav > li .nav > li > a:hover [class*=" icon-"], .contrast-blue #main-nav .navigation > .nav > li .nav > li > a:focus [class^="icon-"], .contrast-blue #main-nav .navigation > .nav > li .nav > li > a:focus [class*=" icon-"] {
+  color: #00acec;
+}
+/* line 175, ../../sass/theme-colors.scss */
+.contrast-blue .box .box-header.contrast-background .actions .btn-link:hover {
+  color: #00acec !important;
+}
+/* line 179, ../../sass/theme-colors.scss */
+.contrast-blue.contrast-background, .contrast-blue .contrast-background {
+  background: #00acec !important;
+}
+/* line 180, ../../sass/theme-colors.scss */
+.contrast-blue .text-contrast, .contrast-blue .contrast {
+  color: #00acec !important;
+}
+/* line 181, ../../sass/theme-colors.scss */
+.contrast-blue .contrast-border {
+  border-color: #00acec !important;
+}
+/* line 185, ../../sass/theme-colors.scss */
+.contrast-blue .accordion.accordion-contrast .accordion-group {
+  border-color: #00acec;
+  border-bottom-color: #53d0ff;
+}
+/* line 191, ../../sass/theme-colors.scss */
+.contrast-blue .accordion.accordion-contrast .accordion-heading .accordion-toggle {
+  color: #fff;
+  background-color: #00acec;
+}
+/* line 202, ../../sass/theme-colors.scss */
+.contrast-blue .box-quick-link.contrast-background a:active .header {
+  background: #0087b9;
+}
+/* line 208, ../../sass/theme-colors.scss */
+.contrast-blue .box-quick-link.contrast-background:hover .header {
+  background: #0099d3;
+}
+/* line 217, ../../sass/theme-colors.scss */
+.contrast-blue .box-statistic.contrast-background .title, .contrast-blue .box-statistic.contrast-background small, .contrast-blue .box-statistic.contrast-background [class*="icon-"] {
+  color: #00acec !important;
+}
+/* line 226, ../../sass/theme-colors.scss */
+.contrast-blue .breadcrumb li:first-child > a:hover {
+  color: #00acec !important;
+}
+/* line 234, ../../sass/theme-colors.scss */
+.contrast-blue h1 [class^="icon-"] {
+  color: #00acec;
+}
+/* line 241, ../../sass/theme-colors.scss */
+.contrast-blue .dropdown-menu > .active > a, .contrast-blue .dropdown-menu > .active > a:hover, .contrast-blue .dropdown-menu > .active > a:focus, .contrast-blue .dropdown-menu > li > a:hover, .contrast-blue .dropdown-menu > li > a:focus, .contrast-blue .dropdown-submenu:hover > a, .contrast-blue .dropdown-submenu:focus > a {
+  background-color: #00acec !important;
+}
+/* line 253, ../../sass/theme-colors.scss */
+.contrast-blue .box .box-header .actions .btn-link:hover {
+  color: #00acec;
+}
+/* line 269, ../../sass/theme-colors.scss */
+.contrast-blue .fuelux .wizard ul li.active {
+  background-color: #00acec;
+}
+/* line 281, ../../sass/theme-colors.scss */
+.contrast-blue .fc-event .fc-event-inner {
+  border-color: #00acec;
+  background-color: #00acec;
+}
+/* line 286, ../../sass/theme-colors.scss */
+.contrast-blue .contrast-caret {
+  border-top-color: #00acec !important;
+  border-bottom-color: #00acec !important;
+}
+/* line 288, ../../sass/theme-colors.scss */
+.contrast-blue .select2-results .select2-highlighted {
+  background: #00acec;
+}
+/* line 293, ../../sass/theme-colors.scss */
+.contrast-blue .daterangepicker .ranges li.active, .contrast-blue .daterangepicker .ranges li:hover {
+  background: #00acec;
+}
+/* line 297, ../../sass/theme-colors.scss */
+.contrast-blue .daterangepicker td.active, .contrast-blue .daterangepicker td.active:hover {
+  background: #00acec;
+}
+/* line 302, ../../sass/theme-colors.scss */
+.contrast-blue .datepicker td span.active:hover, .contrast-blue .datepicker td span.active:hover:hover, .contrast-blue .datepicker td span.active.disabled:hover, .contrast-blue .datepicker td span.active.disabled:hover:hover, .contrast-blue .datepicker td span.active:active, .contrast-blue .datepicker td span.active:hover:active, .contrast-blue .datepicker td span.active.disabled:active, .contrast-blue .datepicker td span.active.disabled:hover:active, .contrast-blue .datepicker td span.active.active, .contrast-blue .datepicker td span.active:hover.active, .contrast-blue .datepicker td span.active.disabled.active, .contrast-blue .datepicker td span.active.disabled:hover.active, .contrast-blue .datepicker td span.active.disabled, .contrast-blue .datepicker td span.active:hover.disabled, .contrast-blue .datepicker td span.active.disabled.disabled, .contrast-blue .datepicker td span.active.disabled:hover.disabled, .contrast-blue .datepicker td span.active[disabled], .contrast-blue .datepicker td span.active:hover[disabled], .contrast-blue .datepicker td span.active.disabled[disabled], .contrast-blue .datepicker td span.active.disabled:hover[disabled], .contrast-blue .datepicker td.active:hover, .contrast-blue .datepicker td.active:hover:hover, .contrast-blue .datepicker td.active.disabled:hover, .contrast-blue .datepicker td.active.disabled:hover:hover, .contrast-blue .datepicker td.active:active, .contrast-blue .datepicker td.active:hover:active, .contrast-blue .datepicker td.active.disabled:active, .contrast-blue .datepicker td.active.disabled:hover:active, .contrast-blue .datepicker td.active.active, .contrast-blue .datepicker td.active:hover.active, .contrast-blue .datepicker td.active.disabled.active, .contrast-blue .datepicker td.active.disabled:hover.active, .contrast-blue .datepicker td.active.disabled, .contrast-blue .datepicker td.active:hover.disabled, .contrast-blue .datepicker td.active.disabled.disabled, .contrast-blue .datepicker td.active.disabled:hover.disabled, .contrast-blue .datepicker td.active[disabled], .contrast-blue .datepicker td.active:hover[disabled], .contrast-blue .datepicker td.active.disabled[disabled], .contrast-blue .datepicker td.active.disabled:hover[disabled] {
+  background: #00acec;
+}
+/* line 306, ../../sass/theme-colors.scss */
+.contrast-blue .dropdown-menu > .active > a, .contrast-blue .dropdown-menu > .active > a:hover, .contrast-blue .dropdown-menu > .active > a:focus {
+  background: #00acec;
+}
+/* line 310, ../../sass/theme-colors.scss */
+.contrast-blue .dd-handle:hover {
+  color: #00acec;
+}
+/* line 314, ../../sass/theme-colors.scss */
+.contrast-blue .dd-placeholder {
+  border-color: #00acec;
+}
+
+/* line 12, ../../sass/theme-colors.scss */
+.contrast-purple header .navbar {
+  background-color: #9564e2;
+}
+/* line 15, ../../sass/theme-colors.scss */
+.contrast-purple header .navbar .toggle-nav {
+  background-color: #9564e2;
+}
+/* line 18, ../../sass/theme-colors.scss */
+.contrast-purple header .navbar .toggle-nav:active, .contrast-purple header .navbar .toggle-nav.active, .contrast-purple header .navbar .toggle-nav:hover {
+  background-color: #7839da;
+}
+/* line 24, ../../sass/theme-colors.scss */
+.contrast-purple header .navbar .navbar-form button {
+  color: #9564e2;
+}
+/* line 27, ../../sass/theme-colors.scss */
+.contrast-purple header .navbar .navbar-form button:hover {
+  color: #541fa7;
+}
+/* line 32, ../../sass/theme-colors.scss */
+.contrast-purple header .navbar .navbar-form input {
+  border-color: #7839da;
+  color: #541fa7;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-purple header .navbar .navbar-form input:-moz-placeholder {
+  color: #b28fea;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-purple header .navbar .navbar-form input:-ms-input-placeholder {
+  color: #b28fea;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-purple header .navbar .navbar-form input::-webkit-input-placeholder {
+  color: #b28fea;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-purple header .navbar .navbar-form input:hover:-moz-placeholder {
+  color: #d0baf2;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-purple header .navbar .navbar-form input:hover:-ms-input-placeholder {
+  color: #d0baf2;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-purple header .navbar .navbar-form input:hover::-webkit-input-placeholder {
+  color: #d0baf2;
+}
+/* line 41, ../../sass/theme-colors.scss */
+.contrast-purple header .navbar .navbar-form input:focus {
+  border-color: #5f23bd;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-purple header .navbar .navbar-form input:focus:-moz-placeholder {
+  color: #c1a4ee;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-purple header .navbar .navbar-form input:focus:-ms-input-placeholder {
+  color: #c1a4ee;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-purple header .navbar .navbar-form input:focus::-webkit-input-placeholder {
+  color: #c1a4ee;
+}
+/* line 51, ../../sass/theme-colors.scss */
+.contrast-purple header .navbar > .nav > li.light > a {
+  background: #7839da;
+}
+/* line 54, ../../sass/theme-colors.scss */
+.contrast-purple header .navbar > .nav > li.light > a .label {
+  color: #7839da;
+}
+/* line 58, ../../sass/theme-colors.scss */
+.contrast-purple header .navbar > .nav > li.light > a:hover, .contrast-purple header .navbar > .nav > li.light > a:active, .contrast-purple header .navbar > .nav > li.light > a:focus {
+  background-color: #6526ca;
+}
+/* line 65, ../../sass/theme-colors.scss */
+.contrast-purple header .navbar > .nav > li.medium > a {
+  background: #6526ca;
+}
+/* line 68, ../../sass/theme-colors.scss */
+.contrast-purple header .navbar > .nav > li.medium > a .label {
+  color: #6526ca;
+}
+/* line 73, ../../sass/theme-colors.scss */
+.contrast-purple header .navbar > .nav > li.medium > a:hover > a, .contrast-purple header .navbar > .nav > li.medium > a:active > a, .contrast-purple header .navbar > .nav > li.medium > a:focus > a {
+  background-color: #5f23bd;
+}
+/* line 81, ../../sass/theme-colors.scss */
+.contrast-purple header .navbar > .nav > li.dark > a {
+  background: #5b22b4;
+}
+/* line 84, ../../sass/theme-colors.scss */
+.contrast-purple header .navbar > .nav > li.dark > a .label {
+  color: #5b22b4;
+}
+/* line 89, ../../sass/theme-colors.scss */
+.contrast-purple header .navbar > .nav > li.dark > a:hover > a, .contrast-purple header .navbar > .nav > li.dark > a:active > a, .contrast-purple header .navbar > .nav > li.dark > a:focus > a {
+  background-color: #541fa7;
+}
+/* line 98, ../../sass/theme-colors.scss */
+.contrast-purple header .navbar .widget .dropdown-menu > li.widget-footer a:hover {
+  background-color: #9564e2;
+}
+/* line 106, ../../sass/theme-colors.scss */
+.contrast-purple header .navbar .nav li .label {
+  color: #9564e2;
+}
+/* line 113, ../../sass/theme-colors.scss */
+.contrast-purple .nav .caret, .contrast-purple .nav a:hover .caret {
+  border-top-color: #9564e2;
+  border-bottom-color: #9564e2;
+}
+/* line 118, ../../sass/theme-colors.scss */
+.contrast-purple code {
+  background-color: #ebe8f7;
+  color: #9e71e4;
+}
+/* line 134, ../../sass/theme-colors.scss */
+.contrast-purple #main-nav .navigation > .nav > li > a.in [class^="icon-"], .contrast-purple #main-nav .navigation > .nav > li > a.in [class*=" icon-"] {
+  color: #9564e2;
+}
+/* line 143, ../../sass/theme-colors.scss */
+.contrast-purple #main-nav .navigation > .nav > li:hover > a [class^="icon-"], .contrast-purple #main-nav .navigation > .nav > li:hover > a [class*=" icon-"], .contrast-purple #main-nav .navigation > .nav > li:focus > a [class^="icon-"], .contrast-purple #main-nav .navigation > .nav > li:focus > a [class*=" icon-"], .contrast-purple #main-nav .navigation > .nav > li.active > a [class^="icon-"], .contrast-purple #main-nav .navigation > .nav > li.active > a [class*=" icon-"] {
+  color: #9564e2 !important;
+}
+/* line 153, ../../sass/theme-colors.scss */
+.contrast-purple #main-nav .navigation > .nav > li .nav > li.active > a [class^="icon-"], .contrast-purple #main-nav .navigation > .nav > li .nav > li.active > a [class*=" icon-"] {
+  color: #9564e2;
+}
+/* line 161, ../../sass/theme-colors.scss */
+.contrast-purple #main-nav .navigation > .nav > li .nav > li > a:hover [class^="icon-"], .contrast-purple #main-nav .navigation > .nav > li .nav > li > a:hover [class*=" icon-"], .contrast-purple #main-nav .navigation > .nav > li .nav > li > a:focus [class^="icon-"], .contrast-purple #main-nav .navigation > .nav > li .nav > li > a:focus [class*=" icon-"] {
+  color: #9564e2;
+}
+/* line 175, ../../sass/theme-colors.scss */
+.contrast-purple .box .box-header.contrast-background .actions .btn-link:hover {
+  color: #9564e2 !important;
+}
+/* line 179, ../../sass/theme-colors.scss */
+.contrast-purple.contrast-background, .contrast-purple .contrast-background {
+  background: #9564e2 !important;
+}
+/* line 180, ../../sass/theme-colors.scss */
+.contrast-purple .text-contrast, .contrast-purple .contrast {
+  color: #9564e2 !important;
+}
+/* line 181, ../../sass/theme-colors.scss */
+.contrast-purple .contrast-border {
+  border-color: #9564e2 !important;
+}
+/* line 185, ../../sass/theme-colors.scss */
+.contrast-purple .accordion.accordion-contrast .accordion-group {
+  border-color: #9564e2;
+  border-bottom-color: #d0baf2;
+}
+/* line 191, ../../sass/theme-colors.scss */
+.contrast-purple .accordion.accordion-contrast .accordion-heading .accordion-toggle {
+  color: #fff;
+  background-color: #9564e2;
+}
+/* line 202, ../../sass/theme-colors.scss */
+.contrast-purple .box-quick-link.contrast-background a:active .header {
+  background: #7839da;
+}
+/* line 208, ../../sass/theme-colors.scss */
+.contrast-purple .box-quick-link.contrast-background:hover .header {
+  background: #864fde;
+}
+/* line 217, ../../sass/theme-colors.scss */
+.contrast-purple .box-statistic.contrast-background .title, .contrast-purple .box-statistic.contrast-background small, .contrast-purple .box-statistic.contrast-background [class*="icon-"] {
+  color: #9564e2 !important;
+}
+/* line 226, ../../sass/theme-colors.scss */
+.contrast-purple .breadcrumb li:first-child > a:hover {
+  color: #9564e2 !important;
+}
+/* line 234, ../../sass/theme-colors.scss */
+.contrast-purple h1 [class^="icon-"] {
+  color: #9564e2;
+}
+/* line 241, ../../sass/theme-colors.scss */
+.contrast-purple .dropdown-menu > .active > a, .contrast-purple .dropdown-menu > .active > a:hover, .contrast-purple .dropdown-menu > .active > a:focus, .contrast-purple .dropdown-menu > li > a:hover, .contrast-purple .dropdown-menu > li > a:focus, .contrast-purple .dropdown-submenu:hover > a, .contrast-purple .dropdown-submenu:focus > a {
+  background-color: #9564e2 !important;
+}
+/* line 253, ../../sass/theme-colors.scss */
+.contrast-purple .box .box-header .actions .btn-link:hover {
+  color: #9564e2;
+}
+/* line 269, ../../sass/theme-colors.scss */
+.contrast-purple .fuelux .wizard ul li.active {
+  background-color: #9564e2;
+}
+/* line 281, ../../sass/theme-colors.scss */
+.contrast-purple .fc-event .fc-event-inner {
+  border-color: #9564e2;
+  background-color: #9564e2;
+}
+/* line 286, ../../sass/theme-colors.scss */
+.contrast-purple .contrast-caret {
+  border-top-color: #9564e2 !important;
+  border-bottom-color: #9564e2 !important;
+}
+/* line 288, ../../sass/theme-colors.scss */
+.contrast-purple .select2-results .select2-highlighted {
+  background: #9564e2;
+}
+/* line 293, ../../sass/theme-colors.scss */
+.contrast-purple .daterangepicker .ranges li.active, .contrast-purple .daterangepicker .ranges li:hover {
+  background: #9564e2;
+}
+/* line 297, ../../sass/theme-colors.scss */
+.contrast-purple .daterangepicker td.active, .contrast-purple .daterangepicker td.active:hover {
+  background: #9564e2;
+}
+/* line 302, ../../sass/theme-colors.scss */
+.contrast-purple .datepicker td span.active:hover, .contrast-purple .datepicker td span.active:hover:hover, .contrast-purple .datepicker td span.active.disabled:hover, .contrast-purple .datepicker td span.active.disabled:hover:hover, .contrast-purple .datepicker td span.active:active, .contrast-purple .datepicker td span.active:hover:active, .contrast-purple .datepicker td span.active.disabled:active, .contrast-purple .datepicker td span.active.disabled:hover:active, .contrast-purple .datepicker td span.active.active, .contrast-purple .datepicker td span.active:hover.active, .contrast-purple .datepicker td span.active.disabled.active, .contrast-purple .datepicker td span.active.disabled:hover.active, .contrast-purple .datepicker td span.active.disabled, .contrast-purple .datepicker td span.active:hover.disabled, .contrast-purple .datepicker td span.active.disabled.disabled, .contrast-purple .datepicker td span.active.disabled:hover.disabled, .contrast-purple .datepicker td span.active[disabled], .contrast-purple .datepicker td span.active:hover[disabled], .contrast-purple .datepicker td span.active.disabled[disabled], .contrast-purple .datepicker td span.active.disabled:hover[disabled], .contrast-purple .datepicker td.active:hover, .contrast-purple .datepicker td.active:hover:hover, .contrast-purple .datepicker td.active.disabled:hover, .contrast-purple .datepicker td.active.disabled:hover:hover, .contrast-purple .datepicker td.active:active, .contrast-purple .datepicker td.active:hover:active, .contrast-purple .datepicker td.active.disabled:active, .contrast-purple .datepicker td.active.disabled:hover:active, .contrast-purple .datepicker td.active.active, .contrast-purple .datepicker td.active:hover.active, .contrast-purple .datepicker td.active.disabled.active, .contrast-purple .datepicker td.active.disabled:hover.active, .contrast-purple .datepicker td.active.disabled, .contrast-purple .datepicker td.active:hover.disabled, .contrast-purple .datepicker td.active.disabled.disabled, .contrast-purple .datepicker td.active.disabled:hover.disabled, .contrast-purple .datepicker td.active[disabled], .contrast-purple .datepicker td.active:hover[disabled], .contrast-purple .datepicker td.active.disabled[disabled], .contrast-purple .datepicker td.active.disabled:hover[disabled] {
+  background: #9564e2;
+}
+/* line 306, ../../sass/theme-colors.scss */
+.contrast-purple .dropdown-menu > .active > a, .contrast-purple .dropdown-menu > .active > a:hover, .contrast-purple .dropdown-menu > .active > a:focus {
+  background: #9564e2;
+}
+/* line 310, ../../sass/theme-colors.scss */
+.contrast-purple .dd-handle:hover {
+  color: #9564e2;
+}
+/* line 314, ../../sass/theme-colors.scss */
+.contrast-purple .dd-placeholder {
+  border-color: #9564e2;
+}
+
+/* line 12, ../../sass/theme-colors.scss */
+.contrast-green header .navbar {
+  background-color: #49bf67;
+}
+/* line 15, ../../sass/theme-colors.scss */
+.contrast-green header .navbar .toggle-nav {
+  background-color: #49bf67;
+}
+/* line 18, ../../sass/theme-colors.scss */
+.contrast-green header .navbar .toggle-nav:active, .contrast-green header .navbar .toggle-nav.active, .contrast-green header .navbar .toggle-nav:hover {
+  background-color: #379e51;
+}
+/* line 24, ../../sass/theme-colors.scss */
+.contrast-green header .navbar .navbar-form button {
+  color: #49bf67;
+}
+/* line 27, ../../sass/theme-colors.scss */
+.contrast-green header .navbar .navbar-form button:hover {
+  color: #246534;
+}
+/* line 32, ../../sass/theme-colors.scss */
+.contrast-green header .navbar .navbar-form input {
+  border-color: #379e51;
+  color: #246534;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-green header .navbar .navbar-form input:-moz-placeholder {
+  color: #6fcc87;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-green header .navbar .navbar-form input:-ms-input-placeholder {
+  color: #6fcc87;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-green header .navbar .navbar-form input::-webkit-input-placeholder {
+  color: #6fcc87;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-green header .navbar .navbar-form input:hover:-moz-placeholder {
+  color: #94daa6;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-green header .navbar .navbar-form input:hover:-ms-input-placeholder {
+  color: #94daa6;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-green header .navbar .navbar-form input:hover::-webkit-input-placeholder {
+  color: #94daa6;
+}
+/* line 41, ../../sass/theme-colors.scss */
+.contrast-green header .navbar .navbar-form input:focus {
+  border-color: #2a783e;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-green header .navbar .navbar-form input:focus:-moz-placeholder {
+  color: #82d396;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-green header .navbar .navbar-form input:focus:-ms-input-placeholder {
+  color: #82d396;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-green header .navbar .navbar-form input:focus::-webkit-input-placeholder {
+  color: #82d396;
+}
+/* line 51, ../../sass/theme-colors.scss */
+.contrast-green header .navbar > .nav > li.light > a {
+  background: #379e51;
+}
+/* line 54, ../../sass/theme-colors.scss */
+.contrast-green header .navbar > .nav > li.light > a .label {
+  color: #379e51;
+}
+/* line 58, ../../sass/theme-colors.scss */
+.contrast-green header .navbar > .nav > li.light > a:hover, .contrast-green header .navbar > .nav > li.light > a:active, .contrast-green header .navbar > .nav > li.light > a:focus {
+  background-color: #2e8344;
+}
+/* line 65, ../../sass/theme-colors.scss */
+.contrast-green header .navbar > .nav > li.medium > a {
+  background: #2e8344;
+}
+/* line 68, ../../sass/theme-colors.scss */
+.contrast-green header .navbar > .nav > li.medium > a .label {
+  color: #2e8344;
+}
+/* line 73, ../../sass/theme-colors.scss */
+.contrast-green header .navbar > .nav > li.medium > a:hover > a, .contrast-green header .navbar > .nav > li.medium > a:active > a, .contrast-green header .navbar > .nav > li.medium > a:focus > a {
+  background-color: #2a783e;
+}
+/* line 81, ../../sass/theme-colors.scss */
+.contrast-green header .navbar > .nav > li.dark > a {
+  background: #27703a;
+}
+/* line 84, ../../sass/theme-colors.scss */
+.contrast-green header .navbar > .nav > li.dark > a .label {
+  color: #27703a;
+}
+/* line 89, ../../sass/theme-colors.scss */
+.contrast-green header .navbar > .nav > li.dark > a:hover > a, .contrast-green header .navbar > .nav > li.dark > a:active > a, .contrast-green header .navbar > .nav > li.dark > a:focus > a {
+  background-color: #246534;
+}
+/* line 98, ../../sass/theme-colors.scss */
+.contrast-green header .navbar .widget .dropdown-menu > li.widget-footer a:hover {
+  background-color: #49bf67;
+}
+/* line 106, ../../sass/theme-colors.scss */
+.contrast-green header .navbar .nav li .label {
+  color: #49bf67;
+}
+/* line 113, ../../sass/theme-colors.scss */
+.contrast-green .nav .caret, .contrast-green .nav a:hover .caret {
+  border-top-color: #49bf67;
+  border-bottom-color: #49bf67;
+}
+/* line 118, ../../sass/theme-colors.scss */
+.contrast-green code {
+  background-color: #e3f1ea;
+  color: #58c474;
+}
+/* line 134, ../../sass/theme-colors.scss */
+.contrast-green #main-nav .navigation > .nav > li > a.in [class^="icon-"], .contrast-green #main-nav .navigation > .nav > li > a.in [class*=" icon-"] {
+  color: #49bf67;
+}
+/* line 143, ../../sass/theme-colors.scss */
+.contrast-green #main-nav .navigation > .nav > li:hover > a [class^="icon-"], .contrast-green #main-nav .navigation > .nav > li:hover > a [class*=" icon-"], .contrast-green #main-nav .navigation > .nav > li:focus > a [class^="icon-"], .contrast-green #main-nav .navigation > .nav > li:focus > a [class*=" icon-"], .contrast-green #main-nav .navigation > .nav > li.active > a [class^="icon-"], .contrast-green #main-nav .navigation > .nav > li.active > a [class*=" icon-"] {
+  color: #49bf67 !important;
+}
+/* line 153, ../../sass/theme-colors.scss */
+.contrast-green #main-nav .navigation > .nav > li .nav > li.active > a [class^="icon-"], .contrast-green #main-nav .navigation > .nav > li .nav > li.active > a [class*=" icon-"] {
+  color: #49bf67;
+}
+/* line 161, ../../sass/theme-colors.scss */
+.contrast-green #main-nav .navigation > .nav > li .nav > li > a:hover [class^="icon-"], .contrast-green #main-nav .navigation > .nav > li .nav > li > a:hover [class*=" icon-"], .contrast-green #main-nav .navigation > .nav > li .nav > li > a:focus [class^="icon-"], .contrast-green #main-nav .navigation > .nav > li .nav > li > a:focus [class*=" icon-"] {
+  color: #49bf67;
+}
+/* line 175, ../../sass/theme-colors.scss */
+.contrast-green .box .box-header.contrast-background .actions .btn-link:hover {
+  color: #49bf67 !important;
+}
+/* line 179, ../../sass/theme-colors.scss */
+.contrast-green.contrast-background, .contrast-green .contrast-background {
+  background: #49bf67 !important;
+}
+/* line 180, ../../sass/theme-colors.scss */
+.contrast-green .text-contrast, .contrast-green .contrast {
+  color: #49bf67 !important;
+}
+/* line 181, ../../sass/theme-colors.scss */
+.contrast-green .contrast-border {
+  border-color: #49bf67 !important;
+}
+/* line 185, ../../sass/theme-colors.scss */
+.contrast-green .accordion.accordion-contrast .accordion-group {
+  border-color: #49bf67;
+  border-bottom-color: #94daa6;
+}
+/* line 191, ../../sass/theme-colors.scss */
+.contrast-green .accordion.accordion-contrast .accordion-heading .accordion-toggle {
+  color: #fff;
+  background-color: #49bf67;
+}
+/* line 202, ../../sass/theme-colors.scss */
+.contrast-green .box-quick-link.contrast-background a:active .header {
+  background: #379e51;
+}
+/* line 208, ../../sass/theme-colors.scss */
+.contrast-green .box-quick-link.contrast-background:hover .header {
+  background: #3eb05b;
+}
+/* line 217, ../../sass/theme-colors.scss */
+.contrast-green .box-statistic.contrast-background .title, .contrast-green .box-statistic.contrast-background small, .contrast-green .box-statistic.contrast-background [class*="icon-"] {
+  color: #49bf67 !important;
+}
+/* line 226, ../../sass/theme-colors.scss */
+.contrast-green .breadcrumb li:first-child > a:hover {
+  color: #49bf67 !important;
+}
+/* line 234, ../../sass/theme-colors.scss */
+.contrast-green h1 [class^="icon-"] {
+  color: #49bf67;
+}
+/* line 241, ../../sass/theme-colors.scss */
+.contrast-green .dropdown-menu > .active > a, .contrast-green .dropdown-menu > .active > a:hover, .contrast-green .dropdown-menu > .active > a:focus, .contrast-green .dropdown-menu > li > a:hover, .contrast-green .dropdown-menu > li > a:focus, .contrast-green .dropdown-submenu:hover > a, .contrast-green .dropdown-submenu:focus > a {
+  background-color: #49bf67 !important;
+}
+/* line 253, ../../sass/theme-colors.scss */
+.contrast-green .box .box-header .actions .btn-link:hover {
+  color: #49bf67;
+}
+/* line 269, ../../sass/theme-colors.scss */
+.contrast-green .fuelux .wizard ul li.active {
+  background-color: #49bf67;
+}
+/* line 281, ../../sass/theme-colors.scss */
+.contrast-green .fc-event .fc-event-inner {
+  border-color: #49bf67;
+  background-color: #49bf67;
+}
+/* line 286, ../../sass/theme-colors.scss */
+.contrast-green .contrast-caret {
+  border-top-color: #49bf67 !important;
+  border-bottom-color: #49bf67 !important;
+}
+/* line 288, ../../sass/theme-colors.scss */
+.contrast-green .select2-results .select2-highlighted {
+  background: #49bf67;
+}
+/* line 293, ../../sass/theme-colors.scss */
+.contrast-green .daterangepicker .ranges li.active, .contrast-green .daterangepicker .ranges li:hover {
+  background: #49bf67;
+}
+/* line 297, ../../sass/theme-colors.scss */
+.contrast-green .daterangepicker td.active, .contrast-green .daterangepicker td.active:hover {
+  background: #49bf67;
+}
+/* line 302, ../../sass/theme-colors.scss */
+.contrast-green .datepicker td span.active:hover, .contrast-green .datepicker td span.active:hover:hover, .contrast-green .datepicker td span.active.disabled:hover, .contrast-green .datepicker td span.active.disabled:hover:hover, .contrast-green .datepicker td span.active:active, .contrast-green .datepicker td span.active:hover:active, .contrast-green .datepicker td span.active.disabled:active, .contrast-green .datepicker td span.active.disabled:hover:active, .contrast-green .datepicker td span.active.active, .contrast-green .datepicker td span.active:hover.active, .contrast-green .datepicker td span.active.disabled.active, .contrast-green .datepicker td span.active.disabled:hover.active, .contrast-green .datepicker td span.active.disabled, .contrast-green .datepicker td span.active:hover.disabled, .contrast-green .datepicker td span.active.disabled.disabled, .contrast-green .datepicker td span.active.disabled:hover.disabled, .contrast-green .datepicker td span.active[disabled], .contrast-green .datepicker td span.active:hover[disabled], .contrast-green .datepicker td span.active.disabled[disabled], .contrast-green .datepicker td span.active.disabled:hover[disabled], .contrast-green .datepicker td.active:hover, .contrast-green .datepicker td.active:hover:hover, .contrast-green .datepicker td.active.disabled:hover, .contrast-green .datepicker td.active.disabled:hover:hover, .contrast-green .datepicker td.active:active, .contrast-green .datepicker td.active:hover:active, .contrast-green .datepicker td.active.disabled:active, .contrast-green .datepicker td.active.disabled:hover:active, .contrast-green .datepicker td.active.active, .contrast-green .datepicker td.active:hover.active, .contrast-green .datepicker td.active.disabled.active, .contrast-green .datepicker td.active.disabled:hover.active, .contrast-green .datepicker td.active.disabled, .contrast-green .datepicker td.active:hover.disabled, .contrast-green .datepicker td.active.disabled.disabled, .contrast-green .datepicker td.active.disabled:hover.disabled, .contrast-green .datepicker td.active[disabled], .contrast-green .datepicker td.active:hover[disabled], .contrast-green .datepicker td.active.disabled[disabled], .contrast-green .datepicker td.active.disabled:hover[disabled] {
+  background: #49bf67;
+}
+/* line 306, ../../sass/theme-colors.scss */
+.contrast-green .dropdown-menu > .active > a, .contrast-green .dropdown-menu > .active > a:hover, .contrast-green .dropdown-menu > .active > a:focus {
+  background: #49bf67;
+}
+/* line 310, ../../sass/theme-colors.scss */
+.contrast-green .dd-handle:hover {
+  color: #49bf67;
+}
+/* line 314, ../../sass/theme-colors.scss */
+.contrast-green .dd-placeholder {
+  border-color: #49bf67;
+}
+
+/* line 12, ../../sass/theme-colors.scss */
+.contrast-fb header .navbar {
+  background-color: #3d579d;
+}
+/* line 15, ../../sass/theme-colors.scss */
+.contrast-fb header .navbar .toggle-nav {
+  background-color: #3d579d;
+}
+/* line 18, ../../sass/theme-colors.scss */
+.contrast-fb header .navbar .toggle-nav:active, .contrast-fb header .navbar .toggle-nav.active, .contrast-fb header .navbar .toggle-nav:hover {
+  background-color: #2f4378;
+}
+/* line 24, ../../sass/theme-colors.scss */
+.contrast-fb header .navbar .navbar-form button {
+  color: #3d579d;
+}
+/* line 27, ../../sass/theme-colors.scss */
+.contrast-fb header .navbar .navbar-form button:hover {
+  color: #192441;
+}
+/* line 32, ../../sass/theme-colors.scss */
+.contrast-fb header .navbar .navbar-form input {
+  border-color: #2f4378;
+  color: #192441;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-fb header .navbar .navbar-form input:-moz-placeholder {
+  color: #516ebc;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-fb header .navbar .navbar-form input:-ms-input-placeholder {
+  color: #516ebc;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-fb header .navbar .navbar-form input::-webkit-input-placeholder {
+  color: #516ebc;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-fb header .navbar .navbar-form input:hover:-moz-placeholder {
+  color: #768dca;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-fb header .navbar .navbar-form input:hover:-ms-input-placeholder {
+  color: #768dca;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-fb header .navbar .navbar-form input:hover::-webkit-input-placeholder {
+  color: #768dca;
+}
+/* line 41, ../../sass/theme-colors.scss */
+.contrast-fb header .navbar .navbar-form input:focus {
+  border-color: #202e54;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-fb header .navbar .navbar-form input:focus:-moz-placeholder {
+  color: #647ec3;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-fb header .navbar .navbar-form input:focus:-ms-input-placeholder {
+  color: #647ec3;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-fb header .navbar .navbar-form input:focus::-webkit-input-placeholder {
+  color: #647ec3;
+}
+/* line 51, ../../sass/theme-colors.scss */
+.contrast-fb header .navbar > .nav > li.light > a {
+  background: #2f4378;
+}
+/* line 54, ../../sass/theme-colors.scss */
+.contrast-fb header .navbar > .nav > li.light > a .label {
+  color: #2f4378;
+}
+/* line 58, ../../sass/theme-colors.scss */
+.contrast-fb header .navbar > .nav > li.light > a:hover, .contrast-fb header .navbar > .nav > li.light > a:active, .contrast-fb header .navbar > .nav > li.light > a:focus {
+  background-color: #25345f;
+}
+/* line 65, ../../sass/theme-colors.scss */
+.contrast-fb header .navbar > .nav > li.medium > a {
+  background: #25345f;
+}
+/* line 68, ../../sass/theme-colors.scss */
+.contrast-fb header .navbar > .nav > li.medium > a .label {
+  color: #25345f;
+}
+/* line 73, ../../sass/theme-colors.scss */
+.contrast-fb header .navbar > .nav > li.medium > a:hover > a, .contrast-fb header .navbar > .nav > li.medium > a:active > a, .contrast-fb header .navbar > .nav > li.medium > a:focus > a {
+  background-color: #202e54;
+}
+/* line 81, ../../sass/theme-colors.scss */
+.contrast-fb header .navbar > .nav > li.dark > a {
+  background: #1e2a4c;
+}
+/* line 84, ../../sass/theme-colors.scss */
+.contrast-fb header .navbar > .nav > li.dark > a .label {
+  color: #1e2a4c;
+}
+/* line 89, ../../sass/theme-colors.scss */
+.contrast-fb header .navbar > .nav > li.dark > a:hover > a, .contrast-fb header .navbar > .nav > li.dark > a:active > a, .contrast-fb header .navbar > .nav > li.dark > a:focus > a {
+  background-color: #192441;
+}
+/* line 98, ../../sass/theme-colors.scss */
+.contrast-fb header .navbar .widget .dropdown-menu > li.widget-footer a:hover {
+  background-color: #3d579d;
+}
+/* line 106, ../../sass/theme-colors.scss */
+.contrast-fb header .navbar .nav li .label {
+  color: #3d579d;
+}
+/* line 113, ../../sass/theme-colors.scss */
+.contrast-fb .nav .caret, .contrast-fb .nav a:hover .caret {
+  border-top-color: #3d579d;
+  border-bottom-color: #3d579d;
+}
+/* line 118, ../../sass/theme-colors.scss */
+.contrast-fb code {
+  background-color: #e2e7f0;
+  color: #4e65a5;
+}
+/* line 134, ../../sass/theme-colors.scss */
+.contrast-fb #main-nav .navigation > .nav > li > a.in [class^="icon-"], .contrast-fb #main-nav .navigation > .nav > li > a.in [class*=" icon-"] {
+  color: #3d579d;
+}
+/* line 143, ../../sass/theme-colors.scss */
+.contrast-fb #main-nav .navigation > .nav > li:hover > a [class^="icon-"], .contrast-fb #main-nav .navigation > .nav > li:hover > a [class*=" icon-"], .contrast-fb #main-nav .navigation > .nav > li:focus > a [class^="icon-"], .contrast-fb #main-nav .navigation > .nav > li:focus > a [class*=" icon-"], .contrast-fb #main-nav .navigation > .nav > li.active > a [class^="icon-"], .contrast-fb #main-nav .navigation > .nav > li.active > a [class*=" icon-"] {
+  color: #3d579d !important;
+}
+/* line 153, ../../sass/theme-colors.scss */
+.contrast-fb #main-nav .navigation > .nav > li .nav > li.active > a [class^="icon-"], .contrast-fb #main-nav .navigation > .nav > li .nav > li.active > a [class*=" icon-"] {
+  color: #3d579d;
+}
+/* line 161, ../../sass/theme-colors.scss */
+.contrast-fb #main-nav .navigation > .nav > li .nav > li > a:hover [class^="icon-"], .contrast-fb #main-nav .navigation > .nav > li .nav > li > a:hover [class*=" icon-"], .contrast-fb #main-nav .navigation > .nav > li .nav > li > a:focus [class^="icon-"], .contrast-fb #main-nav .navigation > .nav > li .nav > li > a:focus [class*=" icon-"] {
+  color: #3d579d;
+}
+/* line 175, ../../sass/theme-colors.scss */
+.contrast-fb .box .box-header.contrast-background .actions .btn-link:hover {
+  color: #3d579d !important;
+}
+/* line 179, ../../sass/theme-colors.scss */
+.contrast-fb.contrast-background, .contrast-fb .contrast-background {
+  background: #3d579d !important;
+}
+/* line 180, ../../sass/theme-colors.scss */
+.contrast-fb .text-contrast, .contrast-fb .contrast {
+  color: #3d579d !important;
+}
+/* line 181, ../../sass/theme-colors.scss */
+.contrast-fb .contrast-border {
+  border-color: #3d579d !important;
+}
+/* line 185, ../../sass/theme-colors.scss */
+.contrast-fb .accordion.accordion-contrast .accordion-group {
+  border-color: #3d579d;
+  border-bottom-color: #768dca;
+}
+/* line 191, ../../sass/theme-colors.scss */
+.contrast-fb .accordion.accordion-contrast .accordion-heading .accordion-toggle {
+  color: #fff;
+  background-color: #3d579d;
+}
+/* line 202, ../../sass/theme-colors.scss */
+.contrast-fb .box-quick-link.contrast-background a:active .header {
+  background: #2f4378;
+}
+/* line 208, ../../sass/theme-colors.scss */
+.contrast-fb .box-quick-link.contrast-background:hover .header {
+  background: #364d8b;
+}
+/* line 217, ../../sass/theme-colors.scss */
+.contrast-fb .box-statistic.contrast-background .title, .contrast-fb .box-statistic.contrast-background small, .contrast-fb .box-statistic.contrast-background [class*="icon-"] {
+  color: #3d579d !important;
+}
+/* line 226, ../../sass/theme-colors.scss */
+.contrast-fb .breadcrumb li:first-child > a:hover {
+  color: #3d579d !important;
+}
+/* line 234, ../../sass/theme-colors.scss */
+.contrast-fb h1 [class^="icon-"] {
+  color: #3d579d;
+}
+/* line 241, ../../sass/theme-colors.scss */
+.contrast-fb .dropdown-menu > .active > a, .contrast-fb .dropdown-menu > .active > a:hover, .contrast-fb .dropdown-menu > .active > a:focus, .contrast-fb .dropdown-menu > li > a:hover, .contrast-fb .dropdown-menu > li > a:focus, .contrast-fb .dropdown-submenu:hover > a, .contrast-fb .dropdown-submenu:focus > a {
+  background-color: #3d579d !important;
+}
+/* line 253, ../../sass/theme-colors.scss */
+.contrast-fb .box .box-header .actions .btn-link:hover {
+  color: #3d579d;
+}
+/* line 269, ../../sass/theme-colors.scss */
+.contrast-fb .fuelux .wizard ul li.active {
+  background-color: #3d579d;
+}
+/* line 281, ../../sass/theme-colors.scss */
+.contrast-fb .fc-event .fc-event-inner {
+  border-color: #3d579d;
+  background-color: #3d579d;
+}
+/* line 286, ../../sass/theme-colors.scss */
+.contrast-fb .contrast-caret {
+  border-top-color: #3d579d !important;
+  border-bottom-color: #3d579d !important;
+}
+/* line 288, ../../sass/theme-colors.scss */
+.contrast-fb .select2-results .select2-highlighted {
+  background: #3d579d;
+}
+/* line 293, ../../sass/theme-colors.scss */
+.contrast-fb .daterangepicker .ranges li.active, .contrast-fb .daterangepicker .ranges li:hover {
+  background: #3d579d;
+}
+/* line 297, ../../sass/theme-colors.scss */
+.contrast-fb .daterangepicker td.active, .contrast-fb .daterangepicker td.active:hover {
+  background: #3d579d;
+}
+/* line 302, ../../sass/theme-colors.scss */
+.contrast-fb .datepicker td span.active:hover, .contrast-fb .datepicker td span.active:hover:hover, .contrast-fb .datepicker td span.active.disabled:hover, .contrast-fb .datepicker td span.active.disabled:hover:hover, .contrast-fb .datepicker td span.active:active, .contrast-fb .datepicker td span.active:hover:active, .contrast-fb .datepicker td span.active.disabled:active, .contrast-fb .datepicker td span.active.disabled:hover:active, .contrast-fb .datepicker td span.active.active, .contrast-fb .datepicker td span.active:hover.active, .contrast-fb .datepicker td span.active.disabled.active, .contrast-fb .datepicker td span.active.disabled:hover.active, .contrast-fb .datepicker td span.active.disabled, .contrast-fb .datepicker td span.active:hover.disabled, .contrast-fb .datepicker td span.active.disabled.disabled, .contrast-fb .datepicker td span.active.disabled:hover.disabled, .contrast-fb .datepicker td span.active[disabled], .contrast-fb .datepicker td span.active:hover[disabled], .contrast-fb .datepicker td span.active.disabled[disabled], .contrast-fb .datepicker td span.active.disabled:hover[disabled], .contrast-fb .datepicker td.active:hover, .contrast-fb .datepicker td.active:hover:hover, .contrast-fb .datepicker td.active.disabled:hover, .contrast-fb .datepicker td.active.disabled:hover:hover, .contrast-fb .datepicker td.active:active, .contrast-fb .datepicker td.active:hover:active, .contrast-fb .datepicker td.active.disabled:active, .contrast-fb .datepicker td.active.disabled:hover:active, .contrast-fb .datepicker td.active.active, .contrast-fb .datepicker td.active:hover.active, .contrast-fb .datepicker td.active.disabled.active, .contrast-fb .datepicker td.active.disabled:hover.active, .contrast-fb .datepicker td.active.disabled, .contrast-fb .datepicker td.active:hover.disabled, .contrast-fb .datepicker td.active.disabled.disabled, .contrast-fb .datepicker td.active.disabled:hover.disabled, .contrast-fb .datepicker td.active[disabled], .contrast-fb .datepicker td.active:hover[disabled], .contrast-fb .datepicker td.active.disabled[disabled], .contrast-fb .datepicker td.active.disabled:hover[disabled] {
+  background: #3d579d;
+}
+/* line 306, ../../sass/theme-colors.scss */
+.contrast-fb .dropdown-menu > .active > a, .contrast-fb .dropdown-menu > .active > a:hover, .contrast-fb .dropdown-menu > .active > a:focus {
+  background: #3d579d;
+}
+/* line 310, ../../sass/theme-colors.scss */
+.contrast-fb .dd-handle:hover {
+  color: #3d579d;
+}
+/* line 314, ../../sass/theme-colors.scss */
+.contrast-fb .dd-placeholder {
+  border-color: #3d579d;
+}
+
+/* line 12, ../../sass/theme-colors.scss */
+.contrast-muted header .navbar {
+  background-color: #999999;
+}
+/* line 15, ../../sass/theme-colors.scss */
+.contrast-muted header .navbar .toggle-nav {
+  background-color: #999999;
+}
+/* line 18, ../../sass/theme-colors.scss */
+.contrast-muted header .navbar .toggle-nav:active, .contrast-muted header .navbar .toggle-nav.active, .contrast-muted header .navbar .toggle-nav:hover {
+  background-color: gray;
+}
+/* line 24, ../../sass/theme-colors.scss */
+.contrast-muted header .navbar .navbar-form button {
+  color: #999999;
+}
+/* line 27, ../../sass/theme-colors.scss */
+.contrast-muted header .navbar .navbar-form button:hover {
+  color: #595959;
+}
+/* line 32, ../../sass/theme-colors.scss */
+.contrast-muted header .navbar .navbar-form input {
+  border-color: gray;
+  color: #595959;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-muted header .navbar .navbar-form input:-moz-placeholder {
+  color: #b3b3b3;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-muted header .navbar .navbar-form input:-ms-input-placeholder {
+  color: #b3b3b3;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-muted header .navbar .navbar-form input::-webkit-input-placeholder {
+  color: #b3b3b3;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-muted header .navbar .navbar-form input:hover:-moz-placeholder {
+  color: #cccccc;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-muted header .navbar .navbar-form input:hover:-ms-input-placeholder {
+  color: #cccccc;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-muted header .navbar .navbar-form input:hover::-webkit-input-placeholder {
+  color: #cccccc;
+}
+/* line 41, ../../sass/theme-colors.scss */
+.contrast-muted header .navbar .navbar-form input:focus {
+  border-color: #666666;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-muted header .navbar .navbar-form input:focus:-moz-placeholder {
+  color: #bfbfbf;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-muted header .navbar .navbar-form input:focus:-ms-input-placeholder {
+  color: #bfbfbf;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-muted header .navbar .navbar-form input:focus::-webkit-input-placeholder {
+  color: #bfbfbf;
+}
+/* line 51, ../../sass/theme-colors.scss */
+.contrast-muted header .navbar > .nav > li.light > a {
+  background: gray;
+}
+/* line 54, ../../sass/theme-colors.scss */
+.contrast-muted header .navbar > .nav > li.light > a .label {
+  color: gray;
+}
+/* line 58, ../../sass/theme-colors.scss */
+.contrast-muted header .navbar > .nav > li.light > a:hover, .contrast-muted header .navbar > .nav > li.light > a:active, .contrast-muted header .navbar > .nav > li.light > a:focus {
+  background-color: #6e6e6e;
+}
+/* line 65, ../../sass/theme-colors.scss */
+.contrast-muted header .navbar > .nav > li.medium > a {
+  background: #6e6e6e;
+}
+/* line 68, ../../sass/theme-colors.scss */
+.contrast-muted header .navbar > .nav > li.medium > a .label {
+  color: #6e6e6e;
+}
+/* line 73, ../../sass/theme-colors.scss */
+.contrast-muted header .navbar > .nav > li.medium > a:hover > a, .contrast-muted header .navbar > .nav > li.medium > a:active > a, .contrast-muted header .navbar > .nav > li.medium > a:focus > a {
+  background-color: #666666;
+}
+/* line 81, ../../sass/theme-colors.scss */
+.contrast-muted header .navbar > .nav > li.dark > a {
+  background: #616161;
+}
+/* line 84, ../../sass/theme-colors.scss */
+.contrast-muted header .navbar > .nav > li.dark > a .label {
+  color: #616161;
+}
+/* line 89, ../../sass/theme-colors.scss */
+.contrast-muted header .navbar > .nav > li.dark > a:hover > a, .contrast-muted header .navbar > .nav > li.dark > a:active > a, .contrast-muted header .navbar > .nav > li.dark > a:focus > a {
+  background-color: #595959;
+}
+/* line 98, ../../sass/theme-colors.scss */
+.contrast-muted header .navbar .widget .dropdown-menu > li.widget-footer a:hover {
+  background-color: #999999;
+}
+/* line 106, ../../sass/theme-colors.scss */
+.contrast-muted header .navbar .nav li .label {
+  color: #999999;
+}
+/* line 113, ../../sass/theme-colors.scss */
+.contrast-muted .nav .caret, .contrast-muted .nav a:hover .caret {
+  border-top-color: #999999;
+  border-bottom-color: #999999;
+}
+/* line 118, ../../sass/theme-colors.scss */
+.contrast-muted code {
+  background-color: #ebeeef;
+  color: #a1a2a2;
+}
+/* line 134, ../../sass/theme-colors.scss */
+.contrast-muted #main-nav .navigation > .nav > li > a.in [class^="icon-"], .contrast-muted #main-nav .navigation > .nav > li > a.in [class*=" icon-"] {
+  color: #999999;
+}
+/* line 143, ../../sass/theme-colors.scss */
+.contrast-muted #main-nav .navigation > .nav > li:hover > a [class^="icon-"], .contrast-muted #main-nav .navigation > .nav > li:hover > a [class*=" icon-"], .contrast-muted #main-nav .navigation > .nav > li:focus > a [class^="icon-"], .contrast-muted #main-nav .navigation > .nav > li:focus > a [class*=" icon-"], .contrast-muted #main-nav .navigation > .nav > li.active > a [class^="icon-"], .contrast-muted #main-nav .navigation > .nav > li.active > a [class*=" icon-"] {
+  color: #999999 !important;
+}
+/* line 153, ../../sass/theme-colors.scss */
+.contrast-muted #main-nav .navigation > .nav > li .nav > li.active > a [class^="icon-"], .contrast-muted #main-nav .navigation > .nav > li .nav > li.active > a [class*=" icon-"] {
+  color: #999999;
+}
+/* line 161, ../../sass/theme-colors.scss */
+.contrast-muted #main-nav .navigation > .nav > li .nav > li > a:hover [class^="icon-"], .contrast-muted #main-nav .navigation > .nav > li .nav > li > a:hover [class*=" icon-"], .contrast-muted #main-nav .navigation > .nav > li .nav > li > a:focus [class^="icon-"], .contrast-muted #main-nav .navigation > .nav > li .nav > li > a:focus [class*=" icon-"] {
+  color: #999999;
+}
+/* line 175, ../../sass/theme-colors.scss */
+.contrast-muted .box .box-header.contrast-background .actions .btn-link:hover {
+  color: #999999 !important;
+}
+/* line 179, ../../sass/theme-colors.scss */
+.contrast-muted.contrast-background, .contrast-muted .contrast-background {
+  background: #999999 !important;
+}
+/* line 180, ../../sass/theme-colors.scss */
+.contrast-muted .text-contrast, .contrast-muted .contrast {
+  color: #999999 !important;
+}
+/* line 181, ../../sass/theme-colors.scss */
+.contrast-muted .contrast-border {
+  border-color: #999999 !important;
+}
+/* line 185, ../../sass/theme-colors.scss */
+.contrast-muted .accordion.accordion-contrast .accordion-group {
+  border-color: #999999;
+  border-bottom-color: #cccccc;
+}
+/* line 191, ../../sass/theme-colors.scss */
+.contrast-muted .accordion.accordion-contrast .accordion-heading .accordion-toggle {
+  color: #fff;
+  background-color: #999999;
+}
+/* line 202, ../../sass/theme-colors.scss */
+.contrast-muted .box-quick-link.contrast-background a:active .header {
+  background: gray;
+}
+/* line 208, ../../sass/theme-colors.scss */
+.contrast-muted .box-quick-link.contrast-background:hover .header {
+  background: #8c8c8c;
+}
+/* line 217, ../../sass/theme-colors.scss */
+.contrast-muted .box-statistic.contrast-background .title, .contrast-muted .box-statistic.contrast-background small, .contrast-muted .box-statistic.contrast-background [class*="icon-"] {
+  color: #999999 !important;
+}
+/* line 226, ../../sass/theme-colors.scss */
+.contrast-muted .breadcrumb li:first-child > a:hover {
+  color: #999999 !important;
+}
+/* line 234, ../../sass/theme-colors.scss */
+.contrast-muted h1 [class^="icon-"] {
+  color: #999999;
+}
+/* line 241, ../../sass/theme-colors.scss */
+.contrast-muted .dropdown-menu > .active > a, .contrast-muted .dropdown-menu > .active > a:hover, .contrast-muted .dropdown-menu > .active > a:focus, .contrast-muted .dropdown-menu > li > a:hover, .contrast-muted .dropdown-menu > li > a:focus, .contrast-muted .dropdown-submenu:hover > a, .contrast-muted .dropdown-submenu:focus > a {
+  background-color: #999999 !important;
+}
+/* line 253, ../../sass/theme-colors.scss */
+.contrast-muted .box .box-header .actions .btn-link:hover {
+  color: #999999;
+}
+/* line 269, ../../sass/theme-colors.scss */
+.contrast-muted .fuelux .wizard ul li.active {
+  background-color: #999999;
+}
+/* line 281, ../../sass/theme-colors.scss */
+.contrast-muted .fc-event .fc-event-inner {
+  border-color: #999999;
+  background-color: #999999;
+}
+/* line 286, ../../sass/theme-colors.scss */
+.contrast-muted .contrast-caret {
+  border-top-color: #999999 !important;
+  border-bottom-color: #999999 !important;
+}
+/* line 288, ../../sass/theme-colors.scss */
+.contrast-muted .select2-results .select2-highlighted {
+  background: #999999;
+}
+/* line 293, ../../sass/theme-colors.scss */
+.contrast-muted .daterangepicker .ranges li.active, .contrast-muted .daterangepicker .ranges li:hover {
+  background: #999999;
+}
+/* line 297, ../../sass/theme-colors.scss */
+.contrast-muted .daterangepicker td.active, .contrast-muted .daterangepicker td.active:hover {
+  background: #999999;
+}
+/* line 302, ../../sass/theme-colors.scss */
+.contrast-muted .datepicker td span.active:hover, .contrast-muted .datepicker td span.active:hover:hover, .contrast-muted .datepicker td span.active.disabled:hover, .contrast-muted .datepicker td span.active.disabled:hover:hover, .contrast-muted .datepicker td span.active:active, .contrast-muted .datepicker td span.active:hover:active, .contrast-muted .datepicker td span.active.disabled:active, .contrast-muted .datepicker td span.active.disabled:hover:active, .contrast-muted .datepicker td span.active.active, .contrast-muted .datepicker td span.active:hover.active, .contrast-muted .datepicker td span.active.disabled.active, .contrast-muted .datepicker td span.active.disabled:hover.active, .contrast-muted .datepicker td span.active.disabled, .contrast-muted .datepicker td span.active:hover.disabled, .contrast-muted .datepicker td span.active.disabled.disabled, .contrast-muted .datepicker td span.active.disabled:hover.disabled, .contrast-muted .datepicker td span.active[disabled], .contrast-muted .datepicker td span.active:hover[disabled], .contrast-muted .datepicker td span.active.disabled[disabled], .contrast-muted .datepicker td span.active.disabled:hover[disabled], .contrast-muted .datepicker td.active:hover, .contrast-muted .datepicker td.active:hover:hover, .contrast-muted .datepicker td.active.disabled:hover, .contrast-muted .datepicker td.active.disabled:hover:hover, .contrast-muted .datepicker td.active:active, .contrast-muted .datepicker td.active:hover:active, .contrast-muted .datepicker td.active.disabled:active, .contrast-muted .datepicker td.active.disabled:hover:active, .contrast-muted .datepicker td.active.active, .contrast-muted .datepicker td.active:hover.active, .contrast-muted .datepicker td.active.disabled.active, .contrast-muted .datepicker td.active.disabled:hover.active, .contrast-muted .datepicker td.active.disabled, .contrast-muted .datepicker td.active:hover.disabled, .contrast-muted .datepicker td.active.disabled.disabled, .contrast-muted .datepicker td.active.disabled:hover.disabled, .contrast-muted .datepicker td.active[disabled], .contrast-muted .datepicker td.active:hover[disabled], .contrast-muted .datepicker td.active.disabled[disabled], .contrast-muted .datepicker td.active.disabled:hover[disabled] {
+  background: #999999;
+}
+/* line 306, ../../sass/theme-colors.scss */
+.contrast-muted .dropdown-menu > .active > a, .contrast-muted .dropdown-menu > .active > a:hover, .contrast-muted .dropdown-menu > .active > a:focus {
+  background: #999999;
+}
+/* line 310, ../../sass/theme-colors.scss */
+.contrast-muted .dd-handle:hover {
+  color: #999999;
+}
+/* line 314, ../../sass/theme-colors.scss */
+.contrast-muted .dd-placeholder {
+  border-color: #999999;
+}
+
+/* line 12, ../../sass/theme-colors.scss */
+.contrast-dark header .navbar {
+  background-color: #2b2d30;
+}
+/* line 15, ../../sass/theme-colors.scss */
+.contrast-dark header .navbar .toggle-nav {
+  background-color: #2b2d30;
+}
+/* line 18, ../../sass/theme-colors.scss */
+.contrast-dark header .navbar .toggle-nav:active, .contrast-dark header .navbar .toggle-nav.active, .contrast-dark header .navbar .toggle-nav:hover {
+  background-color: #131415;
+}
+/* line 24, ../../sass/theme-colors.scss */
+.contrast-dark header .navbar .navbar-form button {
+  color: #2b2d30;
+}
+/* line 27, ../../sass/theme-colors.scss */
+.contrast-dark header .navbar .navbar-form button:hover {
+  color: black;
+}
+/* line 32, ../../sass/theme-colors.scss */
+.contrast-dark header .navbar .navbar-form input {
+  border-color: #131415;
+  color: black;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-dark header .navbar .navbar-form input:-moz-placeholder {
+  color: #43464b;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-dark header .navbar .navbar-form input:-ms-input-placeholder {
+  color: #43464b;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-dark header .navbar .navbar-form input::-webkit-input-placeholder {
+  color: #43464b;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-dark header .navbar .navbar-form input:hover:-moz-placeholder {
+  color: #5b5f66;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-dark header .navbar .navbar-form input:hover:-ms-input-placeholder {
+  color: #5b5f66;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-dark header .navbar .navbar-form input:hover::-webkit-input-placeholder {
+  color: #5b5f66;
+}
+/* line 41, ../../sass/theme-colors.scss */
+.contrast-dark header .navbar .navbar-form input:focus {
+  border-color: black;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-dark header .navbar .navbar-form input:focus:-moz-placeholder {
+  color: #4f5358;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-dark header .navbar .navbar-form input:focus:-ms-input-placeholder {
+  color: #4f5358;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-dark header .navbar .navbar-form input:focus::-webkit-input-placeholder {
+  color: #4f5358;
+}
+/* line 51, ../../sass/theme-colors.scss */
+.contrast-dark header .navbar > .nav > li.light > a {
+  background: #070708;
+}
+/* line 54, ../../sass/theme-colors.scss */
+.contrast-dark header .navbar > .nav > li.light > a .label {
+  color: #070708;
+}
+/* line 58, ../../sass/theme-colors.scss */
+.contrast-dark header .navbar > .nav > li.light > a:hover, .contrast-dark header .navbar > .nav > li.light > a:active, .contrast-dark header .navbar > .nav > li.light > a:focus {
+  background-color: black;
+}
+/* line 65, ../../sass/theme-colors.scss */
+.contrast-dark header .navbar > .nav > li.medium > a {
+  background: black;
+}
+/* line 68, ../../sass/theme-colors.scss */
+.contrast-dark header .navbar > .nav > li.medium > a .label {
+  color: black;
+}
+/* line 73, ../../sass/theme-colors.scss */
+.contrast-dark header .navbar > .nav > li.medium > a:hover > a, .contrast-dark header .navbar > .nav > li.medium > a:active > a, .contrast-dark header .navbar > .nav > li.medium > a:focus > a {
+  background-color: black;
+}
+/* line 81, ../../sass/theme-colors.scss */
+.contrast-dark header .navbar > .nav > li.dark > a {
+  background: black;
+}
+/* line 84, ../../sass/theme-colors.scss */
+.contrast-dark header .navbar > .nav > li.dark > a .label {
+  color: black;
+}
+/* line 89, ../../sass/theme-colors.scss */
+.contrast-dark header .navbar > .nav > li.dark > a:hover > a, .contrast-dark header .navbar > .nav > li.dark > a:active > a, .contrast-dark header .navbar > .nav > li.dark > a:focus > a {
+  background-color: black;
+}
+/* line 98, ../../sass/theme-colors.scss */
+.contrast-dark header .navbar .widget .dropdown-menu > li.widget-footer a:hover {
+  background-color: #2b2d30;
+}
+/* line 106, ../../sass/theme-colors.scss */
+.contrast-dark header .navbar .nav li .label {
+  color: #2b2d30;
+}
+/* line 113, ../../sass/theme-colors.scss */
+.contrast-dark .nav .caret, .contrast-dark .nav a:hover .caret {
+  border-top-color: #2b2d30;
+  border-bottom-color: #2b2d30;
+}
+/* line 118, ../../sass/theme-colors.scss */
+.contrast-dark code {
+  background-color: #e0e3e5;
+  color: #3d3f42;
+}
+/* line 134, ../../sass/theme-colors.scss */
+.contrast-dark #main-nav .navigation > .nav > li > a.in [class^="icon-"], .contrast-dark #main-nav .navigation > .nav > li > a.in [class*=" icon-"] {
+  color: #2b2d30;
+}
+/* line 143, ../../sass/theme-colors.scss */
+.contrast-dark #main-nav .navigation > .nav > li:hover > a [class^="icon-"], .contrast-dark #main-nav .navigation > .nav > li:hover > a [class*=" icon-"], .contrast-dark #main-nav .navigation > .nav > li:focus > a [class^="icon-"], .contrast-dark #main-nav .navigation > .nav > li:focus > a [class*=" icon-"], .contrast-dark #main-nav .navigation > .nav > li.active > a [class^="icon-"], .contrast-dark #main-nav .navigation > .nav > li.active > a [class*=" icon-"] {
+  color: #2b2d30 !important;
+}
+/* line 153, ../../sass/theme-colors.scss */
+.contrast-dark #main-nav .navigation > .nav > li .nav > li.active > a [class^="icon-"], .contrast-dark #main-nav .navigation > .nav > li .nav > li.active > a [class*=" icon-"] {
+  color: #2b2d30;
+}
+/* line 161, ../../sass/theme-colors.scss */
+.contrast-dark #main-nav .navigation > .nav > li .nav > li > a:hover [class^="icon-"], .contrast-dark #main-nav .navigation > .nav > li .nav > li > a:hover [class*=" icon-"], .contrast-dark #main-nav .navigation > .nav > li .nav > li > a:focus [class^="icon-"], .contrast-dark #main-nav .navigation > .nav > li .nav > li > a:focus [class*=" icon-"] {
+  color: #2b2d30;
+}
+/* line 175, ../../sass/theme-colors.scss */
+.contrast-dark .box .box-header.contrast-background .actions .btn-link:hover {
+  color: #2b2d30 !important;
+}
+/* line 179, ../../sass/theme-colors.scss */
+.contrast-dark.contrast-background, .contrast-dark .contrast-background {
+  background: #2b2d30 !important;
+}
+/* line 180, ../../sass/theme-colors.scss */
+.contrast-dark .text-contrast, .contrast-dark .contrast {
+  color: #2b2d30 !important;
+}
+/* line 181, ../../sass/theme-colors.scss */
+.contrast-dark .contrast-border {
+  border-color: #2b2d30 !important;
+}
+/* line 185, ../../sass/theme-colors.scss */
+.contrast-dark .accordion.accordion-contrast .accordion-group {
+  border-color: #2b2d30;
+  border-bottom-color: #5b5f66;
+}
+/* line 191, ../../sass/theme-colors.scss */
+.contrast-dark .accordion.accordion-contrast .accordion-heading .accordion-toggle {
+  color: #fff;
+  background-color: #2b2d30;
+}
+/* line 202, ../../sass/theme-colors.scss */
+.contrast-dark .box-quick-link.contrast-background a:active .header {
+  background: #131415;
+}
+/* line 208, ../../sass/theme-colors.scss */
+.contrast-dark .box-quick-link.contrast-background:hover .header {
+  background: #1f2023;
+}
+/* line 217, ../../sass/theme-colors.scss */
+.contrast-dark .box-statistic.contrast-background .title, .contrast-dark .box-statistic.contrast-background small, .contrast-dark .box-statistic.contrast-background [class*="icon-"] {
+  color: #2b2d30 !important;
+}
+/* line 226, ../../sass/theme-colors.scss */
+.contrast-dark .breadcrumb li:first-child > a:hover {
+  color: #2b2d30 !important;
+}
+/* line 234, ../../sass/theme-colors.scss */
+.contrast-dark h1 [class^="icon-"] {
+  color: #2b2d30;
+}
+/* line 241, ../../sass/theme-colors.scss */
+.contrast-dark .dropdown-menu > .active > a, .contrast-dark .dropdown-menu > .active > a:hover, .contrast-dark .dropdown-menu > .active > a:focus, .contrast-dark .dropdown-menu > li > a:hover, .contrast-dark .dropdown-menu > li > a:focus, .contrast-dark .dropdown-submenu:hover > a, .contrast-dark .dropdown-submenu:focus > a {
+  background-color: #2b2d30 !important;
+}
+/* line 253, ../../sass/theme-colors.scss */
+.contrast-dark .box .box-header .actions .btn-link:hover {
+  color: #2b2d30;
+}
+/* line 269, ../../sass/theme-colors.scss */
+.contrast-dark .fuelux .wizard ul li.active {
+  background-color: #2b2d30;
+}
+/* line 281, ../../sass/theme-colors.scss */
+.contrast-dark .fc-event .fc-event-inner {
+  border-color: #2b2d30;
+  background-color: #2b2d30;
+}
+/* line 286, ../../sass/theme-colors.scss */
+.contrast-dark .contrast-caret {
+  border-top-color: #2b2d30 !important;
+  border-bottom-color: #2b2d30 !important;
+}
+/* line 288, ../../sass/theme-colors.scss */
+.contrast-dark .select2-results .select2-highlighted {
+  background: #2b2d30;
+}
+/* line 293, ../../sass/theme-colors.scss */
+.contrast-dark .daterangepicker .ranges li.active, .contrast-dark .daterangepicker .ranges li:hover {
+  background: #2b2d30;
+}
+/* line 297, ../../sass/theme-colors.scss */
+.contrast-dark .daterangepicker td.active, .contrast-dark .daterangepicker td.active:hover {
+  background: #2b2d30;
+}
+/* line 302, ../../sass/theme-colors.scss */
+.contrast-dark .datepicker td span.active:hover, .contrast-dark .datepicker td span.active:hover:hover, .contrast-dark .datepicker td span.active.disabled:hover, .contrast-dark .datepicker td span.active.disabled:hover:hover, .contrast-dark .datepicker td span.active:active, .contrast-dark .datepicker td span.active:hover:active, .contrast-dark .datepicker td span.active.disabled:active, .contrast-dark .datepicker td span.active.disabled:hover:active, .contrast-dark .datepicker td span.active.active, .contrast-dark .datepicker td span.active:hover.active, .contrast-dark .datepicker td span.active.disabled.active, .contrast-dark .datepicker td span.active.disabled:hover.active, .contrast-dark .datepicker td span.active.disabled, .contrast-dark .datepicker td span.active:hover.disabled, .contrast-dark .datepicker td span.active.disabled.disabled, .contrast-dark .datepicker td span.active.disabled:hover.disabled, .contrast-dark .datepicker td span.active[disabled], .contrast-dark .datepicker td span.active:hover[disabled], .contrast-dark .datepicker td span.active.disabled[disabled], .contrast-dark .datepicker td span.active.disabled:hover[disabled], .contrast-dark .datepicker td.active:hover, .contrast-dark .datepicker td.active:hover:hover, .contrast-dark .datepicker td.active.disabled:hover, .contrast-dark .datepicker td.active.disabled:hover:hover, .contrast-dark .datepicker td.active:active, .contrast-dark .datepicker td.active:hover:active, .contrast-dark .datepicker td.active.disabled:active, .contrast-dark .datepicker td.active.disabled:hover:active, .contrast-dark .datepicker td.active.active, .contrast-dark .datepicker td.active:hover.active, .contrast-dark .datepicker td.active.disabled.active, .contrast-dark .datepicker td.active.disabled:hover.active, .contrast-dark .datepicker td.active.disabled, .contrast-dark .datepicker td.active:hover.disabled, .contrast-dark .datepicker td.active.disabled.disabled, .contrast-dark .datepicker td.active.disabled:hover.disabled, .contrast-dark .datepicker td.active[disabled], .contrast-dark .datepicker td.active:hover[disabled], .contrast-dark .datepicker td.active.disabled[disabled], .contrast-dark .datepicker td.active.disabled:hover[disabled] {
+  background: #2b2d30;
+}
+/* line 306, ../../sass/theme-colors.scss */
+.contrast-dark .dropdown-menu > .active > a, .contrast-dark .dropdown-menu > .active > a:hover, .contrast-dark .dropdown-menu > .active > a:focus {
+  background: #2b2d30;
+}
+/* line 310, ../../sass/theme-colors.scss */
+.contrast-dark .dd-handle:hover {
+  color: #2b2d30;
+}
+/* line 314, ../../sass/theme-colors.scss */
+.contrast-dark .dd-placeholder {
+  border-color: #2b2d30;
+}
+
+/* line 12, ../../sass/theme-colors.scss */
+.contrast-pink header .navbar {
+  background-color: #c44a83;
+}
+/* line 15, ../../sass/theme-colors.scss */
+.contrast-pink header .navbar .toggle-nav {
+  background-color: #c44a83;
+}
+/* line 18, ../../sass/theme-colors.scss */
+.contrast-pink header .navbar .toggle-nav:active, .contrast-pink header .navbar .toggle-nav.active, .contrast-pink header .navbar .toggle-nav:hover {
+  background-color: #a5366a;
+}
+/* line 24, ../../sass/theme-colors.scss */
+.contrast-pink header .navbar .navbar-form button {
+  color: #c44a83;
+}
+/* line 27, ../../sass/theme-colors.scss */
+.contrast-pink header .navbar .navbar-form button:hover {
+  color: #6b2345;
+}
+/* line 32, ../../sass/theme-colors.scss */
+.contrast-pink header .navbar .navbar-form input {
+  border-color: #a5366a;
+  color: #6b2345;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-pink header .navbar .navbar-form input:-moz-placeholder {
+  color: #d1709d;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-pink header .navbar .navbar-form input:-ms-input-placeholder {
+  color: #d1709d;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-pink header .navbar .navbar-form input::-webkit-input-placeholder {
+  color: #d1709d;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-pink header .navbar .navbar-form input:hover:-moz-placeholder {
+  color: #dd97b8;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-pink header .navbar .navbar-form input:hover:-ms-input-placeholder {
+  color: #dd97b8;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-pink header .navbar .navbar-form input:hover::-webkit-input-placeholder {
+  color: #dd97b8;
+}
+/* line 41, ../../sass/theme-colors.scss */
+.contrast-pink header .navbar .navbar-form input:focus {
+  border-color: #7f2951;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-pink header .navbar .navbar-form input:focus:-moz-placeholder {
+  color: #d784ab;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-pink header .navbar .navbar-form input:focus:-ms-input-placeholder {
+  color: #d784ab;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-pink header .navbar .navbar-form input:focus::-webkit-input-placeholder {
+  color: #d784ab;
+}
+/* line 51, ../../sass/theme-colors.scss */
+.contrast-pink header .navbar > .nav > li.light > a {
+  background: #a5366a;
+}
+/* line 54, ../../sass/theme-colors.scss */
+.contrast-pink header .navbar > .nav > li.light > a .label {
+  color: #a5366a;
+}
+/* line 58, ../../sass/theme-colors.scss */
+.contrast-pink header .navbar > .nav > li.light > a:hover, .contrast-pink header .navbar > .nav > li.light > a:active, .contrast-pink header .navbar > .nav > li.light > a:focus {
+  background-color: #8a2d59;
+}
+/* line 65, ../../sass/theme-colors.scss */
+.contrast-pink header .navbar > .nav > li.medium > a {
+  background: #8a2d59;
+}
+/* line 68, ../../sass/theme-colors.scss */
+.contrast-pink header .navbar > .nav > li.medium > a .label {
+  color: #8a2d59;
+}
+/* line 73, ../../sass/theme-colors.scss */
+.contrast-pink header .navbar > .nav > li.medium > a:hover > a, .contrast-pink header .navbar > .nav > li.medium > a:active > a, .contrast-pink header .navbar > .nav > li.medium > a:focus > a {
+  background-color: #7f2951;
+}
+/* line 81, ../../sass/theme-colors.scss */
+.contrast-pink header .navbar > .nav > li.dark > a {
+  background: #77274c;
+}
+/* line 84, ../../sass/theme-colors.scss */
+.contrast-pink header .navbar > .nav > li.dark > a .label {
+  color: #77274c;
+}
+/* line 89, ../../sass/theme-colors.scss */
+.contrast-pink header .navbar > .nav > li.dark > a:hover > a, .contrast-pink header .navbar > .nav > li.dark > a:active > a, .contrast-pink header .navbar > .nav > li.dark > a:focus > a {
+  background-color: #6b2345;
+}
+/* line 98, ../../sass/theme-colors.scss */
+.contrast-pink header .navbar .widget .dropdown-menu > li.widget-footer a:hover {
+  background-color: #c44a83;
+}
+/* line 106, ../../sass/theme-colors.scss */
+.contrast-pink header .navbar .nav li .label {
+  color: #c44a83;
+}
+/* line 113, ../../sass/theme-colors.scss */
+.contrast-pink .nav .caret, .contrast-pink .nav a:hover .caret {
+  border-top-color: #c44a83;
+  border-bottom-color: #c44a83;
+}
+/* line 118, ../../sass/theme-colors.scss */
+.contrast-pink code {
+  background-color: #efe6ed;
+  color: #c85a8e;
+}
+/* line 134, ../../sass/theme-colors.scss */
+.contrast-pink #main-nav .navigation > .nav > li > a.in [class^="icon-"], .contrast-pink #main-nav .navigation > .nav > li > a.in [class*=" icon-"] {
+  color: #c44a83;
+}
+/* line 143, ../../sass/theme-colors.scss */
+.contrast-pink #main-nav .navigation > .nav > li:hover > a [class^="icon-"], .contrast-pink #main-nav .navigation > .nav > li:hover > a [class*=" icon-"], .contrast-pink #main-nav .navigation > .nav > li:focus > a [class^="icon-"], .contrast-pink #main-nav .navigation > .nav > li:focus > a [class*=" icon-"], .contrast-pink #main-nav .navigation > .nav > li.active > a [class^="icon-"], .contrast-pink #main-nav .navigation > .nav > li.active > a [class*=" icon-"] {
+  color: #c44a83 !important;
+}
+/* line 153, ../../sass/theme-colors.scss */
+.contrast-pink #main-nav .navigation > .nav > li .nav > li.active > a [class^="icon-"], .contrast-pink #main-nav .navigation > .nav > li .nav > li.active > a [class*=" icon-"] {
+  color: #c44a83;
+}
+/* line 161, ../../sass/theme-colors.scss */
+.contrast-pink #main-nav .navigation > .nav > li .nav > li > a:hover [class^="icon-"], .contrast-pink #main-nav .navigation > .nav > li .nav > li > a:hover [class*=" icon-"], .contrast-pink #main-nav .navigation > .nav > li .nav > li > a:focus [class^="icon-"], .contrast-pink #main-nav .navigation > .nav > li .nav > li > a:focus [class*=" icon-"] {
+  color: #c44a83;
+}
+/* line 175, ../../sass/theme-colors.scss */
+.contrast-pink .box .box-header.contrast-background .actions .btn-link:hover {
+  color: #c44a83 !important;
+}
+/* line 179, ../../sass/theme-colors.scss */
+.contrast-pink.contrast-background, .contrast-pink .contrast-background {
+  background: #c44a83 !important;
+}
+/* line 180, ../../sass/theme-colors.scss */
+.contrast-pink .text-contrast, .contrast-pink .contrast {
+  color: #c44a83 !important;
+}
+/* line 181, ../../sass/theme-colors.scss */
+.contrast-pink .contrast-border {
+  border-color: #c44a83 !important;
+}
+/* line 185, ../../sass/theme-colors.scss */
+.contrast-pink .accordion.accordion-contrast .accordion-group {
+  border-color: #c44a83;
+  border-bottom-color: #dd97b8;
+}
+/* line 191, ../../sass/theme-colors.scss */
+.contrast-pink .accordion.accordion-contrast .accordion-heading .accordion-toggle {
+  color: #fff;
+  background-color: #c44a83;
+}
+/* line 202, ../../sass/theme-colors.scss */
+.contrast-pink .box-quick-link.contrast-background a:active .header {
+  background: #a5366a;
+}
+/* line 208, ../../sass/theme-colors.scss */
+.contrast-pink .box-quick-link.contrast-background:hover .header {
+  background: #b83c76;
+}
+/* line 217, ../../sass/theme-colors.scss */
+.contrast-pink .box-statistic.contrast-background .title, .contrast-pink .box-statistic.contrast-background small, .contrast-pink .box-statistic.contrast-background [class*="icon-"] {
+  color: #c44a83 !important;
+}
+/* line 226, ../../sass/theme-colors.scss */
+.contrast-pink .breadcrumb li:first-child > a:hover {
+  color: #c44a83 !important;
+}
+/* line 234, ../../sass/theme-colors.scss */
+.contrast-pink h1 [class^="icon-"] {
+  color: #c44a83;
+}
+/* line 241, ../../sass/theme-colors.scss */
+.contrast-pink .dropdown-menu > .active > a, .contrast-pink .dropdown-menu > .active > a:hover, .contrast-pink .dropdown-menu > .active > a:focus, .contrast-pink .dropdown-menu > li > a:hover, .contrast-pink .dropdown-menu > li > a:focus, .contrast-pink .dropdown-submenu:hover > a, .contrast-pink .dropdown-submenu:focus > a {
+  background-color: #c44a83 !important;
+}
+/* line 253, ../../sass/theme-colors.scss */
+.contrast-pink .box .box-header .actions .btn-link:hover {
+  color: #c44a83;
+}
+/* line 269, ../../sass/theme-colors.scss */
+.contrast-pink .fuelux .wizard ul li.active {
+  background-color: #c44a83;
+}
+/* line 281, ../../sass/theme-colors.scss */
+.contrast-pink .fc-event .fc-event-inner {
+  border-color: #c44a83;
+  background-color: #c44a83;
+}
+/* line 286, ../../sass/theme-colors.scss */
+.contrast-pink .contrast-caret {
+  border-top-color: #c44a83 !important;
+  border-bottom-color: #c44a83 !important;
+}
+/* line 288, ../../sass/theme-colors.scss */
+.contrast-pink .select2-results .select2-highlighted {
+  background: #c44a83;
+}
+/* line 293, ../../sass/theme-colors.scss */
+.contrast-pink .daterangepicker .ranges li.active, .contrast-pink .daterangepicker .ranges li:hover {
+  background: #c44a83;
+}
+/* line 297, ../../sass/theme-colors.scss */
+.contrast-pink .daterangepicker td.active, .contrast-pink .daterangepicker td.active:hover {
+  background: #c44a83;
+}
+/* line 302, ../../sass/theme-colors.scss */
+.contrast-pink .datepicker td span.active:hover, .contrast-pink .datepicker td span.active:hover:hover, .contrast-pink .datepicker td span.active.disabled:hover, .contrast-pink .datepicker td span.active.disabled:hover:hover, .contrast-pink .datepicker td span.active:active, .contrast-pink .datepicker td span.active:hover:active, .contrast-pink .datepicker td span.active.disabled:active, .contrast-pink .datepicker td span.active.disabled:hover:active, .contrast-pink .datepicker td span.active.active, .contrast-pink .datepicker td span.active:hover.active, .contrast-pink .datepicker td span.active.disabled.active, .contrast-pink .datepicker td span.active.disabled:hover.active, .contrast-pink .datepicker td span.active.disabled, .contrast-pink .datepicker td span.active:hover.disabled, .contrast-pink .datepicker td span.active.disabled.disabled, .contrast-pink .datepicker td span.active.disabled:hover.disabled, .contrast-pink .datepicker td span.active[disabled], .contrast-pink .datepicker td span.active:hover[disabled], .contrast-pink .datepicker td span.active.disabled[disabled], .contrast-pink .datepicker td span.active.disabled:hover[disabled], .contrast-pink .datepicker td.active:hover, .contrast-pink .datepicker td.active:hover:hover, .contrast-pink .datepicker td.active.disabled:hover, .contrast-pink .datepicker td.active.disabled:hover:hover, .contrast-pink .datepicker td.active:active, .contrast-pink .datepicker td.active:hover:active, .contrast-pink .datepicker td.active.disabled:active, .contrast-pink .datepicker td.active.disabled:hover:active, .contrast-pink .datepicker td.active.active, .contrast-pink .datepicker td.active:hover.active, .contrast-pink .datepicker td.active.disabled.active, .contrast-pink .datepicker td.active.disabled:hover.active, .contrast-pink .datepicker td.active.disabled, .contrast-pink .datepicker td.active:hover.disabled, .contrast-pink .datepicker td.active.disabled.disabled, .contrast-pink .datepicker td.active.disabled:hover.disabled, .contrast-pink .datepicker td.active[disabled], .contrast-pink .datepicker td.active:hover[disabled], .contrast-pink .datepicker td.active.disabled[disabled], .contrast-pink .datepicker td.active.disabled:hover[disabled] {
+  background: #c44a83;
+}
+/* line 306, ../../sass/theme-colors.scss */
+.contrast-pink .dropdown-menu > .active > a, .contrast-pink .dropdown-menu > .active > a:hover, .contrast-pink .dropdown-menu > .active > a:focus {
+  background: #c44a83;
+}
+/* line 310, ../../sass/theme-colors.scss */
+.contrast-pink .dd-handle:hover {
+  color: #c44a83;
+}
+/* line 314, ../../sass/theme-colors.scss */
+.contrast-pink .dd-placeholder {
+  border-color: #c44a83;
+}
+
+/* line 12, ../../sass/theme-colors.scss */
+.contrast-grass-green header .navbar {
+  background-color: #5daf2b;
+}
+/* line 15, ../../sass/theme-colors.scss */
+.contrast-grass-green header .navbar .toggle-nav {
+  background-color: #5daf2b;
+}
+/* line 18, ../../sass/theme-colors.scss */
+.contrast-grass-green header .navbar .toggle-nav:active, .contrast-grass-green header .navbar .toggle-nav.active, .contrast-grass-green header .navbar .toggle-nav:hover {
+  background-color: #478621;
+}
+/* line 24, ../../sass/theme-colors.scss */
+.contrast-grass-green header .navbar .navbar-form button {
+  color: #5daf2b;
+}
+/* line 27, ../../sass/theme-colors.scss */
+.contrast-grass-green header .navbar .navbar-form button:hover {
+  color: #274912;
+}
+/* line 32, ../../sass/theme-colors.scss */
+.contrast-grass-green header .navbar .navbar-form input {
+  border-color: #478621;
+  color: #274912;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-grass-green header .navbar .navbar-form input:-moz-placeholder {
+  color: #75cf3e;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-grass-green header .navbar .navbar-form input:-ms-input-placeholder {
+  color: #75cf3e;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-grass-green header .navbar .navbar-form input::-webkit-input-placeholder {
+  color: #75cf3e;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-grass-green header .navbar .navbar-form input:hover:-moz-placeholder {
+  color: #92da66;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-grass-green header .navbar .navbar-form input:hover:-ms-input-placeholder {
+  color: #92da66;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-grass-green header .navbar .navbar-form input:hover::-webkit-input-placeholder {
+  color: #92da66;
+}
+/* line 41, ../../sass/theme-colors.scss */
+.contrast-grass-green header .navbar .navbar-form input:focus {
+  border-color: #315d17;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-grass-green header .navbar .navbar-form input:focus:-moz-placeholder {
+  color: #83d452;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-grass-green header .navbar .navbar-form input:focus:-ms-input-placeholder {
+  color: #83d452;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-grass-green header .navbar .navbar-form input:focus::-webkit-input-placeholder {
+  color: #83d452;
+}
+/* line 51, ../../sass/theme-colors.scss */
+.contrast-grass-green header .navbar > .nav > li.light > a {
+  background: #4c8e23;
+}
+/* line 54, ../../sass/theme-colors.scss */
+.contrast-grass-green header .navbar > .nav > li.light > a .label {
+  color: #4c8e23;
+}
+/* line 58, ../../sass/theme-colors.scss */
+.contrast-grass-green header .navbar > .nav > li.light > a:hover, .contrast-grass-green header .navbar > .nav > li.light > a:active, .contrast-grass-green header .navbar > .nav > li.light > a:focus {
+  background-color: #3f771d;
+}
+/* line 65, ../../sass/theme-colors.scss */
+.contrast-grass-green header .navbar > .nav > li.medium > a {
+  background: #3f771d;
+}
+/* line 68, ../../sass/theme-colors.scss */
+.contrast-grass-green header .navbar > .nav > li.medium > a .label {
+  color: #3f771d;
+}
+/* line 73, ../../sass/theme-colors.scss */
+.contrast-grass-green header .navbar > .nav > li.medium > a:hover > a, .contrast-grass-green header .navbar > .nav > li.medium > a:active > a, .contrast-grass-green header .navbar > .nav > li.medium > a:focus > a {
+  background-color: #3a6d1b;
+}
+/* line 81, ../../sass/theme-colors.scss */
+.contrast-grass-green header .navbar > .nav > li.dark > a {
+  background: #376719;
+}
+/* line 84, ../../sass/theme-colors.scss */
+.contrast-grass-green header .navbar > .nav > li.dark > a .label {
+  color: #376719;
+}
+/* line 89, ../../sass/theme-colors.scss */
+.contrast-grass-green header .navbar > .nav > li.dark > a:hover > a, .contrast-grass-green header .navbar > .nav > li.dark > a:active > a, .contrast-grass-green header .navbar > .nav > li.dark > a:focus > a {
+  background-color: #315d17;
+}
+/* line 98, ../../sass/theme-colors.scss */
+.contrast-grass-green header .navbar .widget .dropdown-menu > li.widget-footer a:hover {
+  background-color: #5daf2b;
+}
+/* line 106, ../../sass/theme-colors.scss */
+.contrast-grass-green header .navbar .nav li .label {
+  color: #5daf2b;
+}
+/* line 113, ../../sass/theme-colors.scss */
+.contrast-grass-green .nav .caret, .contrast-grass-green .nav a:hover .caret {
+  border-top-color: #5daf2b;
+  border-bottom-color: #5daf2b;
+}
+/* line 118, ../../sass/theme-colors.scss */
+.contrast-grass-green code {
+  background-color: #e5f0e4;
+  color: #6bb63e;
+}
+/* line 134, ../../sass/theme-colors.scss */
+.contrast-grass-green #main-nav .navigation > .nav > li > a.in [class^="icon-"], .contrast-grass-green #main-nav .navigation > .nav > li > a.in [class*=" icon-"] {
+  color: #5daf2b;
+}
+/* line 143, ../../sass/theme-colors.scss */
+.contrast-grass-green #main-nav .navigation > .nav > li:hover > a [class^="icon-"], .contrast-grass-green #main-nav .navigation > .nav > li:hover > a [class*=" icon-"], .contrast-grass-green #main-nav .navigation > .nav > li:focus > a [class^="icon-"], .contrast-grass-green #main-nav .navigation > .nav > li:focus > a [class*=" icon-"], .contrast-grass-green #main-nav .navigation > .nav > li.active > a [class^="icon-"], .contrast-grass-green #main-nav .navigation > .nav > li.active > a [class*=" icon-"] {
+  color: #5daf2b !important;
+}
+/* line 153, ../../sass/theme-colors.scss */
+.contrast-grass-green #main-nav .navigation > .nav > li .nav > li.active > a [class^="icon-"], .contrast-grass-green #main-nav .navigation > .nav > li .nav > li.active > a [class*=" icon-"] {
+  color: #5daf2b;
+}
+/* line 161, ../../sass/theme-colors.scss */
+.contrast-grass-green #main-nav .navigation > .nav > li .nav > li > a:hover [class^="icon-"], .contrast-grass-green #main-nav .navigation > .nav > li .nav > li > a:hover [class*=" icon-"], .contrast-grass-green #main-nav .navigation > .nav > li .nav > li > a:focus [class^="icon-"], .contrast-grass-green #main-nav .navigation > .nav > li .nav > li > a:focus [class*=" icon-"] {
+  color: #5daf2b;
+}
+/* line 175, ../../sass/theme-colors.scss */
+.contrast-grass-green .box .box-header.contrast-background .actions .btn-link:hover {
+  color: #5daf2b !important;
+}
+/* line 179, ../../sass/theme-colors.scss */
+.contrast-grass-green.contrast-background, .contrast-grass-green .contrast-background {
+  background: #5daf2b !important;
+}
+/* line 180, ../../sass/theme-colors.scss */
+.contrast-grass-green .text-contrast, .contrast-grass-green .contrast {
+  color: #5daf2b !important;
+}
+/* line 181, ../../sass/theme-colors.scss */
+.contrast-grass-green .contrast-border {
+  border-color: #5daf2b !important;
+}
+/* line 185, ../../sass/theme-colors.scss */
+.contrast-grass-green .accordion.accordion-contrast .accordion-group {
+  border-color: #5daf2b;
+  border-bottom-color: #92da66;
+}
+/* line 191, ../../sass/theme-colors.scss */
+.contrast-grass-green .accordion.accordion-contrast .accordion-heading .accordion-toggle {
+  color: #fff;
+  background-color: #5daf2b;
+}
+/* line 202, ../../sass/theme-colors.scss */
+.contrast-grass-green .box-quick-link.contrast-background a:active .header {
+  background: #478621;
+}
+/* line 208, ../../sass/theme-colors.scss */
+.contrast-grass-green .box-quick-link.contrast-background:hover .header {
+  background: #529b26;
+}
+/* line 217, ../../sass/theme-colors.scss */
+.contrast-grass-green .box-statistic.contrast-background .title, .contrast-grass-green .box-statistic.contrast-background small, .contrast-grass-green .box-statistic.contrast-background [class*="icon-"] {
+  color: #5daf2b !important;
+}
+/* line 226, ../../sass/theme-colors.scss */
+.contrast-grass-green .breadcrumb li:first-child > a:hover {
+  color: #5daf2b !important;
+}
+/* line 234, ../../sass/theme-colors.scss */
+.contrast-grass-green h1 [class^="icon-"] {
+  color: #5daf2b;
+}
+/* line 241, ../../sass/theme-colors.scss */
+.contrast-grass-green .dropdown-menu > .active > a, .contrast-grass-green .dropdown-menu > .active > a:hover, .contrast-grass-green .dropdown-menu > .active > a:focus, .contrast-grass-green .dropdown-menu > li > a:hover, .contrast-grass-green .dropdown-menu > li > a:focus, .contrast-grass-green .dropdown-submenu:hover > a, .contrast-grass-green .dropdown-submenu:focus > a {
+  background-color: #5daf2b !important;
+}
+/* line 253, ../../sass/theme-colors.scss */
+.contrast-grass-green .box .box-header .actions .btn-link:hover {
+  color: #5daf2b;
+}
+/* line 269, ../../sass/theme-colors.scss */
+.contrast-grass-green .fuelux .wizard ul li.active {
+  background-color: #5daf2b;
+}
+/* line 281, ../../sass/theme-colors.scss */
+.contrast-grass-green .fc-event .fc-event-inner {
+  border-color: #5daf2b;
+  background-color: #5daf2b;
+}
+/* line 286, ../../sass/theme-colors.scss */
+.contrast-grass-green .contrast-caret {
+  border-top-color: #5daf2b !important;
+  border-bottom-color: #5daf2b !important;
+}
+/* line 288, ../../sass/theme-colors.scss */
+.contrast-grass-green .select2-results .select2-highlighted {
+  background: #5daf2b;
+}
+/* line 293, ../../sass/theme-colors.scss */
+.contrast-grass-green .daterangepicker .ranges li.active, .contrast-grass-green .daterangepicker .ranges li:hover {
+  background: #5daf2b;
+}
+/* line 297, ../../sass/theme-colors.scss */
+.contrast-grass-green .daterangepicker td.active, .contrast-grass-green .daterangepicker td.active:hover {
+  background: #5daf2b;
+}
+/* line 302, ../../sass/theme-colors.scss */
+.contrast-grass-green .datepicker td span.active:hover, .contrast-grass-green .datepicker td span.active:hover:hover, .contrast-grass-green .datepicker td span.active.disabled:hover, .contrast-grass-green .datepicker td span.active.disabled:hover:hover, .contrast-grass-green .datepicker td span.active:active, .contrast-grass-green .datepicker td span.active:hover:active, .contrast-grass-green .datepicker td span.active.disabled:active, .contrast-grass-green .datepicker td span.active.disabled:hover:active, .contrast-grass-green .datepicker td span.active.active, .contrast-grass-green .datepicker td span.active:hover.active, .contrast-grass-green .datepicker td span.active.disabled.active, .contrast-grass-green .datepicker td span.active.disabled:hover.active, .contrast-grass-green .datepicker td span.active.disabled, .contrast-grass-green .datepicker td span.active:hover.disabled, .contrast-grass-green .datepicker td span.active.disabled.disabled, .contrast-grass-green .datepicker td span.active.disabled:hover.disabled, .contrast-grass-green .datepicker td span.active[disabled], .contrast-grass-green .datepicker td span.active:hover[disabled], .contrast-grass-green .datepicker td span.active.disabled[disabled], .contrast-grass-green .datepicker td span.active.disabled:hover[disabled], .contrast-grass-green .datepicker td.active:hover, .contrast-grass-green .datepicker td.active:hover:hover, .contrast-grass-green .datepicker td.active.disabled:hover, .contrast-grass-green .datepicker td.active.disabled:hover:hover, .contrast-grass-green .datepicker td.active:active, .contrast-grass-green .datepicker td.active:hover:active, .contrast-grass-green .datepicker td.active.disabled:active, .contrast-grass-green .datepicker td.active.disabled:hover:active, .contrast-grass-green .datepicker td.active.active, .contrast-grass-green .datepicker td.active:hover.active, .contrast-grass-green .datepicker td.active.disabled.active, .contrast-grass-green .datepicker td.active.disabled:hover.active, .contrast-grass-green .datepicker td.active.disabled, .contrast-grass-green .datepicker td.active:hover.disabled, .contrast-grass-green .datepicker td.active.disabled.disabled, .contrast-grass-green .datepicker td.active.disabled:hover.disabled, .contrast-grass-green .datepicker td.active[disabled], .contrast-grass-green .datepicker td.active:hover[disabled], .contrast-grass-green .datepicker td.active.disabled[disabled], .contrast-grass-green .datepicker td.active.disabled:hover[disabled] {
+  background: #5daf2b;
+}
+/* line 306, ../../sass/theme-colors.scss */
+.contrast-grass-green .dropdown-menu > .active > a, .contrast-grass-green .dropdown-menu > .active > a:hover, .contrast-grass-green .dropdown-menu > .active > a:focus {
+  background: #5daf2b;
+}
+/* line 310, ../../sass/theme-colors.scss */
+.contrast-grass-green .dd-handle:hover {
+  color: #5daf2b;
+}
+/* line 314, ../../sass/theme-colors.scss */
+.contrast-grass-green .dd-placeholder {
+  border-color: #5daf2b;
+}
+
+/* line 12, ../../sass/theme-colors.scss */
+.contrast-sea-blue header .navbar {
+  background-color: #0163ac;
+}
+/* line 15, ../../sass/theme-colors.scss */
+.contrast-sea-blue header .navbar .toggle-nav {
+  background-color: #0163ac;
+}
+/* line 18, ../../sass/theme-colors.scss */
+.contrast-sea-blue header .navbar .toggle-nav:active, .contrast-sea-blue header .navbar .toggle-nav.active, .contrast-sea-blue header .navbar .toggle-nav:hover {
+  background-color: #014679;
+}
+/* line 24, ../../sass/theme-colors.scss */
+.contrast-sea-blue header .navbar .navbar-form button {
+  color: #0163ac;
+}
+/* line 27, ../../sass/theme-colors.scss */
+.contrast-sea-blue header .navbar .navbar-form button:hover {
+  color: #001a2d;
+}
+/* line 32, ../../sass/theme-colors.scss */
+.contrast-sea-blue header .navbar .navbar-form input {
+  border-color: #014679;
+  color: #001a2d;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-sea-blue header .navbar .navbar-form input:-moz-placeholder {
+  color: #0180df;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-sea-blue header .navbar .navbar-form input:-ms-input-placeholder {
+  color: #0180df;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-sea-blue header .navbar .navbar-form input::-webkit-input-placeholder {
+  color: #0180df;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-sea-blue header .navbar .navbar-form input:hover:-moz-placeholder {
+  color: #159afe;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-sea-blue header .navbar .navbar-form input:hover:-ms-input-placeholder {
+  color: #159afe;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-sea-blue header .navbar .navbar-form input:hover::-webkit-input-placeholder {
+  color: #159afe;
+}
+/* line 41, ../../sass/theme-colors.scss */
+.contrast-sea-blue header .navbar .navbar-form input:focus {
+  border-color: #002947;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-sea-blue header .navbar .navbar-form input:focus:-moz-placeholder {
+  color: #018ff8;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-sea-blue header .navbar .navbar-form input:focus:-ms-input-placeholder {
+  color: #018ff8;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-sea-blue header .navbar .navbar-form input:focus::-webkit-input-placeholder {
+  color: #018ff8;
+}
+/* line 51, ../../sass/theme-colors.scss */
+.contrast-sea-blue header .navbar > .nav > li.light > a {
+  background: #01518e;
+}
+/* line 54, ../../sass/theme-colors.scss */
+.contrast-sea-blue header .navbar > .nav > li.light > a .label {
+  color: #01518e;
+}
+/* line 58, ../../sass/theme-colors.scss */
+.contrast-sea-blue header .navbar > .nav > li.light > a:hover, .contrast-sea-blue header .navbar > .nav > li.light > a:active, .contrast-sea-blue header .navbar > .nav > li.light > a:focus {
+  background-color: #014578;
+}
+/* line 65, ../../sass/theme-colors.scss */
+.contrast-sea-blue header .navbar > .nav > li.medium > a {
+  background: #014578;
+}
+/* line 68, ../../sass/theme-colors.scss */
+.contrast-sea-blue header .navbar > .nav > li.medium > a .label {
+  color: #014578;
+}
+/* line 73, ../../sass/theme-colors.scss */
+.contrast-sea-blue header .navbar > .nav > li.medium > a:hover > a, .contrast-sea-blue header .navbar > .nav > li.medium > a:active > a, .contrast-sea-blue header .navbar > .nav > li.medium > a:focus > a {
+  background-color: #01406f;
+}
+/* line 81, ../../sass/theme-colors.scss */
+.contrast-sea-blue header .navbar > .nav > li.dark > a {
+  background: #013c69;
+}
+/* line 84, ../../sass/theme-colors.scss */
+.contrast-sea-blue header .navbar > .nav > li.dark > a .label {
+  color: #013c69;
+}
+/* line 89, ../../sass/theme-colors.scss */
+.contrast-sea-blue header .navbar > .nav > li.dark > a:hover > a, .contrast-sea-blue header .navbar > .nav > li.dark > a:active > a, .contrast-sea-blue header .navbar > .nav > li.dark > a:focus > a {
+  background-color: #013760;
+}
+/* line 98, ../../sass/theme-colors.scss */
+.contrast-sea-blue header .navbar .widget .dropdown-menu > li.widget-footer a:hover {
+  background-color: #0163ac;
+}
+/* line 106, ../../sass/theme-colors.scss */
+.contrast-sea-blue header .navbar .nav li .label {
+  color: #0163ac;
+}
+/* line 113, ../../sass/theme-colors.scss */
+.contrast-sea-blue .nav .caret, .contrast-sea-blue .nav a:hover .caret {
+  border-top-color: #0163ac;
+  border-bottom-color: #0163ac;
+}
+/* line 118, ../../sass/theme-colors.scss */
+.contrast-sea-blue code {
+  background-color: #dce8f1;
+  color: #1770b3;
+}
+/* line 134, ../../sass/theme-colors.scss */
+.contrast-sea-blue #main-nav .navigation > .nav > li > a.in [class^="icon-"], .contrast-sea-blue #main-nav .navigation > .nav > li > a.in [class*=" icon-"] {
+  color: #0163ac;
+}
+/* line 143, ../../sass/theme-colors.scss */
+.contrast-sea-blue #main-nav .navigation > .nav > li:hover > a [class^="icon-"], .contrast-sea-blue #main-nav .navigation > .nav > li:hover > a [class*=" icon-"], .contrast-sea-blue #main-nav .navigation > .nav > li:focus > a [class^="icon-"], .contrast-sea-blue #main-nav .navigation > .nav > li:focus > a [class*=" icon-"], .contrast-sea-blue #main-nav .navigation > .nav > li.active > a [class^="icon-"], .contrast-sea-blue #main-nav .navigation > .nav > li.active > a [class*=" icon-"] {
+  color: #0163ac !important;
+}
+/* line 153, ../../sass/theme-colors.scss */
+.contrast-sea-blue #main-nav .navigation > .nav > li .nav > li.active > a [class^="icon-"], .contrast-sea-blue #main-nav .navigation > .nav > li .nav > li.active > a [class*=" icon-"] {
+  color: #0163ac;
+}
+/* line 161, ../../sass/theme-colors.scss */
+.contrast-sea-blue #main-nav .navigation > .nav > li .nav > li > a:hover [class^="icon-"], .contrast-sea-blue #main-nav .navigation > .nav > li .nav > li > a:hover [class*=" icon-"], .contrast-sea-blue #main-nav .navigation > .nav > li .nav > li > a:focus [class^="icon-"], .contrast-sea-blue #main-nav .navigation > .nav > li .nav > li > a:focus [class*=" icon-"] {
+  color: #0163ac;
+}
+/* line 175, ../../sass/theme-colors.scss */
+.contrast-sea-blue .box .box-header.contrast-background .actions .btn-link:hover {
+  color: #0163ac !important;
+}
+/* line 179, ../../sass/theme-colors.scss */
+.contrast-sea-blue.contrast-background, .contrast-sea-blue .contrast-background {
+  background: #0163ac !important;
+}
+/* line 180, ../../sass/theme-colors.scss */
+.contrast-sea-blue .text-contrast, .contrast-sea-blue .contrast {
+  color: #0163ac !important;
+}
+/* line 181, ../../sass/theme-colors.scss */
+.contrast-sea-blue .contrast-border {
+  border-color: #0163ac !important;
+}
+/* line 185, ../../sass/theme-colors.scss */
+.contrast-sea-blue .accordion.accordion-contrast .accordion-group {
+  border-color: #0163ac;
+  border-bottom-color: #159afe;
+}
+/* line 191, ../../sass/theme-colors.scss */
+.contrast-sea-blue .accordion.accordion-contrast .accordion-heading .accordion-toggle {
+  color: #fff;
+  background-color: #0163ac;
+}
+/* line 202, ../../sass/theme-colors.scss */
+.contrast-sea-blue .box-quick-link.contrast-background a:active .header {
+  background: #014679;
+}
+/* line 208, ../../sass/theme-colors.scss */
+.contrast-sea-blue .box-quick-link.contrast-background:hover .header {
+  background: #015493;
+}
+/* line 217, ../../sass/theme-colors.scss */
+.contrast-sea-blue .box-statistic.contrast-background .title, .contrast-sea-blue .box-statistic.contrast-background small, .contrast-sea-blue .box-statistic.contrast-background [class*="icon-"] {
+  color: #0163ac !important;
+}
+/* line 226, ../../sass/theme-colors.scss */
+.contrast-sea-blue .breadcrumb li:first-child > a:hover {
+  color: #0163ac !important;
+}
+/* line 234, ../../sass/theme-colors.scss */
+.contrast-sea-blue h1 [class^="icon-"] {
+  color: #0163ac;
+}
+/* line 241, ../../sass/theme-colors.scss */
+.contrast-sea-blue .dropdown-menu > .active > a, .contrast-sea-blue .dropdown-menu > .active > a:hover, .contrast-sea-blue .dropdown-menu > .active > a:focus, .contrast-sea-blue .dropdown-menu > li > a:hover, .contrast-sea-blue .dropdown-menu > li > a:focus, .contrast-sea-blue .dropdown-submenu:hover > a, .contrast-sea-blue .dropdown-submenu:focus > a {
+  background-color: #0163ac !important;
+}
+/* line 253, ../../sass/theme-colors.scss */
+.contrast-sea-blue .box .box-header .actions .btn-link:hover {
+  color: #0163ac;
+}
+/* line 269, ../../sass/theme-colors.scss */
+.contrast-sea-blue .fuelux .wizard ul li.active {
+  background-color: #0163ac;
+}
+/* line 281, ../../sass/theme-colors.scss */
+.contrast-sea-blue .fc-event .fc-event-inner {
+  border-color: #0163ac;
+  background-color: #0163ac;
+}
+/* line 286, ../../sass/theme-colors.scss */
+.contrast-sea-blue .contrast-caret {
+  border-top-color: #0163ac !important;
+  border-bottom-color: #0163ac !important;
+}
+/* line 288, ../../sass/theme-colors.scss */
+.contrast-sea-blue .select2-results .select2-highlighted {
+  background: #0163ac;
+}
+/* line 293, ../../sass/theme-colors.scss */
+.contrast-sea-blue .daterangepicker .ranges li.active, .contrast-sea-blue .daterangepicker .ranges li:hover {
+  background: #0163ac;
+}
+/* line 297, ../../sass/theme-colors.scss */
+.contrast-sea-blue .daterangepicker td.active, .contrast-sea-blue .daterangepicker td.active:hover {
+  background: #0163ac;
+}
+/* line 302, ../../sass/theme-colors.scss */
+.contrast-sea-blue .datepicker td span.active:hover, .contrast-sea-blue .datepicker td span.active:hover:hover, .contrast-sea-blue .datepicker td span.active.disabled:hover, .contrast-sea-blue .datepicker td span.active.disabled:hover:hover, .contrast-sea-blue .datepicker td span.active:active, .contrast-sea-blue .datepicker td span.active:hover:active, .contrast-sea-blue .datepicker td span.active.disabled:active, .contrast-sea-blue .datepicker td span.active.disabled:hover:active, .contrast-sea-blue .datepicker td span.active.active, .contrast-sea-blue .datepicker td span.active:hover.active, .contrast-sea-blue .datepicker td span.active.disabled.active, .contrast-sea-blue .datepicker td span.active.disabled:hover.active, .contrast-sea-blue .datepicker td span.active.disabled, .contrast-sea-blue .datepicker td span.active:hover.disabled, .contrast-sea-blue .datepicker td span.active.disabled.disabled, .contrast-sea-blue .datepicker td span.active.disabled:hover.disabled, .contrast-sea-blue .datepicker td span.active[disabled], .contrast-sea-blue .datepicker td span.active:hover[disabled], .contrast-sea-blue .datepicker td span.active.disabled[disabled], .contrast-sea-blue .datepicker td span.active.disabled:hover[disabled], .contrast-sea-blue .datepicker td.active:hover, .contrast-sea-blue .datepicker td.active:hover:hover, .contrast-sea-blue .datepicker td.active.disabled:hover, .contrast-sea-blue .datepicker td.active.disabled:hover:hover, .contrast-sea-blue .datepicker td.active:active, .contrast-sea-blue .datepicker td.active:hover:active, .contrast-sea-blue .datepicker td.active.disabled:active, .contrast-sea-blue .datepicker td.active.disabled:hover:active, .contrast-sea-blue .datepicker td.active.active, .contrast-sea-blue .datepicker td.active:hover.active, .contrast-sea-blue .datepicker td.active.disabled.active, .contrast-sea-blue .datepicker td.active.disabled:hover.active, .contrast-sea-blue .datepicker td.active.disabled, .contrast-sea-blue .datepicker td.active:hover.disabled, .contrast-sea-blue .datepicker td.active.disabled.disabled, .contrast-sea-blue .datepicker td.active.disabled:hover.disabled, .contrast-sea-blue .datepicker td.active[disabled], .contrast-sea-blue .datepicker td.active:hover[disabled], .contrast-sea-blue .datepicker td.active.disabled[disabled], .contrast-sea-blue .datepicker td.active.disabled:hover[disabled] {
+  background: #0163ac;
+}
+/* line 306, ../../sass/theme-colors.scss */
+.contrast-sea-blue .dropdown-menu > .active > a, .contrast-sea-blue .dropdown-menu > .active > a:hover, .contrast-sea-blue .dropdown-menu > .active > a:focus {
+  background: #0163ac;
+}
+/* line 310, ../../sass/theme-colors.scss */
+.contrast-sea-blue .dd-handle:hover {
+  color: #0163ac;
+}
+/* line 314, ../../sass/theme-colors.scss */
+.contrast-sea-blue .dd-placeholder {
+  border-color: #0163ac;
+}
+
+/* line 12, ../../sass/theme-colors.scss */
+.contrast-banana header .navbar {
+  background-color: #fcd052;
+}
+/* line 15, ../../sass/theme-colors.scss */
+.contrast-banana header .navbar .toggle-nav {
+  background-color: #fcd052;
+}
+/* line 18, ../../sass/theme-colors.scss */
+.contrast-banana header .navbar .toggle-nav:active, .contrast-banana header .navbar .toggle-nav.active, .contrast-banana header .navbar .toggle-nav:hover {
+  background-color: #fbc220;
+}
+/* line 24, ../../sass/theme-colors.scss */
+.contrast-banana header .navbar .navbar-form button {
+  color: #fcd052;
+}
+/* line 27, ../../sass/theme-colors.scss */
+.contrast-banana header .navbar .navbar-form button:hover {
+  color: #cb9704;
+}
+/* line 32, ../../sass/theme-colors.scss */
+.contrast-banana header .navbar .navbar-form input {
+  border-color: #fbc220;
+  color: #cb9704;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-banana header .navbar .navbar-form input:-moz-placeholder {
+  color: #fdde84;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-banana header .navbar .navbar-form input:-ms-input-placeholder {
+  color: #fdde84;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-banana header .navbar .navbar-form input::-webkit-input-placeholder {
+  color: #fdde84;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-banana header .navbar .navbar-form input:hover:-moz-placeholder {
+  color: #feebb6;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-banana header .navbar .navbar-form input:hover:-ms-input-placeholder {
+  color: #feebb6;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-banana header .navbar .navbar-form input:hover::-webkit-input-placeholder {
+  color: #feebb6;
+}
+/* line 41, ../../sass/theme-colors.scss */
+.contrast-banana header .navbar .navbar-form input:focus {
+  border-color: #e4aa04;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-banana header .navbar .navbar-form input:focus:-moz-placeholder {
+  color: #fde49d;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-banana header .navbar .navbar-form input:focus:-ms-input-placeholder {
+  color: #fde49d;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-banana header .navbar .navbar-form input:focus::-webkit-input-placeholder {
+  color: #fde49d;
+}
+/* line 51, ../../sass/theme-colors.scss */
+.contrast-banana header .navbar > .nav > li.light > a {
+  background: #fbc220;
+}
+/* line 54, ../../sass/theme-colors.scss */
+.contrast-banana header .navbar > .nav > li.light > a .label {
+  color: #fbc220;
+}
+/* line 58, ../../sass/theme-colors.scss */
+.contrast-banana header .navbar > .nav > li.light > a:hover, .contrast-banana header .navbar > .nav > li.light > a:active, .contrast-banana header .navbar > .nav > li.light > a:focus {
+  background-color: #f3b504;
+}
+/* line 65, ../../sass/theme-colors.scss */
+.contrast-banana header .navbar > .nav > li.medium > a {
+  background: #f3b504;
+}
+/* line 68, ../../sass/theme-colors.scss */
+.contrast-banana header .navbar > .nav > li.medium > a .label {
+  color: #f3b504;
+}
+/* line 73, ../../sass/theme-colors.scss */
+.contrast-banana header .navbar > .nav > li.medium > a:hover > a, .contrast-banana header .navbar > .nav > li.medium > a:active > a, .contrast-banana header .navbar > .nav > li.medium > a:focus > a {
+  background-color: #e4aa04;
+}
+/* line 81, ../../sass/theme-colors.scss */
+.contrast-banana header .navbar > .nav > li.dark > a {
+  background: #daa304;
+}
+/* line 84, ../../sass/theme-colors.scss */
+.contrast-banana header .navbar > .nav > li.dark > a .label {
+  color: #daa304;
+}
+/* line 89, ../../sass/theme-colors.scss */
+.contrast-banana header .navbar > .nav > li.dark > a:hover > a, .contrast-banana header .navbar > .nav > li.dark > a:active > a, .contrast-banana header .navbar > .nav > li.dark > a:focus > a {
+  background-color: #cb9704;
+}
+/* line 98, ../../sass/theme-colors.scss */
+.contrast-banana header .navbar .widget .dropdown-menu > li.widget-footer a:hover {
+  background-color: #fcd052;
+}
+/* line 106, ../../sass/theme-colors.scss */
+.contrast-banana header .navbar .nav li .label {
+  color: #fcd052;
+}
+/* line 113, ../../sass/theme-colors.scss */
+.contrast-banana .nav .caret, .contrast-banana .nav a:hover .caret {
+  border-top-color: #fcd052;
+  border-bottom-color: #fcd052;
+}
+/* line 118, ../../sass/theme-colors.scss */
+.contrast-banana code {
+  background-color: #f5f3e8;
+  color: #fbd461;
+}
+/* line 134, ../../sass/theme-colors.scss */
+.contrast-banana #main-nav .navigation > .nav > li > a.in [class^="icon-"], .contrast-banana #main-nav .navigation > .nav > li > a.in [class*=" icon-"] {
+  color: #fcd052;
+}
+/* line 143, ../../sass/theme-colors.scss */
+.contrast-banana #main-nav .navigation > .nav > li:hover > a [class^="icon-"], .contrast-banana #main-nav .navigation > .nav > li:hover > a [class*=" icon-"], .contrast-banana #main-nav .navigation > .nav > li:focus > a [class^="icon-"], .contrast-banana #main-nav .navigation > .nav > li:focus > a [class*=" icon-"], .contrast-banana #main-nav .navigation > .nav > li.active > a [class^="icon-"], .contrast-banana #main-nav .navigation > .nav > li.active > a [class*=" icon-"] {
+  color: #fcd052 !important;
+}
+/* line 153, ../../sass/theme-colors.scss */
+.contrast-banana #main-nav .navigation > .nav > li .nav > li.active > a [class^="icon-"], .contrast-banana #main-nav .navigation > .nav > li .nav > li.active > a [class*=" icon-"] {
+  color: #fcd052;
+}
+/* line 161, ../../sass/theme-colors.scss */
+.contrast-banana #main-nav .navigation > .nav > li .nav > li > a:hover [class^="icon-"], .contrast-banana #main-nav .navigation > .nav > li .nav > li > a:hover [class*=" icon-"], .contrast-banana #main-nav .navigation > .nav > li .nav > li > a:focus [class^="icon-"], .contrast-banana #main-nav .navigation > .nav > li .nav > li > a:focus [class*=" icon-"] {
+  color: #fcd052;
+}
+/* line 175, ../../sass/theme-colors.scss */
+.contrast-banana .box .box-header.contrast-background .actions .btn-link:hover {
+  color: #fcd052 !important;
+}
+/* line 179, ../../sass/theme-colors.scss */
+.contrast-banana.contrast-background, .contrast-banana .contrast-background {
+  background: #fcd052 !important;
+}
+/* line 180, ../../sass/theme-colors.scss */
+.contrast-banana .text-contrast, .contrast-banana .contrast {
+  color: #fcd052 !important;
+}
+/* line 181, ../../sass/theme-colors.scss */
+.contrast-banana .contrast-border {
+  border-color: #fcd052 !important;
+}
+/* line 185, ../../sass/theme-colors.scss */
+.contrast-banana .accordion.accordion-contrast .accordion-group {
+  border-color: #fcd052;
+  border-bottom-color: #feebb6;
+}
+/* line 191, ../../sass/theme-colors.scss */
+.contrast-banana .accordion.accordion-contrast .accordion-heading .accordion-toggle {
+  color: #fff;
+  background-color: #fcd052;
+}
+/* line 202, ../../sass/theme-colors.scss */
+.contrast-banana .box-quick-link.contrast-background a:active .header {
+  background: #fbc220;
+}
+/* line 208, ../../sass/theme-colors.scss */
+.contrast-banana .box-quick-link.contrast-background:hover .header {
+  background: #fcc939;
+}
+/* line 217, ../../sass/theme-colors.scss */
+.contrast-banana .box-statistic.contrast-background .title, .contrast-banana .box-statistic.contrast-background small, .contrast-banana .box-statistic.contrast-background [class*="icon-"] {
+  color: #fcd052 !important;
+}
+/* line 226, ../../sass/theme-colors.scss */
+.contrast-banana .breadcrumb li:first-child > a:hover {
+  color: #fcd052 !important;
+}
+/* line 234, ../../sass/theme-colors.scss */
+.contrast-banana h1 [class^="icon-"] {
+  color: #fcd052;
+}
+/* line 241, ../../sass/theme-colors.scss */
+.contrast-banana .dropdown-menu > .active > a, .contrast-banana .dropdown-menu > .active > a:hover, .contrast-banana .dropdown-menu > .active > a:focus, .contrast-banana .dropdown-menu > li > a:hover, .contrast-banana .dropdown-menu > li > a:focus, .contrast-banana .dropdown-submenu:hover > a, .contrast-banana .dropdown-submenu:focus > a {
+  background-color: #fcd052 !important;
+}
+/* line 253, ../../sass/theme-colors.scss */
+.contrast-banana .box .box-header .actions .btn-link:hover {
+  color: #fcd052;
+}
+/* line 269, ../../sass/theme-colors.scss */
+.contrast-banana .fuelux .wizard ul li.active {
+  background-color: #fcd052;
+}
+/* line 281, ../../sass/theme-colors.scss */
+.contrast-banana .fc-event .fc-event-inner {
+  border-color: #fcd052;
+  background-color: #fcd052;
+}
+/* line 286, ../../sass/theme-colors.scss */
+.contrast-banana .contrast-caret {
+  border-top-color: #fcd052 !important;
+  border-bottom-color: #fcd052 !important;
+}
+/* line 288, ../../sass/theme-colors.scss */
+.contrast-banana .select2-results .select2-highlighted {
+  background: #fcd052;
+}
+/* line 293, ../../sass/theme-colors.scss */
+.contrast-banana .daterangepicker .ranges li.active, .contrast-banana .daterangepicker .ranges li:hover {
+  background: #fcd052;
+}
+/* line 297, ../../sass/theme-colors.scss */
+.contrast-banana .daterangepicker td.active, .contrast-banana .daterangepicker td.active:hover {
+  background: #fcd052;
+}
+/* line 302, ../../sass/theme-colors.scss */
+.contrast-banana .datepicker td span.active:hover, .contrast-banana .datepicker td span.active:hover:hover, .contrast-banana .datepicker td span.active.disabled:hover, .contrast-banana .datepicker td span.active.disabled:hover:hover, .contrast-banana .datepicker td span.active:active, .contrast-banana .datepicker td span.active:hover:active, .contrast-banana .datepicker td span.active.disabled:active, .contrast-banana .datepicker td span.active.disabled:hover:active, .contrast-banana .datepicker td span.active.active, .contrast-banana .datepicker td span.active:hover.active, .contrast-banana .datepicker td span.active.disabled.active, .contrast-banana .datepicker td span.active.disabled:hover.active, .contrast-banana .datepicker td span.active.disabled, .contrast-banana .datepicker td span.active:hover.disabled, .contrast-banana .datepicker td span.active.disabled.disabled, .contrast-banana .datepicker td span.active.disabled:hover.disabled, .contrast-banana .datepicker td span.active[disabled], .contrast-banana .datepicker td span.active:hover[disabled], .contrast-banana .datepicker td span.active.disabled[disabled], .contrast-banana .datepicker td span.active.disabled:hover[disabled], .contrast-banana .datepicker td.active:hover, .contrast-banana .datepicker td.active:hover:hover, .contrast-banana .datepicker td.active.disabled:hover, .contrast-banana .datepicker td.active.disabled:hover:hover, .contrast-banana .datepicker td.active:active, .contrast-banana .datepicker td.active:hover:active, .contrast-banana .datepicker td.active.disabled:active, .contrast-banana .datepicker td.active.disabled:hover:active, .contrast-banana .datepicker td.active.active, .contrast-banana .datepicker td.active:hover.active, .contrast-banana .datepicker td.active.disabled.active, .contrast-banana .datepicker td.active.disabled:hover.active, .contrast-banana .datepicker td.active.disabled, .contrast-banana .datepicker td.active:hover.disabled, .contrast-banana .datepicker td.active.disabled.disabled, .contrast-banana .datepicker td.active.disabled:hover.disabled, .contrast-banana .datepicker td.active[disabled], .contrast-banana .datepicker td.active:hover[disabled], .contrast-banana .datepicker td.active.disabled[disabled], .contrast-banana .datepicker td.active.disabled:hover[disabled] {
+  background: #fcd052;
+}
+/* line 306, ../../sass/theme-colors.scss */
+.contrast-banana .dropdown-menu > .active > a, .contrast-banana .dropdown-menu > .active > a:hover, .contrast-banana .dropdown-menu > .active > a:focus {
+  background: #fcd052;
+}
+/* line 310, ../../sass/theme-colors.scss */
+.contrast-banana .dd-handle:hover {
+  color: #fcd052;
+}
+/* line 314, ../../sass/theme-colors.scss */
+.contrast-banana .dd-placeholder {
+  border-color: #fcd052;
+}
+
+/* line 12, ../../sass/theme-colors.scss */
+.contrast-dark-orange header .navbar {
+  background-color: #f56e00;
+}
+/* line 15, ../../sass/theme-colors.scss */
+.contrast-dark-orange header .navbar .toggle-nav {
+  background-color: #f56e00;
+}
+/* line 18, ../../sass/theme-colors.scss */
+.contrast-dark-orange header .navbar .toggle-nav:active, .contrast-dark-orange header .navbar .toggle-nav.active, .contrast-dark-orange header .navbar .toggle-nav:hover {
+  background-color: #c25700;
+}
+/* line 24, ../../sass/theme-colors.scss */
+.contrast-dark-orange header .navbar .navbar-form button {
+  color: #f56e00;
+}
+/* line 27, ../../sass/theme-colors.scss */
+.contrast-dark-orange header .navbar .navbar-form button:hover {
+  color: #763500;
+}
+/* line 32, ../../sass/theme-colors.scss */
+.contrast-dark-orange header .navbar .navbar-form input {
+  border-color: #c25700;
+  color: #763500;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-dark-orange header .navbar .navbar-form input:-moz-placeholder {
+  color: #ff8929;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-dark-orange header .navbar .navbar-form input:-ms-input-placeholder {
+  color: #ff8929;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-dark-orange header .navbar .navbar-form input::-webkit-input-placeholder {
+  color: #ff8929;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-dark-orange header .navbar .navbar-form input:hover:-moz-placeholder {
+  color: #ffa55c;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-dark-orange header .navbar .navbar-form input:hover:-ms-input-placeholder {
+  color: #ffa55c;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-dark-orange header .navbar .navbar-form input:hover::-webkit-input-placeholder {
+  color: #ffa55c;
+}
+/* line 41, ../../sass/theme-colors.scss */
+.contrast-dark-orange header .navbar .navbar-form input:focus {
+  border-color: #8f4000;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-dark-orange header .navbar .navbar-form input:focus:-moz-placeholder {
+  color: #ff9743;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-dark-orange header .navbar .navbar-form input:focus:-ms-input-placeholder {
+  color: #ff9743;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-dark-orange header .navbar .navbar-form input:focus::-webkit-input-placeholder {
+  color: #ff9743;
+}
+/* line 51, ../../sass/theme-colors.scss */
+.contrast-dark-orange header .navbar > .nav > li.light > a {
+  background: #d15e00;
+}
+/* line 54, ../../sass/theme-colors.scss */
+.contrast-dark-orange header .navbar > .nav > li.light > a .label {
+  color: #d15e00;
+}
+/* line 58, ../../sass/theme-colors.scss */
+.contrast-dark-orange header .navbar > .nav > li.light > a:hover, .contrast-dark-orange header .navbar > .nav > li.light > a:active, .contrast-dark-orange header .navbar > .nav > li.light > a:focus {
+  background-color: #b85300;
+}
+/* line 65, ../../sass/theme-colors.scss */
+.contrast-dark-orange header .navbar > .nav > li.medium > a {
+  background: #b85300;
+}
+/* line 68, ../../sass/theme-colors.scss */
+.contrast-dark-orange header .navbar > .nav > li.medium > a .label {
+  color: #b85300;
+}
+/* line 73, ../../sass/theme-colors.scss */
+.contrast-dark-orange header .navbar > .nav > li.medium > a:hover > a, .contrast-dark-orange header .navbar > .nav > li.medium > a:active > a, .contrast-dark-orange header .navbar > .nav > li.medium > a:focus > a {
+  background-color: #ae4e00;
+}
+/* line 81, ../../sass/theme-colors.scss */
+.contrast-dark-orange header .navbar > .nav > li.dark > a {
+  background: #a64b00;
+}
+/* line 84, ../../sass/theme-colors.scss */
+.contrast-dark-orange header .navbar > .nav > li.dark > a .label {
+  color: #a64b00;
+}
+/* line 89, ../../sass/theme-colors.scss */
+.contrast-dark-orange header .navbar > .nav > li.dark > a:hover > a, .contrast-dark-orange header .navbar > .nav > li.dark > a:active > a, .contrast-dark-orange header .navbar > .nav > li.dark > a:focus > a {
+  background-color: #9c4600;
+}
+/* line 98, ../../sass/theme-colors.scss */
+.contrast-dark-orange header .navbar .widget .dropdown-menu > li.widget-footer a:hover {
+  background-color: #f56e00;
+}
+/* line 106, ../../sass/theme-colors.scss */
+.contrast-dark-orange header .navbar .nav li .label {
+  color: #f56e00;
+}
+/* line 113, ../../sass/theme-colors.scss */
+.contrast-dark-orange .nav .caret, .contrast-dark-orange .nav a:hover .caret {
+  border-top-color: #f56e00;
+  border-bottom-color: #f56e00;
+}
+/* line 118, ../../sass/theme-colors.scss */
+.contrast-dark-orange code {
+  background-color: #f4e9e0;
+  color: #f57a16;
+}
+/* line 134, ../../sass/theme-colors.scss */
+.contrast-dark-orange #main-nav .navigation > .nav > li > a.in [class^="icon-"], .contrast-dark-orange #main-nav .navigation > .nav > li > a.in [class*=" icon-"] {
+  color: #f56e00;
+}
+/* line 143, ../../sass/theme-colors.scss */
+.contrast-dark-orange #main-nav .navigation > .nav > li:hover > a [class^="icon-"], .contrast-dark-orange #main-nav .navigation > .nav > li:hover > a [class*=" icon-"], .contrast-dark-orange #main-nav .navigation > .nav > li:focus > a [class^="icon-"], .contrast-dark-orange #main-nav .navigation > .nav > li:focus > a [class*=" icon-"], .contrast-dark-orange #main-nav .navigation > .nav > li.active > a [class^="icon-"], .contrast-dark-orange #main-nav .navigation > .nav > li.active > a [class*=" icon-"] {
+  color: #f56e00 !important;
+}
+/* line 153, ../../sass/theme-colors.scss */
+.contrast-dark-orange #main-nav .navigation > .nav > li .nav > li.active > a [class^="icon-"], .contrast-dark-orange #main-nav .navigation > .nav > li .nav > li.active > a [class*=" icon-"] {
+  color: #f56e00;
+}
+/* line 161, ../../sass/theme-colors.scss */
+.contrast-dark-orange #main-nav .navigation > .nav > li .nav > li > a:hover [class^="icon-"], .contrast-dark-orange #main-nav .navigation > .nav > li .nav > li > a:hover [class*=" icon-"], .contrast-dark-orange #main-nav .navigation > .nav > li .nav > li > a:focus [class^="icon-"], .contrast-dark-orange #main-nav .navigation > .nav > li .nav > li > a:focus [class*=" icon-"] {
+  color: #f56e00;
+}
+/* line 175, ../../sass/theme-colors.scss */
+.contrast-dark-orange .box .box-header.contrast-background .actions .btn-link:hover {
+  color: #f56e00 !important;
+}
+/* line 179, ../../sass/theme-colors.scss */
+.contrast-dark-orange.contrast-background, .contrast-dark-orange .contrast-background {
+  background: #f56e00 !important;
+}
+/* line 180, ../../sass/theme-colors.scss */
+.contrast-dark-orange .text-contrast, .contrast-dark-orange .contrast {
+  color: #f56e00 !important;
+}
+/* line 181, ../../sass/theme-colors.scss */
+.contrast-dark-orange .contrast-border {
+  border-color: #f56e00 !important;
+}
+/* line 185, ../../sass/theme-colors.scss */
+.contrast-dark-orange .accordion.accordion-contrast .accordion-group {
+  border-color: #f56e00;
+  border-bottom-color: #ffa55c;
+}
+/* line 191, ../../sass/theme-colors.scss */
+.contrast-dark-orange .accordion.accordion-contrast .accordion-heading .accordion-toggle {
+  color: #fff;
+  background-color: #f56e00;
+}
+/* line 202, ../../sass/theme-colors.scss */
+.contrast-dark-orange .box-quick-link.contrast-background a:active .header {
+  background: #c25700;
+}
+/* line 208, ../../sass/theme-colors.scss */
+.contrast-dark-orange .box-quick-link.contrast-background:hover .header {
+  background: #dc6300;
+}
+/* line 217, ../../sass/theme-colors.scss */
+.contrast-dark-orange .box-statistic.contrast-background .title, .contrast-dark-orange .box-statistic.contrast-background small, .contrast-dark-orange .box-statistic.contrast-background [class*="icon-"] {
+  color: #f56e00 !important;
+}
+/* line 226, ../../sass/theme-colors.scss */
+.contrast-dark-orange .breadcrumb li:first-child > a:hover {
+  color: #f56e00 !important;
+}
+/* line 234, ../../sass/theme-colors.scss */
+.contrast-dark-orange h1 [class^="icon-"] {
+  color: #f56e00;
+}
+/* line 241, ../../sass/theme-colors.scss */
+.contrast-dark-orange .dropdown-menu > .active > a, .contrast-dark-orange .dropdown-menu > .active > a:hover, .contrast-dark-orange .dropdown-menu > .active > a:focus, .contrast-dark-orange .dropdown-menu > li > a:hover, .contrast-dark-orange .dropdown-menu > li > a:focus, .contrast-dark-orange .dropdown-submenu:hover > a, .contrast-dark-orange .dropdown-submenu:focus > a {
+  background-color: #f56e00 !important;
+}
+/* line 253, ../../sass/theme-colors.scss */
+.contrast-dark-orange .box .box-header .actions .btn-link:hover {
+  color: #f56e00;
+}
+/* line 269, ../../sass/theme-colors.scss */
+.contrast-dark-orange .fuelux .wizard ul li.active {
+  background-color: #f56e00;
+}
+/* line 281, ../../sass/theme-colors.scss */
+.contrast-dark-orange .fc-event .fc-event-inner {
+  border-color: #f56e00;
+  background-color: #f56e00;
+}
+/* line 286, ../../sass/theme-colors.scss */
+.contrast-dark-orange .contrast-caret {
+  border-top-color: #f56e00 !important;
+  border-bottom-color: #f56e00 !important;
+}
+/* line 288, ../../sass/theme-colors.scss */
+.contrast-dark-orange .select2-results .select2-highlighted {
+  background: #f56e00;
+}
+/* line 293, ../../sass/theme-colors.scss */
+.contrast-dark-orange .daterangepicker .ranges li.active, .contrast-dark-orange .daterangepicker .ranges li:hover {
+  background: #f56e00;
+}
+/* line 297, ../../sass/theme-colors.scss */
+.contrast-dark-orange .daterangepicker td.active, .contrast-dark-orange .daterangepicker td.active:hover {
+  background: #f56e00;
+}
+/* line 302, ../../sass/theme-colors.scss */
+.contrast-dark-orange .datepicker td span.active:hover, .contrast-dark-orange .datepicker td span.active:hover:hover, .contrast-dark-orange .datepicker td span.active.disabled:hover, .contrast-dark-orange .datepicker td span.active.disabled:hover:hover, .contrast-dark-orange .datepicker td span.active:active, .contrast-dark-orange .datepicker td span.active:hover:active, .contrast-dark-orange .datepicker td span.active.disabled:active, .contrast-dark-orange .datepicker td span.active.disabled:hover:active, .contrast-dark-orange .datepicker td span.active.active, .contrast-dark-orange .datepicker td span.active:hover.active, .contrast-dark-orange .datepicker td span.active.disabled.active, .contrast-dark-orange .datepicker td span.active.disabled:hover.active, .contrast-dark-orange .datepicker td span.active.disabled, .contrast-dark-orange .datepicker td span.active:hover.disabled, .contrast-dark-orange .datepicker td span.active.disabled.disabled, .contrast-dark-orange .datepicker td span.active.disabled:hover.disabled, .contrast-dark-orange .datepicker td span.active[disabled], .contrast-dark-orange .datepicker td span.active:hover[disabled], .contrast-dark-orange .datepicker td span.active.disabled[disabled], .contrast-dark-orange .datepicker td span.active.disabled:hover[disabled], .contrast-dark-orange .datepicker td.active:hover, .contrast-dark-orange .datepicker td.active:hover:hover, .contrast-dark-orange .datepicker td.active.disabled:hover, .contrast-dark-orange .datepicker td.active.disabled:hover:hover, .contrast-dark-orange .datepicker td.active:active, .contrast-dark-orange .datepicker td.active:hover:active, .contrast-dark-orange .datepicker td.active.disabled:active, .contrast-dark-orange .datepicker td.active.disabled:hover:active, .contrast-dark-orange .datepicker td.active.active, .contrast-dark-orange .datepicker td.active:hover.active, .contrast-dark-orange .datepicker td.active.disabled.active, .contrast-dark-orange .datepicker td.active.disabled:hover.active, .contrast-dark-orange .datepicker td.active.disabled, .contrast-dark-orange .datepicker td.active:hover.disabled, .contrast-dark-orange .datepicker td.active.disabled.disabled, .contrast-dark-orange .datepicker td.active.disabled:hover.disabled, .contrast-dark-orange .datepicker td.active[disabled], .contrast-dark-orange .datepicker td.active:hover[disabled], .contrast-dark-orange .datepicker td.active.disabled[disabled], .contrast-dark-orange .datepicker td.active.disabled:hover[disabled] {
+  background: #f56e00;
+}
+/* line 306, ../../sass/theme-colors.scss */
+.contrast-dark-orange .dropdown-menu > .active > a, .contrast-dark-orange .dropdown-menu > .active > a:hover, .contrast-dark-orange .dropdown-menu > .active > a:focus {
+  background: #f56e00;
+}
+/* line 310, ../../sass/theme-colors.scss */
+.contrast-dark-orange .dd-handle:hover {
+  color: #f56e00;
+}
+/* line 314, ../../sass/theme-colors.scss */
+.contrast-dark-orange .dd-placeholder {
+  border-color: #f56e00;
+}
+
+/* line 12, ../../sass/theme-colors.scss */
+.contrast-brown header .navbar {
+  background-color: #924e31;
+}
+/* line 15, ../../sass/theme-colors.scss */
+.contrast-brown header .navbar .toggle-nav {
+  background-color: #924e31;
+}
+/* line 18, ../../sass/theme-colors.scss */
+.contrast-brown header .navbar .toggle-nav:active, .contrast-brown header .navbar .toggle-nav.active, .contrast-brown header .navbar .toggle-nav:hover {
+  background-color: #6c3a24;
+}
+/* line 24, ../../sass/theme-colors.scss */
+.contrast-brown header .navbar .navbar-form button {
+  color: #924e31;
+}
+/* line 27, ../../sass/theme-colors.scss */
+.contrast-brown header .navbar .navbar-form button:hover {
+  color: #331b11;
+}
+/* line 32, ../../sass/theme-colors.scss */
+.contrast-brown header .navbar .navbar-form input {
+  border-color: #6c3a24;
+  color: #331b11;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-brown header .navbar .navbar-form input:-moz-placeholder {
+  color: #b8623e;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-brown header .navbar .navbar-form input:-ms-input-placeholder {
+  color: #b8623e;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-brown header .navbar .navbar-form input::-webkit-input-placeholder {
+  color: #b8623e;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-brown header .navbar .navbar-form input:hover:-moz-placeholder {
+  color: #c97f60;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-brown header .navbar .navbar-form input:hover:-ms-input-placeholder {
+  color: #c97f60;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-brown header .navbar .navbar-form input:hover::-webkit-input-placeholder {
+  color: #c97f60;
+}
+/* line 41, ../../sass/theme-colors.scss */
+.contrast-brown header .navbar .navbar-form input:focus {
+  border-color: #462517;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-brown header .navbar .navbar-form input:focus:-moz-placeholder {
+  color: #c3704c;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-brown header .navbar .navbar-form input:focus:-ms-input-placeholder {
+  color: #c3704c;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-brown header .navbar .navbar-form input:focus::-webkit-input-placeholder {
+  color: #c3704c;
+}
+/* line 51, ../../sass/theme-colors.scss */
+.contrast-brown header .navbar > .nav > li.light > a {
+  background: #774028;
+}
+/* line 54, ../../sass/theme-colors.scss */
+.contrast-brown header .navbar > .nav > li.light > a .label {
+  color: #774028;
+}
+/* line 58, ../../sass/theme-colors.scss */
+.contrast-brown header .navbar > .nav > li.light > a:hover, .contrast-brown header .navbar > .nav > li.light > a:active, .contrast-brown header .navbar > .nav > li.light > a:focus {
+  background-color: #653622;
+}
+/* line 65, ../../sass/theme-colors.scss */
+.contrast-brown header .navbar > .nav > li.medium > a {
+  background: #653622;
+}
+/* line 68, ../../sass/theme-colors.scss */
+.contrast-brown header .navbar > .nav > li.medium > a .label {
+  color: #653622;
+}
+/* line 73, ../../sass/theme-colors.scss */
+.contrast-brown header .navbar > .nav > li.medium > a:hover > a, .contrast-brown header .navbar > .nav > li.medium > a:active > a, .contrast-brown header .navbar > .nav > li.medium > a:focus > a {
+  background-color: #5d311f;
+}
+/* line 81, ../../sass/theme-colors.scss */
+.contrast-brown header .navbar > .nav > li.dark > a {
+  background: #572f1d;
+}
+/* line 84, ../../sass/theme-colors.scss */
+.contrast-brown header .navbar > .nav > li.dark > a .label {
+  color: #572f1d;
+}
+/* line 89, ../../sass/theme-colors.scss */
+.contrast-brown header .navbar > .nav > li.dark > a:hover > a, .contrast-brown header .navbar > .nav > li.dark > a:active > a, .contrast-brown header .navbar > .nav > li.dark > a:focus > a {
+  background-color: #4f2a1b;
+}
+/* line 98, ../../sass/theme-colors.scss */
+.contrast-brown header .navbar .widget .dropdown-menu > li.widget-footer a:hover {
+  background-color: #924e31;
+}
+/* line 106, ../../sass/theme-colors.scss */
+.contrast-brown header .navbar .nav li .label {
+  color: #924e31;
+}
+/* line 113, ../../sass/theme-colors.scss */
+.contrast-brown .nav .caret, .contrast-brown .nav a:hover .caret {
+  border-top-color: #924e31;
+  border-bottom-color: #924e31;
+}
+/* line 118, ../../sass/theme-colors.scss */
+.contrast-brown code {
+  background-color: #eae6e5;
+  color: #9b5d43;
+}
+/* line 134, ../../sass/theme-colors.scss */
+.contrast-brown #main-nav .navigation > .nav > li > a.in [class^="icon-"], .contrast-brown #main-nav .navigation > .nav > li > a.in [class*=" icon-"] {
+  color: #924e31;
+}
+/* line 143, ../../sass/theme-colors.scss */
+.contrast-brown #main-nav .navigation > .nav > li:hover > a [class^="icon-"], .contrast-brown #main-nav .navigation > .nav > li:hover > a [class*=" icon-"], .contrast-brown #main-nav .navigation > .nav > li:focus > a [class^="icon-"], .contrast-brown #main-nav .navigation > .nav > li:focus > a [class*=" icon-"], .contrast-brown #main-nav .navigation > .nav > li.active > a [class^="icon-"], .contrast-brown #main-nav .navigation > .nav > li.active > a [class*=" icon-"] {
+  color: #924e31 !important;
+}
+/* line 153, ../../sass/theme-colors.scss */
+.contrast-brown #main-nav .navigation > .nav > li .nav > li.active > a [class^="icon-"], .contrast-brown #main-nav .navigation > .nav > li .nav > li.active > a [class*=" icon-"] {
+  color: #924e31;
+}
+/* line 161, ../../sass/theme-colors.scss */
+.contrast-brown #main-nav .navigation > .nav > li .nav > li > a:hover [class^="icon-"], .contrast-brown #main-nav .navigation > .nav > li .nav > li > a:hover [class*=" icon-"], .contrast-brown #main-nav .navigation > .nav > li .nav > li > a:focus [class^="icon-"], .contrast-brown #main-nav .navigation > .nav > li .nav > li > a:focus [class*=" icon-"] {
+  color: #924e31;
+}
+/* line 175, ../../sass/theme-colors.scss */
+.contrast-brown .box .box-header.contrast-background .actions .btn-link:hover {
+  color: #924e31 !important;
+}
+/* line 179, ../../sass/theme-colors.scss */
+.contrast-brown.contrast-background, .contrast-brown .contrast-background {
+  background: #924e31 !important;
+}
+/* line 180, ../../sass/theme-colors.scss */
+.contrast-brown .text-contrast, .contrast-brown .contrast {
+  color: #924e31 !important;
+}
+/* line 181, ../../sass/theme-colors.scss */
+.contrast-brown .contrast-border {
+  border-color: #924e31 !important;
+}
+/* line 185, ../../sass/theme-colors.scss */
+.contrast-brown .accordion.accordion-contrast .accordion-group {
+  border-color: #924e31;
+  border-bottom-color: #c97f60;
+}
+/* line 191, ../../sass/theme-colors.scss */
+.contrast-brown .accordion.accordion-contrast .accordion-heading .accordion-toggle {
+  color: #fff;
+  background-color: #924e31;
+}
+/* line 202, ../../sass/theme-colors.scss */
+.contrast-brown .box-quick-link.contrast-background a:active .header {
+  background: #6c3a24;
+}
+/* line 208, ../../sass/theme-colors.scss */
+.contrast-brown .box-quick-link.contrast-background:hover .header {
+  background: #7f442b;
+}
+/* line 217, ../../sass/theme-colors.scss */
+.contrast-brown .box-statistic.contrast-background .title, .contrast-brown .box-statistic.contrast-background small, .contrast-brown .box-statistic.contrast-background [class*="icon-"] {
+  color: #924e31 !important;
+}
+/* line 226, ../../sass/theme-colors.scss */
+.contrast-brown .breadcrumb li:first-child > a:hover {
+  color: #924e31 !important;
+}
+/* line 234, ../../sass/theme-colors.scss */
+.contrast-brown h1 [class^="icon-"] {
+  color: #924e31;
+}
+/* line 241, ../../sass/theme-colors.scss */
+.contrast-brown .dropdown-menu > .active > a, .contrast-brown .dropdown-menu > .active > a:hover, .contrast-brown .dropdown-menu > .active > a:focus, .contrast-brown .dropdown-menu > li > a:hover, .contrast-brown .dropdown-menu > li > a:focus, .contrast-brown .dropdown-submenu:hover > a, .contrast-brown .dropdown-submenu:focus > a {
+  background-color: #924e31 !important;
+}
+/* line 253, ../../sass/theme-colors.scss */
+.contrast-brown .box .box-header .actions .btn-link:hover {
+  color: #924e31;
+}
+/* line 269, ../../sass/theme-colors.scss */
+.contrast-brown .fuelux .wizard ul li.active {
+  background-color: #924e31;
+}
+/* line 281, ../../sass/theme-colors.scss */
+.contrast-brown .fc-event .fc-event-inner {
+  border-color: #924e31;
+  background-color: #924e31;
+}
+/* line 286, ../../sass/theme-colors.scss */
+.contrast-brown .contrast-caret {
+  border-top-color: #924e31 !important;
+  border-bottom-color: #924e31 !important;
+}
+/* line 288, ../../sass/theme-colors.scss */
+.contrast-brown .select2-results .select2-highlighted {
+  background: #924e31;
+}
+/* line 293, ../../sass/theme-colors.scss */
+.contrast-brown .daterangepicker .ranges li.active, .contrast-brown .daterangepicker .ranges li:hover {
+  background: #924e31;
+}
+/* line 297, ../../sass/theme-colors.scss */
+.contrast-brown .daterangepicker td.active, .contrast-brown .daterangepicker td.active:hover {
+  background: #924e31;
+}
+/* line 302, ../../sass/theme-colors.scss */
+.contrast-brown .datepicker td span.active:hover, .contrast-brown .datepicker td span.active:hover:hover, .contrast-brown .datepicker td span.active.disabled:hover, .contrast-brown .datepicker td span.active.disabled:hover:hover, .contrast-brown .datepicker td span.active:active, .contrast-brown .datepicker td span.active:hover:active, .contrast-brown .datepicker td span.active.disabled:active, .contrast-brown .datepicker td span.active.disabled:hover:active, .contrast-brown .datepicker td span.active.active, .contrast-brown .datepicker td span.active:hover.active, .contrast-brown .datepicker td span.active.disabled.active, .contrast-brown .datepicker td span.active.disabled:hover.active, .contrast-brown .datepicker td span.active.disabled, .contrast-brown .datepicker td span.active:hover.disabled, .contrast-brown .datepicker td span.active.disabled.disabled, .contrast-brown .datepicker td span.active.disabled:hover.disabled, .contrast-brown .datepicker td span.active[disabled], .contrast-brown .datepicker td span.active:hover[disabled], .contrast-brown .datepicker td span.active.disabled[disabled], .contrast-brown .datepicker td span.active.disabled:hover[disabled], .contrast-brown .datepicker td.active:hover, .contrast-brown .datepicker td.active:hover:hover, .contrast-brown .datepicker td.active.disabled:hover, .contrast-brown .datepicker td.active.disabled:hover:hover, .contrast-brown .datepicker td.active:active, .contrast-brown .datepicker td.active:hover:active, .contrast-brown .datepicker td.active.disabled:active, .contrast-brown .datepicker td.active.disabled:hover:active, .contrast-brown .datepicker td.active.active, .contrast-brown .datepicker td.active:hover.active, .contrast-brown .datepicker td.active.disabled.active, .contrast-brown .datepicker td.active.disabled:hover.active, .contrast-brown .datepicker td.active.disabled, .contrast-brown .datepicker td.active:hover.disabled, .contrast-brown .datepicker td.active.disabled.disabled, .contrast-brown .datepicker td.active.disabled:hover.disabled, .contrast-brown .datepicker td.active[disabled], .contrast-brown .datepicker td.active:hover[disabled], .contrast-brown .datepicker td.active.disabled[disabled], .contrast-brown .datepicker td.active.disabled:hover[disabled] {
+  background: #924e31;
+}
+/* line 306, ../../sass/theme-colors.scss */
+.contrast-brown .dropdown-menu > .active > a, .contrast-brown .dropdown-menu > .active > a:hover, .contrast-brown .dropdown-menu > .active > a:focus {
+  background: #924e31;
+}
+/* line 310, ../../sass/theme-colors.scss */
+.contrast-brown .dd-handle:hover {
+  color: #924e31;
+}
+/* line 314, ../../sass/theme-colors.scss */
+.contrast-brown .dd-placeholder {
+  border-color: #924e31;
+}
+
+/* line 12, ../../sass/theme-colors.scss */
+.contrast-metajive-green header .navbar {
+  background-color: #79B900;
+}
+/* line 15, ../../sass/theme-colors.scss */
+.contrast-metajive-green header .navbar .toggle-nav {
+  background-color: #79B900;
+}
+/* line 18, ../../sass/theme-colors.scss */
+.contrast-metajive-green header .navbar .toggle-nav:active, .contrast-metajive-green header .navbar .toggle-nav.active, .contrast-metajive-green header .navbar .toggle-nav:hover {
+  background-color: #588600;
+}
+/* line 24, ../../sass/theme-colors.scss */
+.contrast-metajive-green header .navbar .navbar-form button {
+  color: #79B900;
+}
+/* line 27, ../../sass/theme-colors.scss */
+.contrast-metajive-green header .navbar .navbar-form button:hover {
+  color: #263a00;
+}
+/* line 32, ../../sass/theme-colors.scss */
+.contrast-metajive-green header .navbar .navbar-form input {
+  border-color: #588600;
+  color: #263a00;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-metajive-green header .navbar .navbar-form input:-moz-placeholder {
+  color: #9aec00;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-metajive-green header .navbar .navbar-form input:-ms-input-placeholder {
+  color: #9aec00;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-metajive-green header .navbar .navbar-form input::-webkit-input-placeholder {
+  color: #9aec00;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-metajive-green header .navbar .navbar-form input:hover:-moz-placeholder {
+  color: #b2ff20;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-metajive-green header .navbar .navbar-form input:hover:-ms-input-placeholder {
+  color: #b2ff20;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-metajive-green header .navbar .navbar-form input:hover::-webkit-input-placeholder {
+  color: #b2ff20;
+}
+/* line 41, ../../sass/theme-colors.scss */
+.contrast-metajive-green header .navbar .navbar-form input:focus {
+  border-color: #365300;
+}
+/* line 109, ../../sass/theme/_utilities.scss */
+.contrast-metajive-green header .navbar .navbar-form input:focus:-moz-placeholder {
+  color: #a9ff07;
+}
+/* line 112, ../../sass/theme/_utilities.scss */
+.contrast-metajive-green header .navbar .navbar-form input:focus:-ms-input-placeholder {
+  color: #a9ff07;
+}
+/* line 115, ../../sass/theme/_utilities.scss */
+.contrast-metajive-green header .navbar .navbar-form input:focus::-webkit-input-placeholder {
+  color: #a9ff07;
+}
+/* line 51, ../../sass/theme-colors.scss */
+.contrast-metajive-green header .navbar > .nav > li.light > a {
+  background: #5e9000;
+}
+/* line 54, ../../sass/theme-colors.scss */
+.contrast-metajive-green header .navbar > .nav > li.light > a .label {
+  color: #5e9000;
+}
+/* line 58, ../../sass/theme-colors.scss */
+.contrast-metajive-green header .navbar > .nav > li.light > a:hover, .contrast-metajive-green header .navbar > .nav > li.light > a:active, .contrast-metajive-green header .navbar > .nav > li.light > a:focus {
+  background-color: #4c7400;
+}
+/* line 65, ../../sass/theme-colors.scss */
+.contrast-metajive-green header .navbar > .nav > li.medium > a {
+  background: #4c7400;
+}
+/* line 68, ../../sass/theme-colors.scss */
+.contrast-metajive-green header .navbar > .nav > li.medium > a .label {
+  color: #4c7400;
+}
+/* line 73, ../../sass/theme-colors.scss */
+.contrast-metajive-green header .navbar > .nav > li.medium > a:hover > a, .contrast-metajive-green header .navbar > .nav > li.medium > a:active > a, .contrast-metajive-green header .navbar > .nav > li.medium > a:focus > a {
+  background-color: #446700;
+}
+/* line 81, ../../sass/theme-colors.scss */
+.contrast-metajive-green header .navbar > .nav > li.dark > a {
+  background: #3e5f00;
+}
+/* line 84, ../../sass/theme-colors.scss */
+.contrast-metajive-green header .navbar > .nav > li.dark > a .label {
+  color: #3e5f00;
+}
+/* line 89, ../../sass/theme-colors.scss */
+.contrast-metajive-green header .navbar > .nav > li.dark > a:hover > a, .contrast-metajive-green header .navbar > .nav > li.dark > a:active > a, .contrast-metajive-green header .navbar > .nav > li.dark > a:focus > a {
+  background-color: #365300;
+}
+/* line 98, ../../sass/theme-colors.scss */
+.contrast-metajive-green header .navbar .widget .dropdown-menu > li.widget-footer a:hover {
+  background-color: #79B900;
+}
+/* line 106, ../../sass/theme-colors.scss */
+.contrast-metajive-green header .navbar .nav li .label {
+  color: #79B900;
+}
+/* line 113, ../../sass/theme-colors.scss */
+.contrast-metajive-green .nav .caret, .contrast-metajive-green .nav a:hover .caret {
+  border-top-color: #79B900;
+  border-bottom-color: #79B900;
+}
+/* line 118, ../../sass/theme-colors.scss */
+.contrast-metajive-green code {
+  background-color: #e8f1e0;
+  color: #84bf16;
+}
+/* line 134, ../../sass/theme-colors.scss */
+.contrast-metajive-green #main-nav .navigation > .nav > li > a.in [class^="icon-"], .contrast-metajive-green #main-nav .navigation > .nav > li > a.in [class*=" icon-"] {
+  color: #79B900;
+}
+/* line 143, ../../sass/theme-colors.scss */
+.contrast-metajive-green #main-nav .navigation > .nav > li:hover > a [class^="icon-"], .contrast-metajive-green #main-nav .navigation > .nav > li:hover > a [class*=" icon-"], .contrast-metajive-green #main-nav .navigation > .nav > li:focus > a [class^="icon-"], .contrast-metajive-green #main-nav .navigation > .nav > li:focus > a [class*=" icon-"], .contrast-metajive-green #main-nav .navigation > .nav > li.active > a [class^="icon-"], .contrast-metajive-green #main-nav .navigation > .nav > li.active > a [class*=" icon-"] {
+  color: #79B900 !important;
+}
+/* line 153, ../../sass/theme-colors.scss */
+.contrast-metajive-green #main-nav .navigation > .nav > li .nav > li.active > a [class^="icon-"], .contrast-metajive-green #main-nav .navigation > .nav > li .nav > li.active > a [class*=" icon-"] {
+  color: #79B900;
+}
+/* line 161, ../../sass/theme-colors.scss */
+.contrast-metajive-green #main-nav .navigation > .nav > li .nav > li > a:hover [class^="icon-"], .contrast-metajive-green #main-nav .navigation > .nav > li .nav > li > a:hover [class*=" icon-"], .contrast-metajive-green #main-nav .navigation > .nav > li .nav > li > a:focus [class^="icon-"], .contrast-metajive-green #main-nav .navigation > .nav > li .nav > li > a:focus [class*=" icon-"] {
+  color: #79B900;
+}
+/* line 175, ../../sass/theme-colors.scss */
+.contrast-metajive-green .box .box-header.contrast-background .actions .btn-link:hover {
+  color: #79B900 !important;
+}
+/* line 179, ../../sass/theme-colors.scss */
+.contrast-metajive-green.contrast-background, .contrast-metajive-green .contrast-background {
+  background: #79B900 !important;
+}
+/* line 180, ../../sass/theme-colors.scss */
+.contrast-metajive-green .text-contrast, .contrast-metajive-green .contrast {
+  color: #79B900 !important;
+}
+/* line 181, ../../sass/theme-colors.scss */
+.contrast-metajive-green .contrast-border {
+  border-color: #79B900 !important;
+}
+/* line 185, ../../sass/theme-colors.scss */
+.contrast-metajive-green .accordion.accordion-contrast .accordion-group {
+  border-color: #79B900;
+  border-bottom-color: #b2ff20;
+}
+/* line 191, ../../sass/theme-colors.scss */
+.contrast-metajive-green .accordion.accordion-contrast .accordion-heading .accordion-toggle {
+  color: #fff;
+  background-color: #79B900;
+}
+/* line 202, ../../sass/theme-colors.scss */
+.contrast-metajive-green .box-quick-link.contrast-background a:active .header {
+  background: #588600;
+}
+/* line 208, ../../sass/theme-colors.scss */
+.contrast-metajive-green .box-quick-link.contrast-background:hover .header {
+  background: #68a000;
+}
+/* line 217, ../../sass/theme-colors.scss */
+.contrast-metajive-green .box-statistic.contrast-background .title, .contrast-metajive-green .box-statistic.contrast-background small, .contrast-metajive-green .box-statistic.contrast-background [class*="icon-"] {
+  color: #79B900 !important;
+}
+/* line 226, ../../sass/theme-colors.scss */
+.contrast-metajive-green .breadcrumb li:first-child > a:hover {
+  color: #79B900 !important;
+}
+/* line 234, ../../sass/theme-colors.scss */
+.contrast-metajive-green h1 [class^="icon-"] {
+  color: #79B900;
+}
+/* line 241, ../../sass/theme-colors.scss */
+.contrast-metajive-green .dropdown-menu > .active > a, .contrast-metajive-green .dropdown-menu > .active > a:hover, .contrast-metajive-green .dropdown-menu > .active > a:focus, .contrast-metajive-green .dropdown-menu > li > a:hover, .contrast-metajive-green .dropdown-menu > li > a:focus, .contrast-metajive-green .dropdown-submenu:hover > a, .contrast-metajive-green .dropdown-submenu:focus > a {
+  background-color: #79B900 !important;
+}
+/* line 253, ../../sass/theme-colors.scss */
+.contrast-metajive-green .box .box-header .actions .btn-link:hover {
+  color: #79B900;
+}
+/* line 269, ../../sass/theme-colors.scss */
+.contrast-metajive-green .fuelux .wizard ul li.active {
+  background-color: #79B900;
+}
+/* line 281, ../../sass/theme-colors.scss */
+.contrast-metajive-green .fc-event .fc-event-inner {
+  border-color: #79B900;
+  background-color: #79B900;
+}
+/* line 286, ../../sass/theme-colors.scss */
+.contrast-metajive-green .contrast-caret {
+  border-top-color: #79B900 !important;
+  border-bottom-color: #79B900 !important;
+}
+/* line 288, ../../sass/theme-colors.scss */
+.contrast-metajive-green .select2-results .select2-highlighted {
+  background: #79B900;
+}
+/* line 293, ../../sass/theme-colors.scss */
+.contrast-metajive-green .daterangepicker .ranges li.active, .contrast-metajive-green .daterangepicker .ranges li:hover {
+  background: #79B900;
+}
+/* line 297, ../../sass/theme-colors.scss */
+.contrast-metajive-green .daterangepicker td.active, .contrast-metajive-green .daterangepicker td.active:hover {
+  background: #79B900;
+}
+/* line 302, ../../sass/theme-colors.scss */
+.contrast-metajive-green .datepicker td span.active:hover, .contrast-metajive-green .datepicker td span.active:hover:hover, .contrast-metajive-green .datepicker td span.active.disabled:hover, .contrast-metajive-green .datepicker td span.active.disabled:hover:hover, .contrast-metajive-green .datepicker td span.active:active, .contrast-metajive-green .datepicker td span.active:hover:active, .contrast-metajive-green .datepicker td span.active.disabled:active, .contrast-metajive-green .datepicker td span.active.disabled:hover:active, .contrast-metajive-green .datepicker td span.active.active, .contrast-metajive-green .datepicker td span.active:hover.active, .contrast-metajive-green .datepicker td span.active.disabled.active, .contrast-metajive-green .datepicker td span.active.disabled:hover.active, .contrast-metajive-green .datepicker td span.active.disabled, .contrast-metajive-green .datepicker td span.active:hover.disabled, .contrast-metajive-green .datepicker td span.active.disabled.disabled, .contrast-metajive-green .datepicker td span.active.disabled:hover.disabled, .contrast-metajive-green .datepicker td span.active[disabled], .contrast-metajive-green .datepicker td span.active:hover[disabled], .contrast-metajive-green .datepicker td span.active.disabled[disabled], .contrast-metajive-green .datepicker td span.active.disabled:hover[disabled], .contrast-metajive-green .datepicker td.active:hover, .contrast-metajive-green .datepicker td.active:hover:hover, .contrast-metajive-green .datepicker td.active.disabled:hover, .contrast-metajive-green .datepicker td.active.disabled:hover:hover, .contrast-metajive-green .datepicker td.active:active, .contrast-metajive-green .datepicker td.active:hover:active, .contrast-metajive-green .datepicker td.active.disabled:active, .contrast-metajive-green .datepicker td.active.disabled:hover:active, .contrast-metajive-green .datepicker td.active.active, .contrast-metajive-green .datepicker td.active:hover.active, .contrast-metajive-green .datepicker td.active.disabled.active, .contrast-metajive-green .datepicker td.active.disabled:hover.active, .contrast-metajive-green .datepicker td.active.disabled, .contrast-metajive-green .datepicker td.active:hover.disabled, .contrast-metajive-green .datepicker td.active.disabled.disabled, .contrast-metajive-green .datepicker td.active.disabled:hover.disabled, .contrast-metajive-green .datepicker td.active[disabled], .contrast-metajive-green .datepicker td.active:hover[disabled], .contrast-metajive-green .datepicker td.active.disabled[disabled], .contrast-metajive-green .datepicker td.active.disabled:hover[disabled] {
+  background: #79B900;
+}
+/* line 306, ../../sass/theme-colors.scss */
+.contrast-metajive-green .dropdown-menu > .active > a, .contrast-metajive-green .dropdown-menu > .active > a:hover, .contrast-metajive-green .dropdown-menu > .active > a:focus {
+  background: #79B900;
+}
+/* line 310, ../../sass/theme-colors.scss */
+.contrast-metajive-green .dd-handle:hover {
+  color: #79B900;
+}
+/* line 314, ../../sass/theme-colors.scss */
+.contrast-metajive-green .dd-placeholder {
+  border-color: #79B900;
+}

@@ -1,0 +1,58 @@
+.footer {
+	//height: 100px;
+	height: $footer-height;
+	border-top: 1px solid $gray68;
+	display: table;
+	width: 100%;
+
+	background-color: $white;
+    bottom: 0;
+    position: fixed;
+    z-index: 80;
+
+	a {
+		display: table-cell;
+		text-align: center;
+		vertical-align: bottom;
+		width: 20%;
+		color: $gray57;
+		font-size: 20px;
+
+		&:hover { color: $orange; }
+
+		&.activities {
+			background: image-url("footer-activities-gray.png") no-repeat scroll center 19px transparent;
+			&:hover {
+				background-image: image-url("footer-activities-orange.png")
+			}
+		}
+
+		&.dashboard {
+			background: image-url("footer-dashboard-gray.png") no-repeat scroll center 19px transparent;
+			&:hover {
+				background-image: image-url("footer-dashboard-orange.png")
+			}
+		}
+
+		&.coummunity {
+			background: image-url("footer-community-gray.png") no-repeat scroll center 19px transparent;
+			&:hover {
+				background-image: image-url("footer-community-orange.png")
+			}
+		}
+
+		&.learn {
+			background: image-url("footer-learn-gray.png") no-repeat scroll center 19px transparent;
+			&:hover {
+				background-image: image-url("footer-learn-orange.png")
+			}
+		}
+
+		&.profile {
+			background: image-url("footer-profile-gray.png") no-repeat scroll center 19px transparent;
+			&:hover {
+				background-image: image-url("footer-profile-orange.png")
+			}
+		}
+	}
+}

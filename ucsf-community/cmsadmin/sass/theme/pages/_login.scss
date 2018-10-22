@@ -1,0 +1,72 @@
+html {
+  @include square(100%);
+}
+
+body.login {
+  @include square(100%);
+  background: url('../../assets/images/login/login_bg.jpg') no-repeat 0 0 transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  .login-block {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 12px 14px 0 rgba(0, 0, 0, 0.23);
+    min-height: 400px;
+    left: 50%;
+    opacity: 0.9;
+    padding-bottom: 20px;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 600px;
+
+    &__icon {
+      background: url('../../assets/images/login/pride-study-flag.svg') no-repeat 0 0 transparent;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      height: 56px;
+      margin: 35px auto 20px;
+      width: 51px;
+    }
+
+    &__title {
+      color: #2c3e50;
+      font-size: 24px;
+      font-weight: 400;
+      letter-spacing: 1px;
+      margin-bottom: 31px;
+      text-transform: none;
+    }
+
+    .form-group {
+      margin: 0 auto;
+      width: 350px;
+
+      .form-control {
+        border: solid 1px #dee1e2;
+        margin-bottom: 10px;
+      }
+    }
+
+    .btn-login {
+      background-color: #2ecc71;
+      border-radius: 3px;
+      color: #ffffff;
+      display: block;
+      height: 40px;
+      margin: 22px auto 35px;
+      width: 150px;
+    }
+
+    .forgot-password {
+      color: #4a90e2;
+      font-size: 12px;
+      font-weight: 400;
+    }
+
+  }
+}
+

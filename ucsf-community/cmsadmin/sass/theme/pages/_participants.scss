@@ -1,0 +1,82 @@
+ul.inline-list {
+    padding: 0px;
+    li {
+        display: inline;
+        padding-right: 30px;
+    }
+}
+
+.pager-wrapper {
+    margin-top: 10px;
+    .pager-container {
+        text-align: center;
+        width: 270px;
+        margin: 0 auto;
+        color: $coolGrey;
+        font-size: 14px;
+        overflow: auto;
+        letter-spacing: 1px;
+        .pages {
+            color: $darkGreyBlue;
+            font-weight: bold;
+        }
+        input {
+            text-align: center;
+            width: 58px;
+            height: 40px;
+            border: 1px solid #b1c2c6;
+            margin: 0px 5px;
+        }
+        a {
+            font-size: 24px;
+            font-weight: normal;
+            display: inline-block;
+            height: 40px;
+            width: 40px;
+            &.back {
+                color: $coolGrey;
+                float: left;
+            }
+            &.next {
+                float: right;
+                color: $greenishTeal;
+            }
+        }
+
+    }
+}
+
+.save-btn-wrapper {
+    border-bottom: 2px solid $coolGrey;
+    padding-bottom: 30px;
+}
+
+.ban-btn-wrapper {
+    padding-top: 30px;
+    a {
+        background-color: $tomato;
+        color: $white;
+    }
+}
+
+.check-boxes-wrapper {
+    margin-left: 30px;
+}
+
+.form-controls {
+    margin-top: 30px;
+}
+
+.categories {
+    .check-boxes-wrapper {
+        margin-left: 0;
+
+        label {
+            color: #2c3e50;
+            font-size: 12px !important;
+            line-height: 19px !important;
+            margin-bottom: 30px;
+            width: 180px;
+        }
+    }
+}

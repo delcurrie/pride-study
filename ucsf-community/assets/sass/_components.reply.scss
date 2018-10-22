@@ -1,0 +1,15 @@
+.reply {
+    padding: 0 20px 20px;
+    position: relative;
+
+    textarea {
+        background-color: $white;
+        border: 1px solid $gray80;
+        width: 100%;
+        @include border-radius(6px);
+        padding: 10px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+}

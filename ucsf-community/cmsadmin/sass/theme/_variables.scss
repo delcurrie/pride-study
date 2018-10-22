@@ -1,0 +1,177 @@
+$baseFontSize: 14px !default;
+$baseLineHeight: 20px !default;
+$sansFontFamily: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$zindexDropdown: 1000 !default;
+$zindexFixedNavbar: 1030 !default;
+$grayLighter: #eee !default;
+$hrBorder: $grayLighter !default;
+
+$lightest: #f4f7f9 !default;
+$light: #dce1e5 !default;
+
+$dark: #143249 !default;
+$darkest: #0d2231 !default;
+
+$white: #fff !default;
+$contentBackground: $lightest !default;
+
+$orange: #f3901d !default;
+$blue: #00acec !default;
+$seaBlue: #0163ac !default;
+$purple: #9564e2 !default;
+$green: #49bf67 !default;
+$red: #9c142e !default;
+$muted: #999999 !default;
+$fb: #3d579d !default;
+$darkColor: #2b2d30 !default;
+$pink: #c44a83 !default;
+$grassGreen: #5daf2b !default;
+$banana: #fcd052 !default;
+$contrast: $red !default;
+$brown: #924e31 !default;
+$darkOrange: #f56e00 !default;
+$metajiveGreen: #79B900 !default;
+$darkGrey: #545555 !default;
+$coolGrey: #95a5a6 !default;
+$darkSkyBlue: #3498db !default;
+$tomato: #e74c3c !default;
+$darkGreyBlueTwo: #2c3e50 !default;
+$steelGrey: #7f8c8d !default;
+
+// colors
+$colors: ($contrast, $orange, $blue, $purple, $green, $red, $muted, $fb, $darkColor, $pink, $grassGreen, $seaBlue, $banana, $darkOrange, $brown, $metajiveGreen, $darkGrey, $coolGrey, $darkSkyBlue, $tomato, $darkGreyBlueTwo);
+$colorsNames: ("contrast", "orange", "blue", "purple", "green", "red", "muted", "fb", "dark", "pink", "grass-green", "sea-blue", "banana", "dark-orange", "brown", "metajive-green", "dark-grey", "cool-grey", "dark-sky-blue", "tomato", "dark-grey-blue-two");
+
+// themes
+$themeNames: ("red","orange", "blue", "purple", "green", "fb", "muted", "dark", "pink", "grass-green", "sea-blue", "banana", "dark-orange", "brown", "metajive-green");
+$themeColors: ($red,$orange, $blue, $purple, $green, $fb, $muted, $darkColor, $pink, $grassGreen, $seaBlue, $banana, $darkOrange, $brown, $metajiveGreen);
+
+// fonts
+$headingsFontFamily: san_francisco_textregular;
+
+// header
+$headerBrandBackground: $dark !default;
+$headerBackground: $contrast !default;
+$headerBrandColor: $white !default;
+$headerSearchButtonColor: $headerBackground !default;
+$headerHeight: 40px !default;
+
+// navigation
+$navBackground: $darkest !default;
+$navBorder: transparent !default;
+$navItemBackround: $navBackground !default;
+$navItemBorderTop: darken($navBackground, 5%) !default;
+$navItemBorderBottom: lighten($navBackground, 5%) !default;
+$navItemHoverFocusBackground: darken($navBackground, 3%) !default;
+$navIcon: lighten($dark, 22%) !default;
+$navText: lighten($dark, 18%) !default;
+$navIconHoverFocus: $contrast !default;
+$navTextHoverFocus: lighten($dark, 25%) !default;
+$navHeaderColor: lighten($navBackground, 20%) !default;
+$navWidth: 250px !default;
+$navHeight: 90px !default;
+$navClosedWidth: 50px !default;
+
+$navSecondBackground: $contentBackground !default;
+$navSecondBorder: darken($navSecondBackground, 20%) !default;
+$navSecondItemBorder: darken($navSecondBackground, 10%) !default;
+$navSecondItemHoverFocusBackground: darken($navSecondBackground, 5%) !default;
+
+// content
+$contentWidth: calc(100% - $navWidth) !default;
+
+//type
+$pageHeaderBackground: $white !default;
+$pageHeaderBorder: $light !default;
+$pageHeaderIconColor: $contrast !default;
+$pageHeaderBreadCrumbHover: $contrast !default;
+
+//timeline
+$timelineLine: $light !default;
+$timelineContentBackground: $white !default;
+$timelineIconColor: $white !default;
+
+
+//boxes
+$boxBorder: $light !default;
+$boxBackground: $white !default;
+$boxActionsColor: darken($light, 10%) !default;
+$boxActionsHoverColor: $contrast !default;
+$boxTextContrastColor: $white !default;
+$boxActionsContrastColor: $white !default;
+$boxActionsContrastHoverBackground: $white !default;
+$boxToolboxBackground: $lightest !default;
+$boxToolboxBorder: $light !default;
+
+//quick links
+$quickIconColor: $white !default;
+$quickContentColor: darken($lightest, 60%) !default;
+$quickContentBackground: darken($lightest, 10%) !default;
+$quickContentBorder: darken($lightest, 15%) !default;
+
+//statistic boxes
+$statBoxBackground: $white !default;
+$statBoxContrastColor: $white !default;
+
+//calendar
+$calButtonBackground: $white !default;
+$calButtonHoverBackground: $light !default;
+
+//chat
+$chatMessageBorder: $light !default;
+$fixedChatHeaderBackground: $contrast !default;
+$fixedChatHeaderColor: $white !default;
+$fixedChatActionsColor: $white !default;
+
+//forms
+$formActionsBackground: $lightest !default;
+$formStripedBorder: $light !default;
+$formStripedBackground: $lightest !default;
+
+$inputBorder: darken($light, 5%);
+$inputBackground: $white;
+$inputFocusBorderColor: darken($light, 20%);
+$inputFocusShadow: rgba(220, 225, 229, 1);
+
+//gallery
+$galleryActionsColor: $white !default;
+$galleryActionsBackground: rgba(0, 0, 0, .3) !default;
+
+//recent activity
+$recentBorder: $light !default;
+
+//wizard
+$wizardStepCompleteBackground: $green !default;
+$wizardStepCompleteColor: $white;
+$wizardStepActiveBackground: $contrast !default;
+$wizardStepActiveColor: $white;
+$wizardStepBackground: $light !default;
+$wizardStepColor: darken($lightest, 70%) !default;
+
+//other
+$showNavCaret: true !default;
+
+
+// Media queries breakpoints
+// --------------------------------------------------
+
+// Extra small screen / phone
+$screen-xs:                  480px !default;
+$screen-phone:               $screen-xs !default;
+
+// Small screen / tablet
+$screen-sm:                  768px !default;
+$screen-tablet:              $screen-sm !default;
+
+// Medium screen / desktop
+$screen-md:                  992px !default;
+$screen-desktop:             $screen-md !default;
+
+// Large screen / wide desktop
+$screen-lg:                  1330px !default;
+$screen-lg-desktop:          $screen-lg !default;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              ($screen-sm - 1) !default;
+$screen-sm-max:              ($screen-md - 1) !default;
+$screen-md-max:              ($screen-lg - 1) !default;

@@ -1,0 +1,136 @@
+.main-nav-opened {
+    #content {
+        //margin-left: $navWidth + 1px;
+    }
+}
+
+.main-nav-closed {
+    #content {
+        //margin-left: $navClosedWidth + 1px;
+
+        @include sm-minus {
+            margin-left: 0;
+        }
+    }
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: $navBackground;
+    max-width: 100%;
+    min-width: 728px;
+    min-height: 100%;
+    position: relative;
+    font-family: san_francisco_textregular;
+
+    &.fixed-header {
+        #wrapper {
+            padding-top: 40px;
+        }
+
+        #main-nav.main-nav-fixed {
+            position: fixed;
+            top: 40px;
+            left: 0;
+        }
+    }
+
+    &.without-footer {
+        #footer {
+            display: none;
+        }
+    }
+}
+
+#wrapper {
+    min-height: 100%;
+
+    @include md-minus {
+        overflow: hidden;
+    }
+}
+
+#content-wrapper {
+    padding-bottom: 20px;
+    padding-left: 5px;
+}
+
+#content {
+    //margin-left: $navWidth + 1px;
+    background: $contentBackground;
+    width: $contentWidth;
+    min-height: 800px;
+    float: left;
+    //min-width: 320px - $navClosedWidth + 1px;
+
+    @include md-minus {
+        //margin-left: $navClosedWidth + 1px;
+    }
+
+    @include sm-minus {
+        margin-left: 0;
+    }
+
+    @media print {
+        margin-left: 0 !important;
+    }
+}
+
+.container {
+    max-width: 100% !important;
+    margin: 0px 25px;
+}
+
+#footer {
+    color: mix($navText, $navBackground, 40%);
+    text-shadow: 1px 1px 1px $white;
+    text-align: center;
+    border-top: 1px solid #eeeeee;
+
+    .footer-wrapper {
+        padding: 10px 0;
+    }
+
+    a {
+        color: $darkest;
+    }
+
+    .text {
+        margin-bottom: 7px;
+
+        @include sm-plus {
+            text-align: left;
+            padding-top: 7px;
+            margin-bottom: 0;
+        }
+    }
+
+    .buttons {
+        @include sm-plus {
+            text-align: right;
+        }
+
+        .btn:last-child {
+            padding-right: 0;
+        }
+    }
+}
+
+.profile-top {
+    clear: both;
+    overflow: hidden;
+
+    .profile-heading {
+        float: left;
+    }
+
+    .profile-controls {
+        float: right;
+        padding-top: 18px;
+    }
+}
+
+

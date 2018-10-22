@@ -1,0 +1,16 @@
+.community-statistics {
+
+    &__heading {
+        color: #95a5a6;
+        font-size: 14px;
+        letter-spacing: 1px;
+        padding: 19px;
+        text-transform: uppercase;
+    }
+
+    &__stats {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 25px;
+    }
+}

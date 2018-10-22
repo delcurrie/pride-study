@@ -1,0 +1,18 @@
+.header {
+    background-color: $white;
+    border-bottom: 1px solid $gray68;
+    text-align: center;
+    position: relative;
+    
+    h1 { text-align: center; }
+    
+    &__info {
+    	display: block;
+    	width: 44px;
+    	height: 44px;
+    	background: image-url("header-info.png") no-repeat scroll left top transparent;
+    	position: absolute;
+    	right: 20px;
+    	top: 17px;
+    }
+}

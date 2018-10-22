@@ -1,0 +1,95 @@
+.postnav {
+    display: table;
+    width: 100%;
+    height: 33px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: $gray87;
+    
+    
+    &__btn {
+        display: table-cell;
+        //width: 33%;
+        text-align: center;
+        vertical-align: middle;
+        height: inherit;
+        color: $gray68;
+        font-size: 16px;
+
+        span {
+            display: inline-block;
+            background: image-url("postnav-icons.png") no-repeat scroll left top transparent;
+            width: 15px;
+            height: 15px;
+            background-size: 30px;
+            top: 2px;
+            position: relative;
+            margin: 0 6px 0 0;
+        }
+        &--up {
+            width: 28%;
+
+            span { background-position: left top; }
+
+            &.postnav__btn--active {
+                background-color: $teal;
+                color: $white;
+
+                span { background-position: right top; }
+            }
+        }
+
+        &--dn {
+            width: 28%;
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+
+            span { background-position: left -11px; top: 0px;}
+
+            &.postnav__btn--active {
+                background-color: $red;
+                color: $white;
+
+                span { background-position: right -11px; }
+            }
+        }
+
+        &--comment {
+            width: 26%;
+
+            span { background-position: left -25px; }
+        }
+
+        &--flag {
+            span { 
+                background: image-url("icon-flag.png") no-repeat scroll left top transparent;
+                background-size: 15px;
+            }
+
+            &--marked, &.postnav__btn--active  {
+                span { 
+                    background: image-url("icon-flag-red.png") no-repeat scroll left top transparent;
+                    background-size: 15px;
+                }
+            }
+        }
+
+        &--ellipses {
+            border-left: 1px solid white;
+            width: 16%;
+
+            span { 
+                //background-position: left -60px;
+                top: 0;
+                margin-right: 0;
+                width: 25px;
+                height: 8px;
+                background: image-url("postnav-ellipses.png") no-repeat scroll center center transparent;
+                background-size: 25px;
+            }
+        }
+
+    }
+    
+}

@@ -1,0 +1,169 @@
+@import "compass";
+@import "theme/variables";
+@import "theme/utilities";
+
+$lightest: #ECF0F1;
+$light: darken($lightest, 15%);
+
+$dark: #2b2d30;
+$darkest: #000000;
+
+$white: #fff;
+$contentBackground: $lightest;
+
+//new colors
+$coolGray: #95a5a6;
+$darkGreyBlue: #34495e;
+$dark: #243342;
+$greenishTeal: #2ecc71;
+
+// header
+$headerHeight: 89px;
+$headerBackground: $white;
+$headerBrandBackground: $dark;
+$headerBrandColor: $white !default;
+$headerSearchButtonColor: $headerBackground !default;
+
+// navigation
+$showNavCaret: false;
+$navBackground: $darkGreyBlue;
+$navBorder: transparent;
+$navItemBackround: $darkGreyBlue;
+$navItemBorderTop: $darkGreyBlue;
+$navItemBorderBottom: $darkGreyBlue;
+$navItemHoverFocusBackground: $dark;
+$navIcon: $coolGray;
+$navText: $white;
+$navIconHoverFocus: $greenishTeal;
+$navTextHoverFocus: $white;
+$navHeaderColor: lighten($navBackground, 20%);
+$navWidth: 200px;
+$navHeight: 90px;
+$navClosedWidth: 45px;
+
+$navSecondBorder: transparent;
+$navSecondBackground: #e1e1e1;
+$navSecondItemBorder: darken($navSecondBackground, 10%);
+$navSecondItemHoverFocusBackground: lighten($navSecondBackground, 3%);
+
+// content
+$contentWidth: calc(100% - 200px);
+
+//type
+$pageHeaderBackground: $white;
+$pageHeaderBorder: $light;
+$pageHeaderColor: $darkest;
+$pageHeaderIconColor: $contrast;
+$pageHeaderBreadCrumbHover: $contrast;
+
+//timeline
+$timelineLine: $light;
+$timelineContentBackground: $white;
+$timelineIconColor: $white;
+
+//boxes
+$boxBorder: $light;
+$boxBackground: $white;
+$boxHeaderColor: $dark;
+$boxActionsColor: darken($light, 10%);
+$boxActionsHoverColor: $contrast;
+$boxTextContrastColor: $white;
+$boxActionsContrastColor: $white;
+$boxActionsContrastHoverBackground: $white;
+$boxToolboxBackground: $lightest;
+$boxToolboxBorder: $light;
+
+//quick links
+$quickIconColor: $white;
+$quickContentColor: darken($lightest, 60%);
+$quickContentBackground: darken($lightest, 10%);
+$quickContentHoverBackground: darken($lightest, 15%);
+$quickContentBorder: darken($lightest, 15%);
+$quickContentHoverBorder: darken($lightest, 20%);
+
+//statistic boxes
+$statBoxBackground: $white;
+$statBoxContrastColor: $white;
+
+//calendar
+$calButtonBackground: $white;
+$calButtonHoverBackground: $light;
+
+//chat
+$chatMessageBorder: $light;
+$fixedChatHeaderBackground: $contrast;
+$fixedChatHeaderColor: $white;
+$fixedChatActionsColor: $white;
+
+//forms
+$formActionsBackground: $lightest;
+$formStripedBorder: $light;
+$formStripedBackground: $lightest;
+
+$inputBorder: darken($light, 5%);
+$inputBackground: $white;
+$inputFocusBorderColor: darken($light, 20%);
+$inputFocusShadow: rgba(220, 225, 229, 1);
+
+//gallery
+$galleryActionsColor: $white;
+$galleryActionsBackground: rgba(0, 0, 0, .3);
+
+//recent activity
+$recentBorder: $light;
+
+//wizard
+$wizardStepCompleteBackground: $green;
+$wizardStepCompleteColor: $white;
+$wizardStepActiveBackground: $contrast;
+$wizardStepActiveColor: $white;
+$wizardStepBackground: $light;
+$wizardStepColor: darken($lightest, 70%);
+
+@import "theme/icons";
+//@import "theme/font-awesome";
+@import "theme/type";
+@import "theme/header";
+@import "theme/navigation";
+@import "theme/content";
+@import "theme/boxes";
+@import "theme/boxes-quick-links";
+@import "theme/boxes-statistics";
+@import "theme/community-statistics";
+@import "theme/tables";
+@import "theme/todo-list";
+@import "theme/recent-activity";
+@import "theme/calendar";
+@import "theme/chat";
+@import "theme/comments";
+@import "theme/flag";
+@import "theme/search";
+@import "theme/tasks";
+@import "theme/notification";
+@import "theme/module";
+@import "theme/nestable-list";
+@import "theme/privileges";
+@import "theme/accordions";
+@import "theme/stats";
+@import "theme/tabbed";
+@import "theme/tabs";
+@import "theme/topics";
+@import "theme/wizard";
+@import "theme/forms";
+
+@import "theme/pages/gallery";
+@import "theme/pages/timeline";
+@import "theme/pages/invoice";
+@import "theme/pages/pricing_tables";
+@import "theme/pages/orders";
+@import "theme/pages/faq";
+@import "theme/pages/errors";
+@import "theme/pages/login";
+@import "theme/pages/participants";
+@import "theme/pages/profile";
+
+@import "theme/overrides-bootstrap";
+@import "theme/overrides-plugins";
+@import "theme/common";
+
+@import "theme/trumps";

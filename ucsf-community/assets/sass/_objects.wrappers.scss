@@ -1,0 +1,27 @@
+.container {
+    padding: 20px;
+    @include j-cf();
+
+    p {
+    	text-align: center;
+    	font-size: 18px;
+    	color: $gray39;
+    }
+
+    &--no-vertical-padding {
+    	padding-top: 0;
+    	padding-bottom: 0;
+    }
+
+    &--no-right-padding {
+    	padding-right: 0;
+    }
+
+    &--no-bottom-padding {
+    	padding-bottom: 0;
+    }
+
+    &--no-top-padding {
+    	padding-top: 0;
+    }
+}

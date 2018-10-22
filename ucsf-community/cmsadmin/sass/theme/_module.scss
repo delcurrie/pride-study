@@ -1,0 +1,245 @@
+.module {
+    background-color: #fff;
+    border: solid 1px #dee1e2;
+    margin: 18px 0;
+    width: 100%;
+
+    &__heading {
+        border-bottom: solid 1px #dee1e2;
+        color: #95a5a6;
+        font-size: 14px;
+        height: 41px;
+        letter-spacing: 1px;
+        line-height: 40px;
+        overflow: hidden;
+        padding-left: 19px;
+        width: 100%;
+        text-transform: uppercase;
+
+        .flagged-items {
+            background-color: red;
+            border-radius: 50%;
+            color: #fff;
+            display: inline-block;
+            height: 20px;
+            line-height: 20px;
+            margin-left: 5px;
+            text-align: center;
+            vertical-align: middle;
+            width: 20px;
+        }
+    }
+
+    &__content {
+        padding: 19px;
+        position: relative;
+    }
+
+    &--two-thirds {
+        float: left;
+        width: calc(70% - 40px);
+
+        @media screen and (max-width: 1200px) {
+            width: calc(60% - 20px);
+        }
+    }
+
+    &--one-third {
+        float: right;
+        width: 30%;
+
+        @media screen and (max-width: 1200px) {
+            width: 40%;
+        }
+    }
+
+    &__footer {
+        overflow: hidden;
+        padding-top: 15px;
+        position: relative;
+    }
+}
+
+.module-row {
+    border-bottom: solid 1px #dee1e2;
+    min-height: 40px;
+    overflow: hidden;
+    padding: 15px 0;
+    width: 100%;
+
+    &:last-child {
+        border-bottom: none;
+    }
+
+    &--alt {
+        border-bottom: 0 none;
+    }
+
+    &__item {
+        float: left;
+        font-size: 12px;
+        overflow: hidden;
+        padding-right: 10px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
+        &--activity {
+            color: #7F8C8D;
+            width: 45%;
+
+            &--larger {
+                width: 68.5%;
+            }
+        }
+
+        &--timestamp {
+            color: #bdc3c7;
+            text-transform: uppercase;
+            width: 20%;
+
+            &--larger {
+                width: 30%;
+
+                @media screen and (max-width: 1200px) {
+                    padding-left: 10px;
+                    text-align: right;
+                }
+            }
+        }
+
+        &--actions {
+            display: inline-flex;
+            justify-content: space-between;
+            width: 35%;
+
+            a {
+                color: #2ecc71;
+                font-size: 11px;
+            }
+        }
+
+        &--last {
+            float: right;
+            text-align: right;
+        }
+    }
+
+    .active-user {
+        float: left;
+        width: 40%;
+    }
+
+    .active-user-stats {
+        color: #95a5a6;
+        display: inline-flex;
+        float: left;
+        justify-content: space-between;
+        padding-left: 10px;
+        position: relative;
+        width: 60%;
+
+        .stat-positive {
+            background: url('../../assets/images/icons/increase-carrot.svg') no-repeat 0 0 transparent;
+            background-size: 10px 10px;
+            display: inline-block;
+            height: 10px;
+            margin-right: 4px;
+            width: 10px;
+        }
+
+        .stat-negative {
+            background: url('../../assets/images/icons/decrease-carrot.svg') no-repeat 0 0 transparent;
+            background-size: 10px 10px;
+            display: inline-block;
+            height: 10px;
+            margin-right: 4px;
+            width: 10px;
+        }
+
+        .stat-comments {
+            background: url('../../assets/images/icons/comment-icon.svg') no-repeat 0 0 transparent;
+            background-size: 10px 10px;
+            display: inline-block;
+            height: 10px;
+            margin-right: 4px;
+            position: relative;
+            top: 2px;
+            width: 10px;
+        }
+    }
+}
+
+.user-link {
+    color: #3498DB;
+}
+
+.post-link {
+    color: #2C3E50;
+}
+
+.time-options {
+    // background: url('../../assets/images/icons/comment-icon.svg') no-repeat 0 0 transparent;
+    // background-size: 10px 10px;
+    float: right;
+    position: relative;
+    width: 115px;
+
+    &:after {
+        background: url("../../assets/images/icons/gray-carrot-down.svg") no-repeat 0 0 transparent;
+        background-size: 100%;
+        content: "";
+        display: block;
+        height: 8px;
+        margin-left: 2px;
+        position: absolute;
+        right: 17px;
+        top: 17px;
+        width: 15px;
+      }
+
+
+    .time-select {
+        border: 0 none;
+        box-shadow: none;
+        color: #2c3e50 ;
+        outline: none;
+        width: 100%;
+        height: 41px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        letter-spacing: 0px;
+    }
+}
+
+.previous-results {
+    background: url('../../assets/images/icons/previous-arrows-off.svg') no-repeat 0 0 transparent;
+    background-size: 11px 13px;
+    display: block;
+    float: left;
+    height: 13px;
+    position: relative;
+    width: 11px;
+
+    &:hover,
+    &--highlight {
+        background: url('../../assets/images/icons/previous-arrows-on.svg') no-repeat 0 0 transparent;
+        background-size: 11px 13px;
+    }
+}
+
+.next-results {
+    background: url('../../assets/images/icons/previous-arrows-off.svg') no-repeat 0 0 transparent;
+    background-size: 11px 13px;
+    display: block;
+    float: right;
+    height: 13px;
+    position: relative;
+    transform: rotate(180deg);
+    width: 11px;
+
+    &:hover,
+    &--highlight {
+        background: url('../../assets/images/icons/previous-arrows-on.svg') no-repeat 0 0 transparent;
+        background-size: 11px 13px;
+    }
+}

@@ -1,0 +1,25 @@
+.no-topics {
+	@include j-center(80%);
+	margin-top: 60px;
+	text-align: center;
+
+    &__message {
+		color: $gray47;
+		letter-spacing: .5px;
+    }
+
+    &__term {
+		font-weight: bold;
+		font-style: italic;
+		color: $orange;
+		padding-right: 3px;
+    }
+
+    &__back {
+		color: $orange;
+		font-size: 14px;
+		padding-bottom: 1px;
+		border-bottom: 1px solid $orange;
+		display: inline-block;
+    }
+}

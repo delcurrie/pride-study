@@ -1,0 +1,1262 @@
+/* line 1, ../../../../sass/plugins/flags/flags.scss */
+.flag {
+  width: 16px;
+  height: 11px;
+  background: url('../../../images/plugins/flags/flags.png?1471546195') no-repeat;
+  display: inline-block;
+}
+
+/* line 8, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ad {
+  background-position: -16px 0;
+}
+
+/* line 9, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ae {
+  background-position: -32px 0;
+}
+
+/* line 10, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-af {
+  background-position: -48px 0;
+}
+
+/* line 11, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ag {
+  background-position: -64px 0;
+}
+
+/* line 12, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ai {
+  background-position: -80px 0;
+}
+
+/* line 13, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-al {
+  background-position: -96px 0;
+}
+
+/* line 14, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-am {
+  background-position: -112px 0;
+}
+
+/* line 15, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-an {
+  background-position: -128px 0;
+}
+
+/* line 16, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ao {
+  background-position: -144px 0;
+}
+
+/* line 17, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ar {
+  background-position: -160px 0;
+}
+
+/* line 18, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-as {
+  background-position: -176px 0;
+}
+
+/* line 19, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-at {
+  background-position: -192px 0;
+}
+
+/* line 20, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-au {
+  background-position: -208px 0;
+}
+
+/* line 21, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-aw {
+  background-position: -224px 0;
+}
+
+/* line 22, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-az {
+  background-position: -240px 0;
+}
+
+/* line 23, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ba {
+  background-position: 0 -11px;
+}
+
+/* line 24, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-bb {
+  background-position: -16px -11px;
+}
+
+/* line 25, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-bd {
+  background-position: -32px -11px;
+}
+
+/* line 26, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-be {
+  background-position: -48px -11px;
+}
+
+/* line 27, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-bf {
+  background-position: -64px -11px;
+}
+
+/* line 28, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-bg {
+  background-position: -80px -11px;
+}
+
+/* line 29, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-bh {
+  background-position: -96px -11px;
+}
+
+/* line 30, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-bi {
+  background-position: -112px -11px;
+}
+
+/* line 31, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-bj {
+  background-position: -128px -11px;
+}
+
+/* line 32, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-bm {
+  background-position: -144px -11px;
+}
+
+/* line 33, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-bn {
+  background-position: -160px -11px;
+}
+
+/* line 34, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-bo {
+  background-position: -176px -11px;
+}
+
+/* line 35, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-br {
+  background-position: -192px -11px;
+}
+
+/* line 36, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-bs {
+  background-position: -208px -11px;
+}
+
+/* line 37, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-bt {
+  background-position: -224px -11px;
+}
+
+/* line 38, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-bv {
+  background-position: -240px -11px;
+}
+
+/* line 39, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-bw {
+  background-position: 0 -22px;
+}
+
+/* line 40, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-by {
+  background-position: -16px -22px;
+}
+
+/* line 41, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-bz {
+  background-position: -32px -22px;
+}
+
+/* line 42, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ca {
+  background-position: -48px -22px;
+}
+
+/* line 43, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-catalonia {
+  background-position: -64px -22px;
+}
+
+/* line 44, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-cd {
+  background-position: -80px -22px;
+}
+
+/* line 45, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-cf {
+  background-position: -96px -22px;
+}
+
+/* line 46, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-cg {
+  background-position: -112px -22px;
+}
+
+/* line 47, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ch {
+  background-position: -128px -22px;
+}
+
+/* line 48, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ci {
+  background-position: -144px -22px;
+}
+
+/* line 49, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ck {
+  background-position: -160px -22px;
+}
+
+/* line 50, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-cl {
+  background-position: -176px -22px;
+}
+
+/* line 51, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-cm {
+  background-position: -192px -22px;
+}
+
+/* line 52, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-cn {
+  background-position: -208px -22px;
+}
+
+/* line 53, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-co {
+  background-position: -224px -22px;
+}
+
+/* line 54, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-cr {
+  background-position: -240px -22px;
+}
+
+/* line 55, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-cu {
+  background-position: 0 -33px;
+}
+
+/* line 56, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-cv {
+  background-position: -16px -33px;
+}
+
+/* line 57, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-cw {
+  background-position: -32px -33px;
+}
+
+/* line 58, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-cy {
+  background-position: -48px -33px;
+}
+
+/* line 59, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-cz {
+  background-position: -64px -33px;
+}
+
+/* line 60, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-de {
+  background-position: -80px -33px;
+}
+
+/* line 61, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-dj {
+  background-position: -96px -33px;
+}
+
+/* line 62, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-dk {
+  background-position: -112px -33px;
+}
+
+/* line 63, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-dm {
+  background-position: -128px -33px;
+}
+
+/* line 64, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-do {
+  background-position: -144px -33px;
+}
+
+/* line 65, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-dz {
+  background-position: -160px -33px;
+}
+
+/* line 66, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ec {
+  background-position: -176px -33px;
+}
+
+/* line 67, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ee {
+  background-position: -192px -33px;
+}
+
+/* line 68, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-eg {
+  background-position: -208px -33px;
+}
+
+/* line 69, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-eh {
+  background-position: -224px -33px;
+}
+
+/* line 70, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-england {
+  background-position: -240px -33px;
+}
+
+/* line 71, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-er {
+  background-position: 0 -44px;
+}
+
+/* line 72, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-es {
+  background-position: -16px -44px;
+}
+
+/* line 73, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-et {
+  background-position: -32px -44px;
+}
+
+/* line 74, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-eu {
+  background-position: -48px -44px;
+}
+
+/* line 75, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-fi {
+  background-position: -64px -44px;
+}
+
+/* line 76, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-fj {
+  background-position: -80px -44px;
+}
+
+/* line 77, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-fk {
+  background-position: -96px -44px;
+}
+
+/* line 78, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-fm {
+  background-position: -112px -44px;
+}
+
+/* line 79, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-fo {
+  background-position: -128px -44px;
+}
+
+/* line 80, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-fr {
+  background-position: -144px -44px;
+}
+
+/* line 81, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ga {
+  background-position: -160px -44px;
+}
+
+/* line 82, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-gb {
+  background-position: -176px -44px;
+}
+
+/* line 83, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-gd {
+  background-position: -192px -44px;
+}
+
+/* line 84, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ge {
+  background-position: -208px -44px;
+}
+
+/* line 85, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-gf {
+  background-position: -224px -44px;
+}
+
+/* line 86, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-gg {
+  background-position: -240px -44px;
+}
+
+/* line 87, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-gh {
+  background-position: 0 -55px;
+}
+
+/* line 88, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-gi {
+  background-position: -16px -55px;
+}
+
+/* line 89, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-gl {
+  background-position: -32px -55px;
+}
+
+/* line 90, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-gm {
+  background-position: -48px -55px;
+}
+
+/* line 91, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-gn {
+  background-position: -64px -55px;
+}
+
+/* line 92, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-gp {
+  background-position: -80px -55px;
+}
+
+/* line 93, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-gq {
+  background-position: -96px -55px;
+}
+
+/* line 94, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-gr {
+  background-position: -112px -55px;
+}
+
+/* line 95, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-gs {
+  background-position: -128px -55px;
+}
+
+/* line 96, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-gt {
+  background-position: -144px -55px;
+}
+
+/* line 97, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-gu {
+  background-position: -160px -55px;
+}
+
+/* line 98, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-gw {
+  background-position: -176px -55px;
+}
+
+/* line 99, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-gy {
+  background-position: -192px -55px;
+}
+
+/* line 100, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-hk {
+  background-position: -208px -55px;
+}
+
+/* line 101, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-hm {
+  background-position: -224px -55px;
+}
+
+/* line 102, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-hn {
+  background-position: -240px -55px;
+}
+
+/* line 103, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-hr {
+  background-position: 0 -66px;
+}
+
+/* line 104, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ht {
+  background-position: -16px -66px;
+}
+
+/* line 105, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-hu {
+  background-position: -32px -66px;
+}
+
+/* line 106, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ic {
+  background-position: -48px -66px;
+}
+
+/* line 107, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-id {
+  background-position: -64px -66px;
+}
+
+/* line 108, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ie {
+  background-position: -80px -66px;
+}
+
+/* line 109, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-il {
+  background-position: -96px -66px;
+}
+
+/* line 110, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-im {
+  background-position: -112px -66px;
+}
+
+/* line 111, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-in {
+  background-position: -128px -66px;
+}
+
+/* line 112, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-io {
+  background-position: -144px -66px;
+}
+
+/* line 113, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-iq {
+  background-position: -160px -66px;
+}
+
+/* line 114, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ir {
+  background-position: -176px -66px;
+}
+
+/* line 115, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-is {
+  background-position: -192px -66px;
+}
+
+/* line 116, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-it {
+  background-position: -208px -66px;
+}
+
+/* line 117, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-je {
+  background-position: -224px -66px;
+}
+
+/* line 118, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-jm {
+  background-position: -240px -66px;
+}
+
+/* line 119, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-jo {
+  background-position: 0 -77px;
+}
+
+/* line 120, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-jp {
+  background-position: -16px -77px;
+}
+
+/* line 121, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ke {
+  background-position: -32px -77px;
+}
+
+/* line 122, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-kg {
+  background-position: -48px -77px;
+}
+
+/* line 123, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-kh {
+  background-position: -64px -77px;
+}
+
+/* line 124, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ki {
+  background-position: -80px -77px;
+}
+
+/* line 125, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-km {
+  background-position: -96px -77px;
+}
+
+/* line 126, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-kn {
+  background-position: -112px -77px;
+}
+
+/* line 127, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-kp {
+  background-position: -128px -77px;
+}
+
+/* line 128, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-kr {
+  background-position: -144px -77px;
+}
+
+/* line 129, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-kurdistan {
+  background-position: -160px -77px;
+}
+
+/* line 130, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-kw {
+  background-position: -176px -77px;
+}
+
+/* line 131, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ky {
+  background-position: -192px -77px;
+}
+
+/* line 132, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-kz {
+  background-position: -208px -77px;
+}
+
+/* line 133, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-la {
+  background-position: -224px -77px;
+}
+
+/* line 134, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-lb {
+  background-position: -240px -77px;
+}
+
+/* line 135, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-lc {
+  background-position: 0 -88px;
+}
+
+/* line 136, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-li {
+  background-position: -16px -88px;
+}
+
+/* line 137, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-lk {
+  background-position: -32px -88px;
+}
+
+/* line 138, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-lr {
+  background-position: -48px -88px;
+}
+
+/* line 139, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ls {
+  background-position: -64px -88px;
+}
+
+/* line 140, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-lt {
+  background-position: -80px -88px;
+}
+
+/* line 141, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-lu {
+  background-position: -96px -88px;
+}
+
+/* line 142, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-lv {
+  background-position: -112px -88px;
+}
+
+/* line 143, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ly {
+  background-position: -128px -88px;
+}
+
+/* line 144, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ma {
+  background-position: -144px -88px;
+}
+
+/* line 145, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-mc {
+  background-position: -160px -88px;
+}
+
+/* line 146, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-md {
+  background-position: -176px -88px;
+}
+
+/* line 147, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-me {
+  background-position: -192px -88px;
+}
+
+/* line 148, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-mg {
+  background-position: -208px -88px;
+}
+
+/* line 149, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-mh {
+  background-position: -224px -88px;
+}
+
+/* line 150, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-mk {
+  background-position: -240px -88px;
+}
+
+/* line 151, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ml {
+  background-position: 0 -99px;
+}
+
+/* line 152, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-mm {
+  background-position: -16px -99px;
+}
+
+/* line 153, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-mn {
+  background-position: -32px -99px;
+}
+
+/* line 154, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-mo {
+  background-position: -48px -99px;
+}
+
+/* line 155, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-mp {
+  background-position: -64px -99px;
+}
+
+/* line 156, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-mq {
+  background-position: -80px -99px;
+}
+
+/* line 157, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-mr {
+  background-position: -96px -99px;
+}
+
+/* line 158, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ms {
+  background-position: -112px -99px;
+}
+
+/* line 159, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-mt {
+  background-position: -128px -99px;
+}
+
+/* line 160, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-mu {
+  background-position: -144px -99px;
+}
+
+/* line 161, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-mv {
+  background-position: -160px -99px;
+}
+
+/* line 162, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-mw {
+  background-position: -176px -99px;
+}
+
+/* line 163, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-mx {
+  background-position: -192px -99px;
+}
+
+/* line 164, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-my {
+  background-position: -208px -99px;
+}
+
+/* line 165, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-mz {
+  background-position: -224px -99px;
+}
+
+/* line 166, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-na {
+  background-position: -240px -99px;
+}
+
+/* line 167, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-nc {
+  background-position: 0 -110px;
+}
+
+/* line 168, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ne {
+  background-position: -16px -110px;
+}
+
+/* line 169, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-nf {
+  background-position: -32px -110px;
+}
+
+/* line 170, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ng {
+  background-position: -48px -110px;
+}
+
+/* line 171, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ni {
+  background-position: -64px -110px;
+}
+
+/* line 172, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-nl {
+  background-position: -80px -110px;
+}
+
+/* line 173, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-no {
+  background-position: -96px -110px;
+}
+
+/* line 174, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-np {
+  background-position: -112px -110px;
+}
+
+/* line 175, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-nr {
+  background-position: -128px -110px;
+}
+
+/* line 176, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-nu {
+  background-position: -144px -110px;
+}
+
+/* line 177, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-nz {
+  background-position: -160px -110px;
+}
+
+/* line 178, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-om {
+  background-position: -176px -110px;
+}
+
+/* line 179, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-pa {
+  background-position: -192px -110px;
+}
+
+/* line 180, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-pe {
+  background-position: -208px -110px;
+}
+
+/* line 181, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-pf {
+  background-position: -224px -110px;
+}
+
+/* line 182, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-pg {
+  background-position: -240px -110px;
+}
+
+/* line 183, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ph {
+  background-position: 0 -121px;
+}
+
+/* line 184, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-pk {
+  background-position: -16px -121px;
+}
+
+/* line 185, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-pl {
+  background-position: -32px -121px;
+}
+
+/* line 186, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-pm {
+  background-position: -48px -121px;
+}
+
+/* line 187, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-pn {
+  background-position: -64px -121px;
+}
+
+/* line 188, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-pr {
+  background-position: -80px -121px;
+}
+
+/* line 189, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ps {
+  background-position: -96px -121px;
+}
+
+/* line 190, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-pt {
+  background-position: -112px -121px;
+}
+
+/* line 191, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-pw {
+  background-position: -128px -121px;
+}
+
+/* line 192, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-py {
+  background-position: -144px -121px;
+}
+
+/* line 193, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-qa {
+  background-position: -160px -121px;
+}
+
+/* line 194, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-re {
+  background-position: -176px -121px;
+}
+
+/* line 195, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ro {
+  background-position: -192px -121px;
+}
+
+/* line 196, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-rs {
+  background-position: -208px -121px;
+}
+
+/* line 197, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ru {
+  background-position: -224px -121px;
+}
+
+/* line 198, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-rw {
+  background-position: -240px -121px;
+}
+
+/* line 199, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-sa {
+  background-position: 0 -132px;
+}
+
+/* line 200, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-sb {
+  background-position: -16px -132px;
+}
+
+/* line 201, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-sc {
+  background-position: -32px -132px;
+}
+
+/* line 202, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-scotland {
+  background-position: -48px -132px;
+}
+
+/* line 203, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-sd {
+  background-position: -64px -132px;
+}
+
+/* line 204, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-se {
+  background-position: -80px -132px;
+}
+
+/* line 205, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-sg {
+  background-position: -96px -132px;
+}
+
+/* line 206, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-sh {
+  background-position: -112px -132px;
+}
+
+/* line 207, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-si {
+  background-position: -128px -132px;
+}
+
+/* line 208, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-sk {
+  background-position: -144px -132px;
+}
+
+/* line 209, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-sl {
+  background-position: -160px -132px;
+}
+
+/* line 210, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-sm {
+  background-position: -176px -132px;
+}
+
+/* line 211, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-sn {
+  background-position: -192px -132px;
+}
+
+/* line 212, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-so {
+  background-position: -208px -132px;
+}
+
+/* line 213, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-somaliland {
+  background-position: -224px -132px;
+}
+
+/* line 214, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-sr {
+  background-position: -240px -132px;
+}
+
+/* line 215, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ss {
+  background-position: 0 -143px;
+}
+
+/* line 216, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-st {
+  background-position: -16px -143px;
+}
+
+/* line 217, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-sv {
+  background-position: -32px -143px;
+}
+
+/* line 218, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-sx {
+  background-position: -48px -143px;
+}
+
+/* line 219, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-sy {
+  background-position: -64px -143px;
+}
+
+/* line 220, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-sz {
+  background-position: -80px -143px;
+}
+
+/* line 221, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-tc {
+  background-position: -96px -143px;
+}
+
+/* line 222, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-td {
+  background-position: -112px -143px;
+}
+
+/* line 223, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-tf {
+  background-position: -128px -143px;
+}
+
+/* line 224, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-tg {
+  background-position: -144px -143px;
+}
+
+/* line 225, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-th {
+  background-position: -160px -143px;
+}
+
+/* line 226, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-tj {
+  background-position: -176px -143px;
+}
+
+/* line 227, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-tk {
+  background-position: -192px -143px;
+}
+
+/* line 228, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-tl {
+  background-position: -208px -143px;
+}
+
+/* line 229, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-tm {
+  background-position: -224px -143px;
+}
+
+/* line 230, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-tn {
+  background-position: -240px -143px;
+}
+
+/* line 231, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-to {
+  background-position: 0 -154px;
+}
+
+/* line 232, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-tr {
+  background-position: -16px -154px;
+}
+
+/* line 233, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-tt {
+  background-position: -32px -154px;
+}
+
+/* line 234, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-tv {
+  background-position: -48px -154px;
+}
+
+/* line 235, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-tw {
+  background-position: -64px -154px;
+}
+
+/* line 236, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-tz {
+  background-position: -80px -154px;
+}
+
+/* line 237, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ua {
+  background-position: -96px -154px;
+}
+
+/* line 238, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ug {
+  background-position: -112px -154px;
+}
+
+/* line 239, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-um {
+  background-position: -128px -154px;
+}
+
+/* line 240, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-us {
+  background-position: -144px -154px;
+}
+
+/* line 241, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-uy {
+  background-position: -160px -154px;
+}
+
+/* line 242, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-uz {
+  background-position: -176px -154px;
+}
+
+/* line 243, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-va {
+  background-position: -192px -154px;
+}
+
+/* line 244, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-vc {
+  background-position: -208px -154px;
+}
+
+/* line 245, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ve {
+  background-position: -224px -154px;
+}
+
+/* line 246, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-vg {
+  background-position: -240px -154px;
+}
+
+/* line 247, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-vi {
+  background-position: 0 -165px;
+}
+
+/* line 248, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-vn {
+  background-position: -16px -165px;
+}
+
+/* line 249, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-vu {
+  background-position: -32px -165px;
+}
+
+/* line 250, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-wales {
+  background-position: -48px -165px;
+}
+
+/* line 251, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-wf {
+  background-position: -64px -165px;
+}
+
+/* line 252, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ws {
+  background-position: -80px -165px;
+}
+
+/* line 253, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-ye {
+  background-position: -96px -165px;
+}
+
+/* line 254, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-yt {
+  background-position: -112px -165px;
+}
+
+/* line 255, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-za {
+  background-position: -128px -165px;
+}
+
+/* line 256, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-zanzibar {
+  background-position: -144px -165px;
+}
+
+/* line 257, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-zm {
+  background-position: -160px -165px;
+}
+
+/* line 258, ../../../../sass/plugins/flags/flags.scss */
+.flag.flag-zw {
+  background-position: -176px -165px;
+}

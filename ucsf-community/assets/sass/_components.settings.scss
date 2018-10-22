@@ -1,0 +1,222 @@
+.settings-panel {
+    
+    // @include box-shadow(#cfcfcf 0px 1px 2px);
+    text-align: center;
+    overflow: hidden;
+
+    height: 100%;
+    // @include transition(max-height 0.4s cubic-bezier(0.5,0,0,1));
+
+    &__header {
+        background: image-url("settings-header.jpg") no-repeat scroll left top transparent;
+        background-size: cover;
+        height: 190px;
+        position: relative;
+        padding: 10px;
+    }
+
+    &__profilepic {
+        margin: 20px auto;
+        padding: 0;
+        border: 4px solid #fff;
+        border-radius: 100%;
+        height: 90px;
+        width: 90px;
+        background-color: #C0C0C0;
+        position: relative;
+        text-align: center;
+
+        &__initial {
+            color: #fff;
+            font-size: 3em;
+            font-weight: bold;
+            line-height: 90px;
+        }
+    }
+
+    &__name {
+        bottom: 0;
+        color: $white;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+    &__editprofile {
+        color: $white;
+        top: 20px;
+        position: absolute;
+        right: 15px;
+        text-decoration: underline;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-size: 11px;
+    }
+
+    &__statistics {
+        border-top: 1px solid $gray68;
+        display: table;
+        width: 100%;
+        background-color: $gray87;
+        position: relative;
+        height: 65px;
+
+        a {
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+            width: 20%;
+            color: $gray47;
+            font-size: 11px;
+            font-weight: bold;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+
+            span { 
+                display: block;
+                color: $orange;
+                font-size: 18px;
+                letter-spacing: 0em;
+            }
+        }
+    }
+
+    &__activity {
+        position: relative;
+        width: 90%;
+        margin: 20px auto;
+        @include box-shadow(0px 2px 2px #888888);
+
+        &__show-more {
+            text-align: center;
+
+            a {
+                color: $orange;
+                display: block;
+                font-size: 14px;
+                padding-top: 20px;
+                padding-bottom: 5px;
+            }
+        }
+
+        &__inner {
+            position: relative;
+            background-color: $gray87;
+            //padding-bottom: 64px;
+            //left: 0;
+            @include box-shadow(0px 2px 2px #888888);
+            //@include transition(left 0.4s cubic-bezier(0.5,0,0,1));
+            //z-index: 70;
+            height: 100%;
+            width: 50%;
+            display: inline-block;
+            float: left;
+
+            &__container {
+                width: 200%;
+                height: 100%;
+            }
+
+            &__wrapper {
+                width: 100%;
+                height: 100%;
+                display: inline-block;
+                position: relative;
+                overflow: hidden;
+            }
+        }
+
+        &__item {
+            @include j-span(2/5);
+            float: left;
+            display: inline-block;
+            padding: 10px;
+            color: #a7a7a7;
+            font-size: 16px;
+            font-weight: lighter;
+            background-color: $gray87;
+            border-right: 3px solid #fff;
+
+            &--active, &:hover {
+                background-color: $teal;
+                color: #fff !important;
+            }
+
+            &__scroller {
+                
+                @extend .settings-panel__activity__item;
+                @include j-span(1.1/5);
+                height: 42px;
+                border-right: 0px;
+                position: absolute;
+                top: 0;
+                right: 0;
+                background: image-url("icon-arrow-left-thick.png") no-repeat scroll center center transparent;
+                background-size: 12px;
+                border-left: 3px solid #fff;
+                border-right: 3px solid $gray87;
+                background-color: $gray87 !important;
+                padding-left: 3px;
+
+                &--active, &:hover {
+                    background-color: $gray87 !important;
+                }
+
+                &--right {
+                    background: image-url("icon-arrow-right-thick.png") no-repeat scroll center center transparent;
+                    background-size: 12px;
+                }
+            }
+        }
+
+        &__list {
+            display: none;
+
+            list-style: none;
+            margin: 0;
+            text-align: left;
+            padding: 15px 10px;
+            background-color: #fff;
+            margin-top: -8px;
+            
+            &--show {
+                display: block;
+            }
+
+            &__item {
+                
+                @include j-cf();
+                margin-top: 15px;
+                border-bottom: 1px solid #ddd;
+                padding-bottom: 15px;
+
+                &:last-of-type {
+                    border: 0px;
+                }
+
+                &__title {
+                    float: left;
+                    display: block;
+                    width: 50%;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 18px;
+                    word-break: break-all;
+                    word-break: break-word;
+                    -webkit-hyphens: auto;
+                }
+
+                &__meta {
+                    float: right;
+                    font-size: 12px;
+                    color: #aaa;
+                    font-weight: normal;
+                }
+            }
+        }
+
+    }
+
+}

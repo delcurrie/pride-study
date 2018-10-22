@@ -1,0 +1,162 @@
+.filters {
+    // @include box-shadow(#cfcfcf 0px 1px 2px);
+    text-align: center;
+    overflow: hidden;
+    height: auto;
+    position: relative;
+    display: none;
+    // @include transition(height 0.4s cubic-bezier(0.5,0,0,1));
+
+    // &--open {
+    //     height: 434px;
+    // }
+
+    &-panel {
+
+        &--filters {
+            width: 100%;
+            background-color: $gray97;
+            border-bottom: 1px solid $gray98;
+        }
+
+        &--categories {
+            .filters__help-btn {
+                left: 125px;
+            }
+        }
+
+        &__backbutton a {
+            @extend .backbutton;
+            margin: 10px 20px;
+            color: $orange;
+            line-height: 16px;
+            font-size: 12px;
+            padding-left: 15px;
+            background-size: 8px;
+            height: auto;
+        }
+    }
+
+    &__clear {
+        text-decoration: underline;
+        color: $gray65;
+        font-size: 11px;
+    }
+
+    &__help-btn {
+        position: absolute;
+        top: 14px;
+        left: 65px;
+        height: 18px;
+        width: 18px;
+        background-color: $gray87;
+        color: $gray65;
+        font-size: 12px;
+        border-radius: 50%;
+        padding-top: 1px;
+        font-weight: 600;
+    }
+
+    &__inner {
+        padding: 15px 0 25px;
+
+        &--no-bottom-padding {
+            padding-bottom: 0;
+        }
+    }
+
+    &__heading {
+        color: black;
+        text-align: left;
+        font-size: 14px;
+        font-weight: bold;
+        clear: both;
+        margin: 0 0 6px;
+        padding: 0 10px;
+        padding-left: 20px;
+    }
+    
+    &__btn {
+        // color: $gray65;
+        // font-size: 16px;
+        // line-height: 16px;
+        // display: inline-block;
+        // padding: 14px 0;
+        // font-family: Helvetica, Arial, sans-serif;
+        // width: 100%;
+        // @include border-radius(6px);
+        // position: relative;
+        // margin-bottom: 15px;
+
+        span.tick {
+            display: inline-block;
+            height: 20px;
+            width: 26px;
+            background-color: #fff;
+            position: absolute;
+            right: 10px;
+            top: 9px;
+        }
+
+        &__type--selected, &--selected, &:active, &:hover {
+            span.tick {
+                background: image-url("icon-tick.svg") no-repeat center center;
+                background-size: 18px;
+            }
+        }
+    }
+
+    &__wrapper {
+        @extend .checkbox-grid;
+        display: table;
+
+        &--wide {
+            width: 90%;
+        }
+    }
+
+    &__cell {
+        @extend .input__checkbox;
+        @extend .checkbox-grid__input;
+    }
+
+    &__orientation {
+        text-align: left;
+        margin: 0 auto;
+        clear: both;
+
+        &--hide {
+            display: none !important;
+        }
+    }
+
+    &__column {
+        width: 50%;
+        float: left;
+        text-align: center;
+    }
+
+
+}
+
+.filter-overlay {
+    @extend .alert-message;
+
+    &__container {
+        @extend .alert-message__container;
+    }
+    
+    &__content {
+        @extend .alert-message__content;
+    }
+
+    &__close {
+        @extend .alert-message__close;
+    }
+}
+
+#filters-category-menu {
+    min-width: 0;
+    min-height: 40px;
+    width: 100%;
+}

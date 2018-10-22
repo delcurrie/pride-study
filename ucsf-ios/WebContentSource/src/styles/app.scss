@@ -1,0 +1,17 @@
+/* Variables */
+@import "variables";
+
+/* Global */
+@import "global";
+
+/* Extra small devices (phones, scss than 768px) - No media query since this is the default in Bootstrap */
+@import "app-default";
+
+/* Small devices (tablets, 768px and up) */
+@import "app-sm";
+
+/* Medium devices (desktops, 992px and up) */
+@import "app-md";
+
+/* large devices (desktops, 1200px and up) */
+@import "app-lg";

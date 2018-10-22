@@ -1,0 +1,101 @@
+.button {
+    background-color: $white;
+    color: $orange;
+    font-size: 16px;
+    line-height: 0px;
+    display: block;
+    padding: 25px 0;
+    margin: 10px auto;
+    font-family: Helvetica, Arial, sans-serif;
+    max-width: 80%;
+    text-align: center;
+    @include border-radius(6px);
+    letter-spacing: 2px;
+
+    &--orange {
+        background-color: $white;
+        color: $orange;
+        border: 1px solid $orange;
+        // margin-top: 86px;
+        min-width: 230px;
+
+        &:hover {
+            background-color: lighten($orange, 5%);
+            color: $white;
+            cursor: pointer;
+        }
+
+        &:active {
+            background-color: darken($orange, 5%);
+            color: $white;
+            cursor: pointer;
+        }
+    }
+
+    &--orange-fill {
+        background-color: $orange!important;
+        color: $white!important;
+        border: 0!important;
+        min-width: 230px;
+
+        &:hover {
+            background-color: lighten($orange, 5%);
+            color: $white;
+            cursor: pointer;
+        }
+
+        &:active {
+            background-color: darken($orange, 5%);
+            color: $white;
+            cursor: pointer;
+        }
+    }
+
+    &--topmarg {
+        margin-top: 30px;
+    }
+
+    &--line-height {
+        line-height: 26px;
+    }
+}
+
+.backbutton {
+    background: image-url("icon-arrow-left.png") no-repeat scroll left top transparent;
+    display: block;
+    float: left;
+    height: 20px;
+    width: 10px;
+    background-size: 10px;
+    margin-top: 5px;
+}
+
+.signin {
+    p {
+        color: $white;
+        font-family: Helvetica, Arial, sans-serif;
+        margin: 22px 0 0;
+        margin-bottom: 30px;
+    }
+
+    &--orange {
+        p {
+            color: $orange;
+        }
+    }
+}
+
+.newpost {
+    background: image-url("postheader-btn.png") no-repeat scroll left top transparent;
+    display: block;
+    height: 40px;
+    width: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-size: 40px;
+
+    &:active {
+        background: image-url("dark-postheader-btn.png") no-repeat scroll left top transparent;
+        background-size: 40px;
+    }
+}

@@ -1,0 +1,93 @@
+.topic {
+
+  &__title {
+    font-size: 16px;
+    text-transform: none;
+
+    &.flagged {
+      padding-left: 30px;
+    }
+
+  }
+
+  &__meta {
+    color: #7F8C8D;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  &__description {
+    background: #EFF2F3;
+    font-size: 14px;
+    line-height: 19px;
+    margin: 15px 0;
+    padding: 20px;
+  }
+
+  &__tags {
+    color: #95A5A6;
+    font-size: 12px;
+    line-height: 19px;
+  }
+
+  &__status {
+    cursor: pointer;
+    position: absolute;
+    margin-top: -22px;
+    right: 36px;
+
+
+    &__current {
+
+      &--active {
+        color: #2ecc71
+      }
+
+      &--archived {
+        color: #95A5A6;
+      }
+
+      &--inactive {
+        color: #95A5A6;
+      }
+
+      &--flagged {
+        color: #e74c3c;
+      }
+
+
+      &:after {
+        background: url("../../assets/images/icons/gray-carrot-down.svg") no-repeat 0 0 transparent;
+        background-size: 100%;
+        content: "";
+        display: inline-block;
+        height: 8px;
+        margin-left: 2px;
+        width: 15px;
+      }
+    }
+
+    &__dropdown {
+      background: #F9F9F9;
+      border: 1px solid #DEE1E2;
+      display: none;
+      left: 0;
+      position: absolute;
+      z-index: 1;
+
+      &--visible {
+        display: block;
+      }
+
+      .topic-status-item {
+        color: #7F8C8D;
+        display: block;
+        font-size: 11px;
+        line-height: 34px;
+        padding: 0 10px;
+        text-align: center;
+      }
+    }
+  }
+
+}

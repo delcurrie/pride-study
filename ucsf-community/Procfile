@@ -1,0 +1,5 @@
+# This is for setting up Apache, comes from the tutum/apache-php repo
+web: /run.sh
+
+# This is to setup the cron
+cron: rsyslogd && cron && tail -f /var/log/syslog /var/log/cron.log

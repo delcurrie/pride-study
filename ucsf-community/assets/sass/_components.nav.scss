@@ -1,0 +1,177 @@
+.nav {
+    background-color: $gray87;
+    position: relative;
+    height: 0;
+    @include transition(height 0.4s cubic-bezier(0.5,0,0,1));
+    overflow: hidden;
+
+    &--open { 
+        height: 35px;
+    }
+
+    &--signed {
+        a.settings { 
+            display: block !important;
+            margin-right: 0;
+        }
+    } 
+    
+    &__inner { padding: 3px 12px; }
+
+    &__icons {
+        @include transition(opacity 0.2s linear);
+        opacity: 0;
+
+        &--open {
+            opacity: 1;
+        }
+        a {
+            display: block;
+            float: left;
+            margin-right: 8px;
+
+            &.backbutton {
+                margin-top: 6px;
+                background: image-url("icon-arrow-grey.svg") no-repeat scroll left center transparent;
+                background-size: 8px;
+                
+                &:active, &:focus, &:hover {
+                    background: image-url("icon-arrow-orange.svg") no-repeat scroll left center transparent;
+                    background-size: 10px;
+                }
+            }
+
+            &.home {
+                width: 30px;
+                height: 30px;
+                background: image-url("nav-home.svg") no-repeat scroll center center transparent;
+                background-size: 17px 15px;
+            }
+
+            &.search {
+                width: 30px;
+                height: 30px;
+                background: image-url("nav-search.svg") no-repeat scroll center center transparent;
+                float: right;
+                background-size: 14px;
+            }
+
+            &.filters {
+                width: 30px;
+                height: 30px;
+                background: image-url("nav-filter-funnel.svg") no-repeat scroll center center transparent;
+                float: right;
+                background-size: 13px 15px;
+                &--on {
+                    background-image: image-url("nav-filter-funnel-orange.svg");
+                }
+
+            }
+
+            &.settings {
+                width: 30px;
+                height: 30px;
+                background: image-url("nav-settings-profile.svg") no-repeat scroll center center transparent;
+                background-size: 17px 15px;
+                float: right;
+                display: none;
+                &--on, &:hover, &:active {
+                    background-image: image-url("nav-settings-profile-orange.svg");
+                }
+            }
+
+            &.get-started {
+                float: right;
+                max-width: 80px;
+                font-weight: bold;
+                margin-right: 0;
+                color: $burgundy;
+                font-size: 9px;
+                line-height: 12px;
+                text-transform: uppercase;
+                text-align: center;
+                margin-top: 3px;
+            }
+        }
+    }
+
+    
+
+    &__search {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        padding: 6px 12px;
+        z-index: 80;
+        top: 9999px;
+        opacity: 0;
+        text-align: center;
+        @include transition(opacity 0.3s linear);
+
+        &__btnclose {
+            display: block;
+            width: 14px;
+            height: 14px;
+            background: image-url("icon-x.svg") no-repeat scroll center center transparent;
+            left: 20px;
+            position: absolute;
+            top: 11px;
+            z-index: 81;
+            opacity: 0;
+            @include transition(opacity 0.6s linear 0.85s);
+            animation-delay: .8s;
+            transition-delay: .8s;
+        }
+
+        &__btnsubmit {
+            display: block;
+            width: 14px;
+            height: 14px;
+            background: image-url("nav-search.svg") no-repeat scroll left top transparent;
+            background-size: 14px;
+            right: 50%;
+            transform: translateX(50%);
+            position: absolute;
+            top: 11px;
+            z-index: 81;
+            @include transition(right 0.5s cubic-bezier(0.5,0,0,1) 0.4s);
+        }
+
+        &__input {
+            background-color: $gray97;
+            @include border-radius(10px);
+            border: none;
+            color: $gray39;
+            font-size: 14px;
+            line-height: 22px;
+            padding: 0 30px;
+            width: 0%;
+            box-sizing: border-box !important;
+            @include transition(width 0.5s cubic-bezier(0.5,0,0,1) 0.4s);
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        &--open {
+            top: 0px;
+            opacity: 1;
+
+            .nav__search__input {
+                width: 100%;
+                height: 100%;
+            }
+
+            .nav__search__btnclose {
+                opacity: 1;
+            }
+
+            .nav__search__btnsubmit {
+                right: 30px;
+            }
+        }
+    }
+
+    
+}

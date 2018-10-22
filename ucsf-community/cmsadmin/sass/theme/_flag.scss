@@ -1,0 +1,18 @@
+.add-flag {
+    padding-left: 20px;
+    position: relative;
+
+
+    &:before {
+        background: url("../../assets/images/icons/flag-icon.svg") no-repeat 0 0 transparent;
+        background-size: 100%;
+        content: "";
+        display: inline-block;
+        height: 13px;
+        left: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 8px;
+    }
+}

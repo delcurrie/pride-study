@@ -1,0 +1,59 @@
+.filter-btn {
+  border-radius: 3px !important;
+}
+
+.full-width-cap {
+    max-width: 430px;
+    width: 100%;
+}
+
+.form-control,
+input.form-control {
+    border-radius: 3px !important;
+}
+
+.alert {
+    margin-top: 18px;
+}
+
+.col-xs-12 {
+    // clear: both;
+}
+
+.filter-options {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 300ms ease;
+
+    &--opened {
+        max-height: 150px;
+    }
+}
+
+.description-wysiwyg {
+    .form-group {
+        .col-md-3,
+        .col-md-9 {
+            clear: both;
+            width: 100%;
+        }
+    }
+}
+.set-active {
+    max-width: 250px;
+
+    &--flush {
+        .col-md-12 {
+            padding: 0 !important;
+        }
+    }
+}
+
+.inline-object {
+    display: inline-block;
+    position: relative;
+}
+
+.col-md-2 {
+    min-width: 160px;
+}

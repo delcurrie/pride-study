@@ -1,0 +1,14 @@
+.createaccount {
+  .title {
+    color: $orange;
+  }
+
+  label.error {
+    @extend .label__small;
+    @extend .label__small--center
+  }
+
+  label.error + label {
+    display: none;
+  }
+}

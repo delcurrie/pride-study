@@ -1,0 +1,134 @@
+.stats {
+    overflow: visible !important;
+
+    &--graphs {
+        background-color: #fff;
+        border-radius: 3px;
+        border: solid 1px #dee1e2;
+        display: flex;
+        justify-content: space-around;
+        margin: 18px 0 0 15px;
+        width: calc(100% - 30px);
+    }
+
+    .stat {
+        display: inline-block;
+        overflow: visible;
+        position: relative;
+
+        &:not(:first-of-type) {
+            margin: 0 10px;
+        }
+
+        &__figure {
+            color: #2ecc71;
+            font-size: 34px;
+            font-weight: 400;
+            text-align: center;
+
+            &--negative {
+                color: #e74c3c;
+            }
+        }
+
+        &__label {
+            color: #9EA7B3;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        &__tooltip {
+            background-color: rgba(149, 165, 166, 0.5);
+            border-radius: 50%;
+            color: #9b9b9b;
+            font-size: 14px;
+            height: 20px;
+            line-height: 20px;
+            position: absolute;
+            top: -6px;
+            right: -20px;
+            text-align: center;
+            width: 20px;
+
+            &:hover {
+                text-decoration: none;
+            }
+
+            &__content {
+                background: #fff;
+                box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.21);
+                border: solid 1px #dee1e2;
+                border-radius: 3px;
+                color: #262626;
+                display: none;
+                font-size: 14px;
+                left: 30px;
+                line-height: 19px;
+                padding: 15px 15px 20px;
+                position: absolute;
+                text-align: left;
+                top: 0;
+                width: 345px;
+                z-index: 2;
+            }
+        }
+
+        &__graph {
+            height: 66px;
+            overflow: visible;
+            padding: 6px;
+            width: 100px;
+        }
+
+        &__graph-key {
+            display: block;
+            overflow: hidden;
+            padding: 6px 0;
+
+            .graph-key {
+                color: #9EA7B3;
+                font-size: 10px;
+                float: left;
+                line-height: 14px;
+                text-transform: uppercase;
+            }
+
+            .graph-stat {
+                color: #34495E;
+                font-weight: bold;
+                font-size: 14px;
+                float: right;
+                line-height: 14px;
+
+                &:before {
+                    content: "";
+                    display: inline-block;
+                    height: 13px;
+                    margin-right: 3px;
+                    position: relative;
+                    top: 3px;
+                    width: 10px;
+                }
+
+                &--positive {
+                    &:before {
+                        background: url("../../assets/images/icons/increase-arrow.svg") no-repeat 0 0 transparent;
+                        background-size: 100%;
+
+                    }
+                }
+
+                &--negative {
+                     &:before {
+                        background: url("../../assets/images/icons/decrease-arrow.svg") no-repeat 0 0 transparent;
+                        background-size: 100%;
+                    }
+                }
+            }
+        }
+
+    }
+
+
+
+}

@@ -1,0 +1,516 @@
+.form-striped {
+
+    .form-group {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 15px 0;
+        border-bottom: 1px solid $formStripedBorder;
+        margin-bottom: 0;
+
+        &:nth-child(even) {
+            background-color: $formStripedBackground;
+        }
+
+        &:last-child {
+            border-bottom-color: transparent;
+        }
+    }
+
+    .form-actions {
+        margin-top: 0;
+        padding: 20px 15px;
+    }
+}
+
+.form-group {
+    &--equal {
+        .inline-select {
+            width: 100px !important;
+        }
+    }
+    .details {
+        img {
+            // max-height: 300px;
+            max-width: 300px;
+            padding: 20px 0;
+            // width: 100%;
+        }
+    }
+
+    &--bump-left {
+        float: left;
+        margin-right: 10px;
+    }
+}
+
+.form-actions {
+    background-color: $formActionsBackground;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+
+    @include sm-plus {
+        padding: 20px 0;
+    }
+
+    &.form-actions-padding {
+        padding: 20px;
+    }
+
+    &.form-actions-padding-xs {
+        @include xs-only {
+            padding: 20px;
+        }
+    }
+
+    &.form-actions-padding-sm {
+        @include sm-only {
+            padding: 20px;
+        }
+    }
+
+    &.form-actions-padding-md {
+        @include md-only {
+            padding: 20px;
+        }
+    }
+
+    &.form-actions-padding-lg {
+        @include lg-plus {
+            padding: 20px;
+        }
+    }
+
+    &--flush {
+        margin-left: 17px;
+    }
+}
+
+.select2-container.form-control {
+    .select2-choice {
+        line-height: 32px;
+        height: auto;
+
+        .select2-arrow b {
+            margin-top: 2px;
+        }
+    }
+
+    &.input-lg {
+        .select2-choice {
+            line-height: 43px;
+            .select2-arrow b {
+                margin-top: 7px;
+            }
+        }
+    }
+
+    &.input-sm {
+        .select2-choice {
+            line-height: 28px;
+
+            .select2-arrow b {
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+.select2-container.select2-container-active.form-control, .select2-container-active .select2-choice,
+.select2-container-active .select2-choices, .select2-dropdown-open.select2-drop-above .select2-choice,
+.select2-dropdown-open.select2-drop-above .select2-choices, .select2-container-multi.select2-container-active .select2-choices,
+.form-control.select2-container.select2-dropdown-open, .select2-container .select2-choice, .select2-drop-active, .select2-drop.select2-drop-above.select2-drop-active {
+    border-color: $inputFocusBorderColor !important;
+
+    &:focus {
+        border-color: $inputFocusBorderColor !important;
+        @include box-shadow(0 0 8px $inputFocusShadow !important);
+    }
+}
+
+.select2-container a {
+    &:focus {
+        outline: none;
+    }
+}
+
+.select2-container-active .select2-choice, .select2-container-active .select2-choices {
+    border-color: $inputFocusBorderColor !important;
+    @include box-shadow(0 0 8px $inputFocusShadow !important);
+}
+
+select2-container.form-control,
+.select2-container-multi .select2-choices, select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.form-control,
+.uneditable-input {
+    color: $dark;
+    // border-color: $inputBorder;
+    border-color: #DEE1E2;
+    background-color: $inputBackground;
+
+    &:focus {
+        border-color: $inputFocusBorderColor;
+        @include box-shadow(0 0 8px $inputFocusShadow);
+    }
+}
+
+.progress {
+    background-color: transparent;
+}
+
+.select {
+    font-size: 16px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+select {
+}
+.select select {
+    outline: none;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    display: block;
+    margin: 0;
+
+    transition: border-color 0.2s;
+    border-radius: 5px;
+
+    background: #fff;
+    color: #555;
+    line-height: normal;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 100%;
+    color: #000;
+    color: rgba(0,0,0,0);
+    text-shadow: 0 0 0 #000;
+}
+
+.select option {
+    color: #000;
+}
+
+.select .arr {
+    background: url('../../assets/images/icons/gray-carrot-down.svg') no-repeat 0 0 transparent;
+    background-size: 100%;
+    bottom: 5px;
+    position: absolute;
+    right: 10px;
+    top: 17px;
+    width: 15px;
+    pointer-events: none;
+    outline: none;
+}
+
+label {
+    &.error {
+        color: red;
+    }
+    &.control-label {
+        display: block !important;
+        text-align: left !important;
+        outline: none;
+    }
+}
+
+.pseudo-wrapper {
+    position: relative;
+}
+
+.pseudo {
+    border: 1px solid #b1c2c6;
+    min-height: 40px;
+    margin-right: 10px;
+    background-color: #f9f9f9;
+    font-size: 15px;
+    color: $coolGrey;
+    padding: 8px 14px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    a {
+        outline: 0;
+    }
+    img{
+        width: 19px;
+    }
+    label{
+        &.grey {
+            color: $coolGrey;
+        }
+    }
+    &.active{
+        color: $white;
+        background-color: #34495e;
+        label{
+            &.grey {
+                color: $white;
+            }
+        }
+    }
+    .row {
+        margin: 0;
+    }
+}
+
+.pseudo-content {
+    height: 150px;
+    display: none;
+
+    .row {
+        margin: 0;
+
+        &:first-of-type {
+            margin-top: 10px;
+        }
+    }
+
+    .item {
+        padding: 8px 0;
+    }
+
+    label.grey {
+        font-weight: normal;
+    }
+
+    .date-select {
+        display: block;
+        overflow: hidden;
+
+        &__input {
+            float: left;
+            width: 80%;
+            width: calc(100% - 35px);
+
+            input {
+                border-radius: 3px;
+            }
+        }
+
+        &__calendar-trigger {
+            background: url('../images/icons/calendar-icon-off.svg') no-repeat 0 0 transparent;
+            background-size: 100%;
+            float: right;
+            height: 27px;
+            width: 25px;
+
+            &:hover {
+                background: url('../images/icons/calendar-icon.svg') no-repeat 0 0 transparent;
+                background-size: 100%;
+            }
+        }
+    }
+}
+
+input[type=checkbox].css-checkbox {
+	position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+}
+
+input[type=checkbox].css-checkbox + label.css-label {
+	padding-left: 30px;
+	height: 20px;
+	display: inline-block;
+	line-height: 20px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	vertical-align: middle;
+    font-weight: normal;
+    font-family: 'san_francisco_textregular';
+    font-size: 15px;
+	cursor: pointer;
+
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label {
+	background-position: 0 -20px;
+}
+label.css-label {
+	background-image: url('../images/css-elements/css-checkbox.png');
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+    color: $darkGreyBlueTwo;
+    padding-right: 10px;
+}
+
+.filter-btn {
+    background-color: rgba(149, 165, 166, 0.2);
+    border: 0 none;
+    box-shadow: none;
+    color: #7f8c8d;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100px;
+
+    -webkit-appearance: none;
+
+    option {
+        text-align: center;
+    }
+
+    &--active {
+        background-color: #34495e !important;
+        color: #fff !important;
+    }
+}
+
+.visually-hidden {
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    left: -9999px;
+    width: 0;
+}
+
+.form-search {
+    width: 259px;
+}
+
+.inline-select {
+    background: url('../../assets/images/icons/gray-carrot-down.svg') no-repeat top 16px right 10px #f9f9f9;
+    background-size: 15px auto;
+    border: solid 1px #dee1e2;
+    box-shadow: none;
+    color: #95a5a6;
+    display: inline-block;
+    margin-right: 2px;
+    width: 140px;
+
+    -webkit-appearance: none;
+
+    &:last-item {
+        margin-right: 0;
+    }
+
+    &--wide {
+        width: 180px;
+    }
+
+    &--wider {
+        width: 250px;
+    }
+
+    &--break-small {
+        clear: left;
+        display: block;
+        margin-top: 0px;
+    }
+    
+    @media (min-width: $screen-lg-desktop) {
+        &--break-small {
+            clear: none;
+            display: inline-block;
+        }        
+    }
+}
+
+
+.calendar {
+    background-color: #f9f9f9;
+    border: 1px solid #b1c2c6;
+    color: #95a5a6;
+    font-size: 15px;
+    left: 105%;
+    left: calc(100% + 7px);
+    min-height: 40px;
+    padding: 8px 14px;
+    position: absolute;
+    top: -1px;
+    width: 300px;
+    z-index: 1;
+
+    &__month-toggle {
+        background: url('../../assets/images/icons/arrow-prev-single.svg') no-repeat 0 0 #f9f9f9;
+        background-size: 10px 20px;
+        height: 20px;
+        left: 10px;
+        top: 24px;
+        position: absolute;
+        width: 10px;
+
+        &--prev {
+
+        }
+
+        &--next {
+            left: auto;
+            right: 10px;
+            transform: rotate(180deg);
+        }
+    }
+
+    &__header {
+        padding: 20px 0;
+        position: relative;
+
+        &__month {
+            color: #34495E;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+
+            span {
+                font-weight: bold;
+            }
+        }
+    }
+
+    &__dates {
+        overflow: hidden;
+
+        &__row {
+            overflow: hidden;
+
+            .calendar-date {
+                background: transparent;
+                border-radius: 50%;
+                color: #4A4A4A;
+                display: block;
+                float: left;
+                font-size: 12px;
+                line-height: 30px;
+                margin: 0 4px;
+                height: 30px;
+                // width: 14.285714286%;
+                text-align: center;
+                transition: background 200ms ease, color 200ms ease;
+                width: 30px;
+
+                &--muted {
+                    color: #E5E5E5;
+                }
+
+                &:hover {
+                    background: #2ECC71;
+                    color: #fff;
+                    text-decoration: none;
+                }
+            }
+
+            &:last-of-type {
+                padding-bottom: 20px;
+            }
+        }
+    }
+}

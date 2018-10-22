@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="10px" height="21px" viewBox="0 0 10 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow Backward</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Participants---Join-date-cal" transform="translate(-915.000000, -139.000000)" fill="#CCCCCC">
+            <g id="Calendar" transform="translate(885.000000, 110.000000)">
+                <path d="M33.1331826,39.7121817 L39.464694,30.9976039 L37.6015095,29.6439211 L30.2903215,39.7069081 L30.285306,39.7105521 L30.28649,39.7121817 L30.285306,39.7138114 L30.2903215,39.7174553 L37.6015095,49.7804424 L39.464694,48.4267596 L33.1331826,39.7121817 Z" id="Arrow-Backward"></path>
+            </g>
+        </g>
+    </g>
+</svg>

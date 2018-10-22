@@ -1,0 +1,60 @@
+.postbuttons {
+    
+    height: 100%;
+    right: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 69;
+    padding: 16px 15px 15px 0;
+    margin-left: 20px;
+
+    &__container {
+        display: table;
+        height: 100%;
+        width: 80%;
+        float: right;
+        margin-right: 5px;
+    }
+
+    
+    &__btn {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        height: inherit;
+        color: $white;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 0 15px;
+
+        &--blank {
+            width: 20%;
+            margin-right: 20px;
+        }
+
+        &--spacer {
+            width: 20px;
+            padding: 0;
+        }
+        
+        &--flag {
+            width: 42%;
+            background-color: $red;
+        }
+
+        &--sub {
+            width: 42%;
+            background-color: $orange;
+        }
+
+        &--close {
+            min-width: 16%;
+            background: image-url("icon-x-big.png") no-repeat scroll center center $gray87;
+            background-size: 14px;
+        }
+        
+        
+    }
+    
+}

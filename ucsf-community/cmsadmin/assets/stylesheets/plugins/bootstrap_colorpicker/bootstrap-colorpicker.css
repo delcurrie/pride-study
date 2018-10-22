@@ -1,0 +1,160 @@
+/*
+   Colorpicker for Bootstrap
+   Copyright 2012 Stefan Petre
+   Licensed under the Apache License v2.0
+   http://www.apache.org/licenses/LICENSE-2.0
+*/
+/* line 7, ../../../../sass/plugins/bootstrap_colorpicker/bootstrap-colorpicker.scss */
+.colorpicker-saturation {
+  width: 100px;
+  height: 100px;
+  background-image: url('../../../images/plugins/bootstrap_colorpicker/saturation.png?1471546195');
+  cursor: crosshair;
+  float: left;
+}
+
+/* line 7, ../../../../sass/plugins/bootstrap_colorpicker/bootstrap-colorpicker.scss */
+.colorpicker-saturation i {
+  display: block;
+  height: 5px;
+  width: 5px;
+  border: 1px solid #000;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: -4px 0 0 -4px;
+}
+
+/* line 7, ../../../../sass/plugins/bootstrap_colorpicker/bootstrap-colorpicker.scss */
+.colorpicker-saturation i b {
+  display: block;
+  height: 5px;
+  width: 5px;
+  border: 1px solid #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 7, ../../../../sass/plugins/bootstrap_colorpicker/bootstrap-colorpicker.scss */
+.colorpicker-hue, .colorpicker-alpha {
+  width: 15px;
+  height: 100px;
+  float: left;
+  cursor: row-resize;
+  margin-left: 4px;
+  margin-bottom: 4px;
+}
+
+/* line 7, ../../../../sass/plugins/bootstrap_colorpicker/bootstrap-colorpicker.scss */
+.colorpicker-hue i, .colorpicker-alpha i {
+  display: block;
+  height: 1px;
+  background: #000;
+  border-top: 1px solid #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-top: -1px;
+}
+
+/* line 7, ../../../../sass/plugins/bootstrap_colorpicker/bootstrap-colorpicker.scss */
+.colorpicker-hue {
+  background-image: url('../../../images/plugins/bootstrap_colorpicker/hue.png?1471546195');
+}
+
+/* line 7, ../../../../sass/plugins/bootstrap_colorpicker/bootstrap-colorpicker.scss */
+.colorpicker-alpha {
+  background-image: url('../../../images/plugins/bootstrap_colorpicker/alpha.png?1471546195');
+  display: none;
+}
+
+/* line 7, ../../../../sass/plugins/bootstrap_colorpicker/bootstrap-colorpicker.scss */
+.colorpicker {
+  *zoom: 1;
+  top: 0;
+  left: 0;
+  padding: 4px;
+  min-width: 120px;
+  margin-top: 1px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 7, ../../../../sass/plugins/bootstrap_colorpicker/bootstrap-colorpicker.scss */
+.colorpicker:before, .colorpicker:after {
+  display: table;
+  content: "";
+}
+
+/* line 7, ../../../../sass/plugins/bootstrap_colorpicker/bootstrap-colorpicker.scss */
+.colorpicker:after {
+  clear: both;
+}
+
+/* line 7, ../../../../sass/plugins/bootstrap_colorpicker/bootstrap-colorpicker.scss */
+.colorpicker:before {
+  content: '';
+  display: inline-block;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #ccc;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: -7px;
+  left: 6px;
+}
+
+/* line 7, ../../../../sass/plugins/bootstrap_colorpicker/bootstrap-colorpicker.scss */
+.colorpicker:after {
+  content: '';
+  display: inline-block;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #ffffff;
+  position: absolute;
+  top: -6px;
+  left: 7px;
+}
+
+/* line 7, ../../../../sass/plugins/bootstrap_colorpicker/bootstrap-colorpicker.scss */
+.colorpicker div {
+  position: relative;
+}
+
+/* line 7, ../../../../sass/plugins/bootstrap_colorpicker/bootstrap-colorpicker.scss */
+.colorpicker.alpha {
+  min-width: 140px;
+}
+
+/* line 7, ../../../../sass/plugins/bootstrap_colorpicker/bootstrap-colorpicker.scss */
+.colorpicker.alpha .colorpicker-alpha {
+  display: block;
+}
+
+/* line 7, ../../../../sass/plugins/bootstrap_colorpicker/bootstrap-colorpicker.scss */
+.colorpicker-color {
+  height: 10px;
+  margin-top: 5px;
+  clear: both;
+  background-image: url('../../../images/plugins/bootstrap_colorpicker/alpha.png?1471546195');
+  background-position: 0 100%;
+}
+
+/* line 7, ../../../../sass/plugins/bootstrap_colorpicker/bootstrap-colorpicker.scss */
+.colorpicker-color div {
+  height: 10px;
+}
+
+/* line 7, ../../../../sass/plugins/bootstrap_colorpicker/bootstrap-colorpicker.scss */
+.input-append.color .add-on i, .input-prepend.color .add-on i {
+  display: block;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
